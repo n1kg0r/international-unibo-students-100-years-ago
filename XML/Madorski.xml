@@ -1,0 +1,1362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dbo="http://dbpedia.org/ontology/"
+     xmlns:ius="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#"
+     xmlns:gn="http://www.geonames.org/ontology#"
+     xmlns:dcterms="http://purl.org/dc/terms#">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Archival documents of Anna Madorski</title>
+                <author>Archivio storico dell'Università di Bologna</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition</edition>
+                <respStmt>
+                    <resp>XML Developer</resp>
+                    <name>Marco</name>
+                </respStmt>
+                <respStmt>
+                    <resp>IIIF Developer</resp>
+                    <name>Olga</name>
+                </respStmt>
+                <respStmt>
+                    <resp>XSLT Developer</resp>
+                    <name>Nikolaj</name>
+                    <orgName>Università di Bologna</orgName>
+                </respStmt>             
+            </editionStmt>
+            <publicationStmt>
+                <authority>Unibo Digital Humanities and Digital Knowledge</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Bologna</settlement>
+                        <repository>
+                            <title>Archivio storico dell'Università di Bologna - Studenti Ebrei Stranieri 1920-1940</title>
+                            <ptr target="https://archiviostorico.unibo.it/it/patrimonio-documentario/fascicolo-studenti/studenti-ebrei-stranieri/?record=139637"/>
+                        </repository>
+                        <idno>file 3156</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>           
+        </fileDesc>
+
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="AM">
+                        <persName>Anna Madorski</persName>
+                        <birth when="1913-05-31">
+                            <placeName ref="#HSHarbin">Harbin</placeName>
+                        </birth>
+                        <listEvent>
+                            <event type="highSchoolDegree">
+                                <p>A high school degree from <orgName ref="#HSHarbin">Harbin commercial institute</orgName></p>
+                            </event>
+                            <event type="universityDegree">
+                                <p>A degree in Chemistry from <orgName ref="#Unibo">University of Bologna</orgName></p>
+                            </event>
+                            <event type="universityDegree">
+                                <p>A degree in Pharmacy from <orgName ref="#Msu">University of Moscow</orgName></p>
+                            </event>
+                        </listEvent>
+                    </person>
+                    <person xml:id="SM">
+                        <persName>Schender Madorski </persName>
+                    </person>
+                    <person xml:id="GM">
+                        <persName>Ghitel Madorski</persName>
+                    </person>
+                    <person xml:id="Betti">
+                        <persName>M. Betti</persName>
+                    </person>
+                    <person xml:id="Re">
+                        <persName>Vittorio Emanuele III</persName>
+                    </person>
+                    <person xml:id="Ghigi">
+                        <persName>Alessandro Ghigi</persName>
+                    </person>
+                    <person xml:id="Gurvic">
+                        <persName>S.Gurvic</persName>
+                    </person>
+                    <person xml:id="Barta">
+                        <persName>H. Bartashev</persName>
+                    </person>
+                    <person xml:id="Maffei">
+                        <persName>A.Maffei</persName>
+                    </person>
+                    <person xml:id="Kagan">
+                        <persName>Kagan</persName>
+                    </person>
+                    <person xml:id="Dobisov">
+                        <persName>E.Dobisov</persName>
+                    </person>
+                    <person xml:id="Rubin">
+                        <persName>A.I.Rubin</persName>
+                    </person>
+                    <person xml:id="Sokoloff">
+                        <persName>Sokoloff</persName>
+                    </person>
+                    <person xml:id="Tartarini">
+                        <persName>G. Tartarini</persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+            
+            <settingDesc>
+                <listPlace>
+                    <place xml:id="Harbin">
+                        <placeName>Harbin</placeName>
+                        <location>
+                            <geo>45.8038,126.5349</geo>
+                        </location>
+                    </place>
+                    <place xml:id="Bologna">
+                        <location>
+                            <geo>44.4949,11.3426</geo>
+                        </location>
+                    </place>
+                    <place xml:id="Rogacev">
+                        <placeName>Rogacev</placeName>
+                        <location>
+                            <geo>53.0955,30.3204</geo>
+                        </location>
+                    </place>
+                </listPlace>
+            </settingDesc>
+        </profileDesc>
+    
+        <xenoData>
+            <rdf:RDF>
+                <!-- persons:-->
+                <rdf:Description tei:ref="#AM" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#anna_madorski">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Anna Madorski</rdfs:label>
+                    <foaf:parent rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#schender_madorski"/>
+                    <foaf:parent rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#ghitel_madorski"/>
+                    <foaf:birthPlace rdf:resource="http://sws.geonames.org/2037013/"/>
+                    <foaf:birthDate>1913-05-31</foaf:birthDate>
+                    <dcterms:educationLevel>
+                        <rdf:Description>
+                            <rdf:value>High school diploma</rdf:value>
+                            <dcterms:spatial>
+                                <rdf:Description rdf:about="http://sws.geonames.org/2037013/">
+                                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                                    <foaf:name>Istituto Commerciale di Harbin</foaf:name>
+                                </rdf:Description>
+                            </dcterms:spatial>
+                        </rdf:Description>
+                    </dcterms:educationLevel>
+                    
+                    <dcterms:educationLevel>
+                        <rdf:Description>
+                            <rdf:value>Bachelor's in Chemistry</rdf:value>
+                            <dcterms:hasPart>
+                                <rdf:Description>
+                                    <dcterms:type>Thesis</dcterms:type>
+                                    <dcterms:title>DI ALCUNI COMPOSTI DEL TIPO DIACIDO-DIAMMINO-SALI</dcterms:title>
+                                    <dcterms:contributor>Prof. G. TARTARINI</dcterms:contributor>
+                                    <dcterms:date>22/11/37</dcterms:date> <!-- Graduation date -->
+                                    <dcterms:spatial>
+                                        <rdf:Description>
+                                            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                                            <foaf:name>Università di Bologna</foaf:name>
+                                            <gn:countryCode>IT</gn:countryCode>
+                                            <gn:parentCountry rdf:resource="http://sws.geonames.org/3175395/"/>
+                                        </rdf:Description>
+                                    </dcterms:spatial>
+                                </rdf:Description>
+                            </dcterms:hasPart>
+                        </rdf:Description>
+                    </dcterms:educationLevel>
+
+                    <dcterms:educationLevel>
+                        <rdf:Description>
+                            <rdf:value>Bachelor's in Pharmacy</rdf:value>
+                            <dcterms:hasPart>
+                                <rdf:Description>
+                                    <dcterms:type>Thesis</dcterms:type>
+                                    <dcterms:title>ACIDI RESINOSI</dcterms:title>
+                                    <dcterms:date>18/11/1938</dcterms:date> <!-- Graduation date -->
+                                </rdf:Description>
+                            </dcterms:hasPart>
+                            <dcterms:spatial>
+                                <rdf:Description>
+                                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                                    <foaf:name>Università di Bologna</foaf:name>
+                                    <gn:countryCode>IT</gn:countryCode>
+                                    <gn:parentCountry rdf:resource="http://sws.geonames.org/3175395/"/>
+                                </rdf:Description>
+                            </dcterms:spatial>
+                        </rdf:Description>
+                    </dcterms:educationLevel>
+                </rdf:Description>
+            
+                <rdf:Description tei:ref="#SM" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#schender_madorski">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Schender Madorski</rdfs:label>
+                    <foaf:child rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#anna_madorski"/>
+                </rdf:Description>
+                
+                <rdf:Description tei:ref="#GM" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#ghitel_madorski">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Ghitel Madorski</rdfs:label>
+                    <foaf:child rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#anna_madorski"/>
+                </rdf:Description>
+            
+                <rdf:Description tei:ref="#Betti" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#m_betti">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>M. Betti</rdfs:label>
+                </rdf:Description>
+                <rdf:Description tei:ref="#Re" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#vittorio_emanuele_III">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Vittorio Emanuele III</rdfs:label>
+                </rdf:Description>
+                
+                <rdf:Description tei:ref="#Ghigi" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#alessandro_ghigi">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Alessandro Ghigi</rdfs:label>
+
+                </rdf:Description>
+                <rdf:Description tei:ref="#Gurvic" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#s_gurvic">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>S. Gurvic</rdfs:label>
+                </rdf:Description>
+                <rdf:Description tei:ref="#Barta" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#h_bartashev">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>H. Bartashev</rdfs:label>
+                </rdf:Description>
+                <rdf:Description tei:ref="#Maffei" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#a_maffei">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>A.Maffei</rdfs:label>
+                </rdf:Description>
+                <rdf:Description tei:ref="#Kaga" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#kagan">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Kagan</rdfs:label>
+                </rdf:Description>
+                <rdf:Description tei:ref="#Dobisov" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#dobisov">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>E.Dobisov</rdfs:label>
+                </rdf:Description>
+                <rdf:Description tei:ref="#Rubin" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#a_i_rubin">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>A. I. Rubin</rdfs:label>
+                </rdf:Description>
+                <rdf:Description tei:ref="#Sokoloff" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#sokoloff">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Sokoloff</rdfs:label>
+                </rdf:Description>
+                <rdf:Description tei:ref="#Tartarini" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#g_tartarini">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>G. Tartarini</rdfs:label>
+                </rdf:Description>
+    
+                <!-- places:-->
+
+                <rdf:Description tei:ref="#Harbin" rdf:about="http://sws.geonames.org/2037013/">
+                    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+                    <rdfs:label>Harbin</rdfs:label>
+                </rdf:Description>
+                <rdf:Description tei:ref="#Bologna" rdf:about="https://sws.geonames.org/3181928/">
+                    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+                    <rdfs:label >Bologna</rdfs:label>
+                </rdf:Description>
+                <rdf:Description tei:ref="#Rogacev" rdf:about="https://sws.geonames.org/501678">
+                    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+                    <rdfs:label>Rogacev</rdfs:label>
+                </rdf:Description>
+            </rdf:RDF>
+        </xenoData>
+    </teiHeader>
+ 
+    <facsimile>
+        <!-- Facsimile for Cover of Madorski's documents for her degree in Chemistry -->
+        <surface xml:id="doc1_page1">
+            <graphic url="http://example.com/facsimiles/doc1/page1.jpg" />
+        </surface>
+    
+        <!-- Facsimile for Madorski's letter of application for her degree in Chemistry -->
+        <surface xml:id="doc2_page1">
+            <graphic url="http://example.com/facsimiles/doc2/page1.jpg" />
+        </surface>
+    
+        <!-- Facsimile for Madorski's Grade Report of Chemistry, her universityDegree degree at the University of Bologna -->
+        <surface xml:id="doc3_page1">
+            <graphic url="http://example.com/facsimiles/doc3/page1.jpg" />
+        </surface>
+    
+        <!-- Facsimile for Madorski's Diploma in Chemistry, her universityDegree degree at the University of Bologna-->
+        <surface xml:id="doc4_page1">
+            <graphic url="http://example.com/facsimiles/doc4/page1.jpg" />
+        </surface>
+                
+        <!-- Facsimile for Madorski's highschool grade report with translation and notarization, for her universityDegree degree in Chemistry-->
+        <surface xml:id="doc5_page1">
+            <graphic url="http://example.com/facsimiles/doc5/page1.jpg" />
+        </surface>
+        <surface xml:id="doc5_page2">
+            <graphic url="http://example.com/facsimiles/doc5/page2.jpg" />
+        </surface>
+        <surface xml:id="doc5_page3">
+            <graphic url="http://example.com/facsimiles/doc5/page3.jpg" />
+        </surface>
+                    
+        <!-- Facsimile for Madorski's Birth Certificate with translation and notarization, for her universityDegree degree in Chemistry-->
+        <surface xml:id="doc6_page1">
+            <graphic url="http://example.com/facsimiles/doc6/page1.jpg" />
+        </surface>
+                    
+        <!-- Facsimile for Madorski's graduation thesis for her universityDegree degree in Chemistry-->
+        <surface xml:id="doc7_page1">
+            <graphic url="http://example.com/facsimiles/doc7/page1.jpg" />
+        </surface>
+    
+        <!-- Facsimile for Cover of Madorski's documents for her degree in Pharmacy-->
+        <surface xml:id="doc8_page1">
+            <graphic url="http://example.com/facsimiles/doc8/page1.jpg" />
+        </surface>
+    
+        <!-- Facsimile for Madorski's graduation thesis for her second degree in Pharmacy-->
+        <surface xml:id="doc9_page1">
+            <graphic url="http://example.com/facsimiles/doc9/page1.jpg" />
+        </surface>
+    
+        <!-- Facsimile for Madorski's letter of application for her degree in Pharmacy-->
+        <surface xml:id="doc10_page1">
+            <graphic url="http://example.com/facsimiles/doc10/page1.jpg" />
+        </surface>
+    
+        <!-- Facsimile for Madorski's Diploma in Pharmacy, her second degree at the University of Bologna-->
+        <surface xml:id="doc11_page1">
+            <graphic url="http://example.com/facsimiles/doc11/page1.jpg" />
+        </surface>
+    
+        <!-- Facsimile for Madorski's second version of Grade report of Chemistry-->
+        <surface xml:id="doc12_page1">
+            <graphic url="http://example.com/facsimiles/doc12/page1.jpg" />
+        </surface>
+    
+        <!-- Facsimile for Madorski's Birth Certificate with translation and notarization, for her second degree in Pharmacy -->
+        <surface xml:id="doc13_page1">
+            <graphic url="http://example.com/facsimiles/doc13/page1.jpg" />
+        </surface>
+        <surface xml:id="doc13_page2">
+            <graphic url="http://example.com/facsimiles/doc13/page2.jpg" />
+        </surface>
+        <surface xml:id="doc13_page3">
+            <graphic url="http://example.com/facsimiles/doc13/page3.jpg" />
+        </surface>
+            
+        <!-- Facsimile for Madorski's second version of highschool grade report with translation and notarization, for her second degree in Pharmacy-->
+        <surface xml:id="doc14_page1">
+            <graphic url="http://example.com/facsimiles/doc14/page1.jpg" />
+        </surface>
+        <surface xml:id="doc14_page2">
+            <graphic url="http://example.com/facsimiles/doc14/page2.jpg" />
+        </surface>
+        <surface xml:id="doc14_page3">
+            <graphic url="http://example.com/facsimiles/doc14/page3.jpg" />
+        </surface>
+    </facsimile>
+
+    <text>
+        <body>
+            <div type="document" xml:id="doc1">
+                <pb n="1" facs="#doc1_page1"/>
+                <div type="page">
+                    <head>Cover of Madorski's documents for her degree in Chemistry</head>
+                    <p>
+                        Posiz. N. 1511<lb/>
+                        Vol.<lb/>
+                        <orgName ref="#Unibo">R. UNIVERSITÀ DEGLI STUDI DI BOLOGNA</orgName><lb/>
+                        Facoltà di Scienze Fisiche, Matematiche e Naturali<lb/>
+                        8170<lb/>
+                        <persName ref="#AM">Madorski Anna</persName><lb/>
+                        di <persName ref="#SM">Schender</persName> e <persName ref="#GM">Ghitel Madorski</persName><lb/>
+                        nato il <date when="1912-05-31">31 maggio 1912</date><lb/>
+                        a <placeName ref="#Harbin">Harbin (Manciuria)</placeName><lb/>
+                        Anno 1.° 1933-34 Chimica<lb/>
+                        Anno 2.° 1934-35 Chimica<lb/>
+                        Anno 3.° 1935-36 Chimica<lb/>
+                        Anno 4.° 1936-37<lb/>
+                        li <date when="1937-11-22">22/11/37 XVI</date><lb/>
+                        Esame di Laurea in Chimica<lb/>
+                        Voti 108/110<lb/>
+                        Diploma N° 2269<lb/>
+                        In data <date when="1938-03-04">4/3/38 XVI</date><lb/>
+                    </p>
+                </div>
+            </div>
+              
+            <div type="document" xml:id="doc2">
+                <pb n="1" facs="#doc2_page1"/>
+                <div type="page">
+                    <head>Madorski's letter of application for her degree in Chemistry</head>
+                    
+                        <opener>
+                            <salute>Al Magnifico Rettore</salute>
+                        </opener> <p>della R. Università di <placeName ref="#Bologna">Bologna</placeName><lb/>
+                        La sottoscritta <persName ref="#AM">Anna Ma- dorski</persName> di <persName ref="#SM">Schender</persName> 
+                            e di <persName ref="#AM">Ghitel Madorski</persName>, nata a <placeName ref="#Harbin">Harbin</placeName> 
+                            il <date when="1913-05-31">31 maggio 1913</date>, fa domanda alla S.V. 
+                            Illma di essere iscritta al Ⅰ° anno del corso per la <orgName ref="universityDegree">laurea in chimica</orgName>.<lb/>
+                        Con osservanza <persName ref="#AM">Anna Madorski</persName><lb/>
+                        <placeName ref="#Bologna">Bologna</placeName>. <date when="1933-10-12">12 Ottobre 1933 - XI</date><lb/>
+                        Via Zamboni, 16. presso Rocchi<lb/>
+                        Alla Spettabile Facoltà per il parere IL RETTORE <gap reason="unreadable"/>/<lb/>
+                        La Signorina <persName ref="#AM">Anna Madorski</persName> suddita russa chiede la iscrizione al 
+                            1° di <orgName type="faculty">Chimica pura</orgName><lb/>
+                        i documenti restituiti tutti per <gap reason="unreadable"/> legali <gap reason="unreadable"/><lb/>
+                        <note>[photo of Anna Madorski]</note><lb/>
+                        <note>[stamp of the University of Bologna]</note><lb/>
+                        <hi rend="handwritten"><persName ref="#AM">AMadorski</persName></hi><lb/>
+                        Il segretario li <persName ref="#Betti">M. Betti</persName><gap reason="unreadable"/>
+                    </p>
+                </div>
+            </div>
+
+
+            <div type="document" xml:id="doc3">
+                <pb n="1" facs="#doc3_page1"/>
+                <div type="page">
+                    <head>Madorski's Grade Report of Chemistry, her universityDegree degree at the University of Bologna</head>
+                    <p>
+                        1511<lb/>
+                        <orgName ref="#Unibo">R. UNIVERSITÀ DEGLI STUDI DI BOLOGNA</orgName><lb/>
+                        SEGRETARIA<lb/>
+                        Si certifica che il Sig. <persName ref="#AM">Madorski Anna</persName><lb/>
+                        di <persName ref="#SM">Schender</persName> nato a <placeName ref="#Harbin">Harbin (Manciuria)</placeName><lb/>
+                        compì presso questa<lb/>
+                        <orgName ref="#Unibo" type="faculty">R. Università degli Studi di Chimica</orgName>, riportando negli esami relativi<lb/>
+                        i voti seguenti:<lb/>
+                        Chimica generale inorganica | 24<lb/>
+                        Chimica organica | 28<lb/>
+                        Chimica analitica | 30<lb/>
+                        Fisica sperimentale | 27<lb/>
+                        Botanica | 27<lb/>
+                        Zoologia | 27<lb/>
+                        <hi rend="crossedOut">Analisi algebrica</hi> Chimica biologica | 28<lb/>
+                        <hi rend="crossedOut">Analisi infinitesimale</hi> Biochimica applicata | 28<lb/>
+                        <hi rend="crossedOut">Geometria analitica</hi> Chimica della sostanza coloranti | 30<lb/>
+                        Matematiche per chimici e naturalisti | 30<lb/>
+                        Chimica fisica (prima parte) con Esercizi | 30<lb/>
+                        Chimica fisica (seconda parte) | 27<lb/>
+                        Chimica farmaceutica inorganica | 28<lb/>
+                        Chimica farmaceutica organica | 28<lb/>
+                        Chimica Industriale inorganica | —<lb/>
+                        Chimica Industriale organica | —<lb/>
+                        Fisiologia | 27<lb/>
+                        Mineralogia | 30<lb/>
+                        Prova pratica di analisi Chimica qualitativa | 27<lb/>
+                        Prova pratica di analisi Chimica quantitativa | 24<lb/>
+                        Preparazioni Chimiche ed Esercitazioni di Chimica fisica | 30<lb/>
+                        Ricerche sperim. di Chimica | 30<lb/>
+                        Esercizi di fisica <gap reason="unreadable"/> | 27<lb/>
+                        Es. <gap reason="unreadable"/> Chimiche | 27<lb/>
+                        <note>[handwriting of calculation on the right margin]</note><lb/>
+                        Il giorno <date>22/11/37 XVI</date> superò l'esame di Laurea in Chimica,<lb/>
+                        riportando voti 108-110.<lb/>
+                        <placeName ref="#Bologna">Bologna</placeName>,<lb/>
+                        IL SEGRETARIO<lb/>
+                        IL DIRETTO AMMINISTRATIVO<lb/>
+                        IL RETTORE<lb/>
+                        Uip. già Compositori <note>[typed at the corner of the document]</note><lb/>
+                    </p>
+                </div>
+            </div>
+
+
+            <div type="document" xml:id="doc4">
+                <pb n="1" facs="#doc4_page1"/>
+                <div type="page">
+                    <head>Madorski's Diploma in Chemistry, her universityDegree degree at the University of Bologna</head>       
+                    <p>
+                        <hi rend="handwritten">£25 132 11/11/37</hi><lb/>
+                        N. 2269<lb/>
+                        <orgName ref="#Unibo">R. UNIVERSITÀ DEGLI STUDI DI BOLOGNA</orgName><lb/>
+                        IN NOME DI <persName ref="#Re">S.M. VITTORIO EMANUELE Ⅲ</persName><lb/>
+                        PER GRAZIA DI DIO E PER VOLONTÀ DELLA NAZIONE<lb/>
+                        RE D'ITALIA<lb/>
+                        L. B.<lb/>
+                        Noi Professore Dr. Gr. Uff. <persName ref="#Ghigi">Alessandro Ghigi</persName> Deputato al Parlamento<lb/>
+                        Rettore della <orgName ref="#Unibo">R. Università di Bologna</orgName><lb/>
+                        Veduti gli attestati degli studi compiuti dalla signorina<lb/>
+                        <persName ref="#AM">Madorski Anna</persName><lb/>
+                        figlio di <persName ref="#SM">Schender</persName> nato a <placeName ref="#Harbin">Harbin (Manciuria)</placeName><lb/>
+                        il <date when="1913-05-31">31 maggio 1913</date><lb/>
+                        Veduto il risultato dell'esame generale superato in questa <orgName ref="#Unibo">R. Università</orgName><lb/>
+                        il <date when="1937-11-22">22 novembre 1937</date> con la votazione 108-110<lb/>
+                        le conferiamo la Laurea di <title type="academicQualification">Dottore in Chimica</title>.<lb/>
+                        I presente diploma viene rilasciato a tutti gli effetti di legge.<lb/>
+                        Dato a <placeName ref="#Bologna">Bologna</placeName> il <date when="1938-03-04">4 MAR. 1938 Anno XVI</date><lb/>
+                        IL RETTORE<lb/>
+                        firmato: <persName ref="#Ghigi">A. Ghigi</persName><lb/>
+                        Il Direttore Amministrativo<lb/>
+                        firmato: [unreadable signature]<lb/>
+                        Il Preside della Facoltà<lb/>
+                        firmato: <persName ref="#Betti">M. Betti</persName><lb/>
+                        Visto: Per copia conferme all'originale<lb/>
+                        <placeName ref="#Bologna">Bologna</placeName>, addi <date when="1938-03-04">MAR. 1938 Anno XVI</date><lb/>
+                        Il Segretario<lb/>
+                        [unreadable signature]<lb/>
+                        IL DIRETTORE AMMINISTRATIVO<lb/>
+                        [unreadable signature]<lb/>
+                        Soe. Tip. già Compositori - 21836<lb/>
+                    </p>
+                </div>
+            </div>
+    
+            <div type="document" xml:id="doc5">
+                <pb n="1" facs="#doc5_page1"/>
+                <div type="page">
+                    <head>Madorski's highschool grade report with translation and notarization, for her universityDegree degree in Chemistry</head>       
+                    <p>
+                        Copia della traduzione in italiano della licenza media della studentessa<lb/>
+                        <persName ref="#AM">Madorski Anna</persName><lb/>
+                        7605/5<lb/>
+                        Attestato<lb/>
+                        La titolare del presente attestato<lb/>
+                        <persName ref="#AM">Anna Madorski</persName> di <persName ref="#SM">Schender</persName>, suddita sovietica, è l'allieva del <orgName ref="HSHarbin">Primo Collegio Commerciale Russo di Harbin</orgName> e ha terminato i corsi di questi istituzione.<lb/>
+                        Al termine dei corsi, negli esami finali di licenza, <persName ref="#AM">Anna Madorski</persName> ha attenuto la seguente votazione:<lb/>
+                        <table>
+                            <row>
+                                <cell>Russo</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                            <row>
+                                <cell>Aritmetica</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                            <row>
+                                <cell>Algebra</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                            <row>
+                                <cell>Geometria</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                            <row>
+                                <cell>Trigonometria</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                            <row>
+                                <cell>Fisica</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                            <row>
+                                <cell>Storia</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                            <row>
+                                <cell>Geografia</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                            <row>
+                                <cell>Noz. generali sull'Estr Oriente</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                            <row>
+                                <cell>Cosmografia</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                            <row>
+                                <cell>Botanica</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                        </table>
+                    </p>
+                </div>
+
+        
+                <pb n="2" facs="#doc5_page2"/>
+                <div type="page">
+                    <table>
+                        <row>
+                            <cell>Zoologia</cell>
+                            <cell>benissimo</cell>
+                            <cell>5</cell>
+                        </row>
+                        <row>
+                            <cell>Mineralogia</cell>
+                            <cell>benissimo</cell>
+                            <cell>5</cell>
+                        </row>
+                        <row>
+                            <cell>Fisiologia</cell>
+                            <cell>benissimo</cell>
+                            <cell>5</cell>
+                        </row>
+                        <row>
+                            <cell>Anatomia</cell>
+                            <cell>benissimo</cell>
+                            <cell>5</cell>
+                        </row>
+                        <row>
+                            <cell>Chimica</cell>
+                            <cell>benissimo</cell>
+                            <cell>5</cell>
+                        </row>
+                        <row>
+                            <cell>Igiene</cell>
+                            <cell>"5</cell>
+                        </row>
+                        <row>
+                            <cell>Inglese</cell>
+                            <cell>"5</cell>
+                        </row>
+                        <row>
+                            <cell>Politica economia</cell>
+                            <cell>"5</cell>
+                        </row>
+                        <row>
+                            <cell>Disegno</cell>
+                            <cell>"5</cell>
+                        </row>
+                        <row>
+                            <cell>Disegno lineare</cell>
+                            <cell>"5</cell>
+                        </row>
+                        <row>
+                            <cell>Aritmetica commerciale</cell>
+                            <cell>"5</cell>
+                        </row>
+                        <row>
+                            <cell>Corrispondenza russa</cell>
+                            <cell>"5</cell>
+                        </row>
+                        <row>
+                            <cell>Corrispondenza inglese</cell>
+                            <cell>"5</cell>
+                        </row>
+                        <row>
+                            <cell>Economia commerciale</cell>
+                            <cell>"5</cell>
+                        </row>
+                        <row>
+                            <cell>Contabilità</cell>
+                            <cell>"5</cell>
+                        </row>
+                        <row>
+                            <cell>Geografia commerciale</cell>
+                            <cell>"5</cell>
+                        </row>
+                        <row>
+                            <cell>Storia ebraica</cell>
+                            <cell>"5</cell>
+                        </row>
+                        <row>
+                            <cell>Tedesco</cell>
+                            <cell>"5</cell>
+                        </row>
+                    </table>
+                    <p>
+                        Per attestare i risultati ottenuti<lb/> 
+                        durante i corsi e negli esami finali<lb/> 
+                        si rilascia alla Signorina <persName ref="#AM">Madorski</persName><lb/> 
+                        il presente Attestato che dà la<lb/> 
+                        possibilità d'ammissione in tutte le università.<lb/> 
+                        E' stato deciso inoltre di<lb/>
+                    </p>
+                </div>
+
+                <pb n="3" facs="#doc5_page3"/>
+                <div type="page">
+                    <p>
+                        inscrivere il nome di <persName ref="#AM">Anna Madorski</persName><lb/>
+                        nel Libro d'Oro.<lb/>
+                        Il capo del Dipartimento della Ist. Pubblica nelle Provincie Orientali<lb/>
+                        <gap reason="unreadable"/><lb/>
+                        Il direttore: <persName>H. Bartashev</persName><lb/>
+                        <placeName ref="#Harbin">Harbin</placeName>, il <date when="1929-06-10">10 giugno 1929</date><lb/>
+                        Fotografia e bollo<lb/>
+                        Visto per traduzione conferme all'originale legalizzato in data odierna<lb/>
+                        Il R. Console d'Italia<lb/>
+                        <persName ref="#Maffei">A.Maffei</persName><lb/>
+                        <placeName ref="#Harbin">Harbin</placeName>, il <date when="1933-09-27">27 sett. 1933 - XI</date><lb/>
+                        Bollo del consolato d'Italia a <placeName ref="#Harbin">Harbin</placeName> ( £ 24. d'oro)<lb/>
+                        Segue la legalizzazione<lb/>
+                        <hi rend="crossedout">Bollo</hi> del Ministro di Affari Esteri<lb/>
+                        Per copia conferme<lb/>
+                        <placeName ref="#Bologna">Bologna</placeName> li <date when="1937-12-02">2/12/37 XVI</date><lb/>
+                        <note>[two stamps of University of Bologna]</note><lb/>
+                        IL DIRETTORE AMMINISTRATIVO<lb/>
+                        <gap reason="unreadable"/><lb/>                    
+                    </p>
+                </div>
+            </div>
+
+            <div type="document" xml:id="doc6">
+                <pb n="1" facs="#doc6_page1"/>
+                <div type="page">
+                    <head>Madorski's Birth Certificate with translation and notarization, for her universityDegree degree in Chemistry</head>       
+                    <p>
+                        7605/5<lb/>
+                        Copia della traduzione in italiano dell'estrato del Registro della com<hi rend="crossed-out">mu</hi>unità Israelita di Harbin.<lb/>
+                        Ebrei nati nella communità Israelita nell'anno 1913/5673.<lb/>
+                        Il <date when="1912-06-30">30 giugno 1912</date><lb/>
+                        N 100.<lb/>
+                        A Registro degli Ebrei nati nell' anno 1913<lb/>
+                        Parte I Neonati<lb/>
+                        <!-- Table with transcribed data -->
+                        <table>
+                            <row>
+                                <cell>N</cell>
+                                <cell>f.</cell>
+                                <cell>21</cell>
+                                <cell>m</cell>
+                            </row>
+                            <row>
+                                <cell>Nome della persona che ha fatto la circoncisione</cell>
+                                <cell>Il nome venne imposto dal <persName ref="#Kagan">sig. Kagan</persName></cell>
+                            </row>
+                            <row>
+                                <cell>Data della nascita</cell>
+                                <cell>Era Crist. <date type="birth">31 mag.1913 </date> Era ebraica <date type="HebrewBirth">8 Sivon 5673</date></cell>
+                            </row>
+                            <row>
+                                <cell>Luogo di nascita</cell>
+                                <cell><placeName ref="#Harbin">Harbin</placeName></cell>
+                            </row>
+                            <row>
+                                <cell>Condizione e nome dei genitori</cell>
+                                <cell><persName ref="#SM">Shender Madorski</persName> di Salman. borghese della città di 
+                                    <placeName ref="#Rogacev">Rogacev, prov. di Moghilev</placeName> 
+                                    e <persName ref="#GM">Ghitel</persName> di Leiba madre</cell>
+                            </row>
+                            <row>
+                                <cell>Sesso e nome del neonato</cell>
+                                <cell>femminile Anna</cell>
+                            </row>
+                        </table>
+                        <!-- End of table -->
+                        L'originale è stato firmato dall'amministratore<lb/>
+                        <persName ref="#Dobisov">E.Dobisov</persName>, del tesoriere <persName ref="#Gurvic">S.Gurvic</persName> 
+                        e dall'erudito <persName ref="#Rubin">A.I.Rubin</persName><lb/>
+                        Il presente estratto è conforme al testo originale del Registro ed è stato rilasciato a richiesto del 
+                        <persName ref="#AM">Sig. Madorski</persName>.<lb/>
+                        In fede di che la Comunità Isrealità di <placeName>Harbin</placeName> ha apposto le 
+                        sue firme e il suo timbro.<lb/>
+                        <date when="1913-06-30">Il 30 giugno 1913</date><lb/>
+                        Bollo<lb/>
+                        Firme<lb/>
+                        l'amministratore E.Dobisov<lb/>
+                        Il tesoriere <persName ref="#Gurvic">S.Gurvic</persName><lb/>
+                        l'erudito <persName ref="#Rubin">A.I.Rubin</persName><lb/>
+                        Il presente estrato è stato paragonato col testo del Registro della Communità 
+                        Israelita di <placeName ref="#Harbin">Harbin</placeName> e fu trovato conferme all'originale.<lb/>
+                        N 3919<lb/>
+                        <date when="1913-07-09">il 9 luglio 1913</date><lb/>
+                        <placeName ref="#Harbin">Harbin</placeName><lb/>
+                        Il sotto direttore della Amministrazione Civile<lb/>
+                        <gap reason="unreadable"/><lb/>
+                        Il Capo di Dipart. <persName ref="#Sokoloff">Sokoloff</persName><lb/>
+                        Visto per traduzione <hi rend="crossed-out">all</hi> conferme all'originale legalizzate in data odierna<lb/>
+                        <placeName ref="#Harbin">Harbin</placeName>, <date when="1933-09-21">21 sett. 1933(XI)</date><lb/>
+                        Il R.Console d'Harbin<lb/>
+                        <persName ref="#Maffei">A. Maffei</persName><lb/>
+                        Segue i bolli del consolato d'Italia a Harbin (£ 24. (oro) )<lb/>
+                        bollo di Bologna £ 7[unreadable]<lb/>
+                        Segue la legalizzazione del Ministero di Affari Esteri.<lb/>
+                        Per copia conferme<lb/>
+                        <placeName ref="#Bologna">Bologna</placeName> li <date when="1937-12-02">2/12/37 XVI</date><lb/>
+                        <note>[Stamps of University of Bologna]</note><lb/>
+                        IL DIRETTORE AMMINISTRATIVO<lb/>
+                        <gap reason="unreadable"/>
+                    </p>
+                </div>
+            </div>
+
+    
+            <div type="document" xml:id="doc7">
+                <pb n="1" facs="#doc7_page1"/>
+                <div type="page">
+                    <head>Madorski's graduation thesis for her university degree in Chemistry</head>       
+                    <p>
+                        R. UNIVERSITA' DEGLI STUDI<lb/>
+                        <placeName>BOLOGNA</placeName><lb/>
+                        ISTITUTO DI CHIMICA GENERALE<lb/>
+                        <persName ref="#AM">MADORSKI ANNA</persName><lb/>
+                        DI ALCUNI COMPOSTI DEL TIPO DIACIDO-DIAMMINO-SALI<lb/>                  
+                        TESI DI LAUREA<lb/>       
+                        Relatore Chiar.mo <persName ref="#GT">Prof. G. TARTARINI</persName><lb/>
+                        <date>Anno Accademico 1936-37 XV</date>                   
+                    </p>
+                </div>
+            </div>
+
+
+            <div type="document" xml:id="doc8">
+                <pb n="1" facs="#doc8_page1"/>
+                <div type="page">
+                    <head>Cover of Madorski's documents for her degree in Pharmacy</head>       
+                    <p>
+                        Posiz. N. 2413<lb/>
+                        <orgName ref="#Unibo">R. UNIVERSITÀ DEGLI STUDI DI BOLOGNA</orgName><lb/>
+                        <orgName ref="#Unibo" type="faculty">FACOLTÀ DI FARMACIA</orgName><lb/>
+                        3156<lb/>
+                        <persName ref="#AM">Madorski dott. Anna</persName><lb/>
+                        di <persName ref="#SM">Schender</persName> nato a <placeName ref="#Harbin">Harbin (Manciuria)</placeName><lb/>
+                        il <date when="1913-05-31">31 maggio 1913</date><lb/>
+                        Anno 1.°<lb/>
+                        Laureata in<lb/>
+                        ,, 2.° <title type="universityDegree">Chimica pura</title> a<lb/>
+                        ,, 3.° <placeName ref="#Bologna">Bologna</placeName><lb/>
+                        ,, 4.° 1937-38<lb/>
+                        <gap reason="unreadable"/><lb/>
+                        addì <date when="1938-11-18">18/11/38 XVII</date><lb/>
+                        Esami di Laurea<lb/>
+                        prima parte voti 108/110<lb/>
+                        seconda parte voti 108/110<lb/>
+                        N. 2387<lb/>
+                        Diploma<lb/>
+                        del <date when="1938-01-02">2 gennaio 1938 XVII</date>
+                    </p>
+                </div>
+            </div>
+
+            <div type="document" xml:id="doc9">
+                <pb n="1" facs="#doc9_page1"/>
+                <div type="page">
+                    <head>Madorski's graduation thesis for her second degree in Pharmacy</head>       
+                    <p>
+                        <orgName ref="#Unibo" type="faculty">R. UNIVERSITA' DEGLI STUDI<lb/>
+                        BOLOGNA<lb/>
+                        Facoltà di Farmacia</orgName><lb/>
+                        Anno Accademico 1937-38.XVI<lb/>
+                        <title>ACIDI RESINOSI</title><lb/>   
+                        TESI DI LAUREA IN FARMACIA<lb/>
+                        di<lb/>
+                        <persName ref="#AM">MADORSKI ANNA</persName><lb/>    
+                    </p>
+                </div>
+            </div>
+            
+
+    
+            <div type="document" xml:id="doc10">
+                <pb n="1" facs="#doc10_page1"/>
+                <div type="page">
+                    <head>Madorski's letter of application for her degree in Pharmacy</head>       
+                    
+                        <note>[a stamp with "L.4" and a statue]</note><lb/>
+                        <opener>
+                            <salute>Al Magnifico Rettore
+                                della <orgName ref="#Unibo">R. Università di Bologna</orgName><lb/>
+                            </salute>
+                        </opener>
+                        <p>
+                        La sottoscritta <persName ref="#AM">Madorski Anna</persName>,<lb/>
+                        laureata in <title type="universityDegree">Chimica Pura</title>,<lb/>
+                        chiede alla S. V. Illma di essere iscritta al IV corso di <orgName type="faculty">Facoltà di Farmacia</orgName>,<lb/>
+                        convalidando gli esami sostenuti.<lb/>
+                        Con ossequi<lb/>
+                        <persName ref="#AM">A Madorski</persName><lb/>
+                        li <date when="1937-11-12">12 Nov. 1937 - XVI</date><lb/>
+                        <note>[stamped on right margin]</note><lb/>
+                        Alla Spettabile Facoltà per il parere<lb/>
+                        IL RETTORE<lb/>
+                        <gap reason="unreadable"/><lb/>
+                        <note>[photo of Anna Madorski]</note>
+                    </p>
+                </div>
+            </div>
+            
+            <div type="document" xml:id="doc11">
+                <pb n="1" facs="#doc11_page1"/>
+                <div type="page">
+                    <head>Madorski's Diploma in Pharmacy, her second degree at the University of Bologna</head>
+                    <p>
+                        <hi rend="red">
+                            Secondo esemplare originale, che<lb/>
+                            non può essere consegnato al<lb/>
+                            titolare del diploma, da conser-<lb/>
+                            varsi negli atti della Segreteria.
+                        </hi>
+                        N. 2387<lb/>
+                        £ 25-136 <date when="1938-11-15">15/11/38</date><lb/>
+                        <orgName ref="#Bologna">R. UNIVERSITÀ DEGLI STUDI DI BOLOGNA</orgName><lb/>
+                        IN NOME DI <persName ref="#Re">S.M. VITTORIO EMANUELE Ⅲ</persName><lb/>
+                        PER GRAZIA DI DIO E PER VOLONTÀ DELLA NAZIONE<lb/>
+                        RE D'ITALIA IMPERATORE D'ETIOPIA<lb/>
+                        Noi Professore Dr. Gr. Uff.<persName ref="#AG">ALESSANDRO GHIGI</persName> Deputato al Parlamento<lb/>
+                        RETTORE DELLA R. UNIVERSITÀ DI BOLOGNA<lb/>
+                        Veduti gli attestati degli studi compiuti dalla signorina<lb/>
+                        <persName ref="#AM">Madorski dott. Anna</persName><lb/>
+                        figlio di <persName ref="#SM">Schender</persName> nato a <placeName ref="#Harbin">Harbin (Manciuria)</placeName> il<lb/>
+                        <date when="1913-05-31">31 maggio 1913</date><lb/>
+                        Veduto il risultato dell'esame generale superato in questa R. UNIVERSITÀ<lb/>
+                        il <date when="1938-11-18" type="second">18 novembre 1938 XVII</date> —— conferiamo la laurea di<lb/>
+                        <title type="academicQualification">Dottore in Farmacia</title><lb/>
+                        Il presente diploma viene rilasciato a tutti gli effetti di legge.<lb/>
+                        Dato a <placeName ref="#Bologna">Bologna</placeName> il <date when="1939-01-02" type="second">2 gennaio 1939 XVII°</date><lb/>
+                        <hi rend="circled">L.S</hi><lb/>
+                        IL RETTORE<lb/>
+                        <gap reason="unreadable"/><lb/>
+                        IL DIRETTORE AMMINISTRATIVO<lb/>
+                        <gap reason="unreadable"/><lb/>
+                        IL PRESIDE<lb/>
+                        <gap reason="unreadable"/><lb/>
+                    </p>
+                </div>
+            </div>
+
+
+
+            <div type="document" xml:id="doc12">
+                <pb n="1" facs="#doc12_page1"/>
+                <div type="page">
+                    <head>Madorski's second version of Grade report of Chemistry</head>
+                    <p>
+                        2413<lb/>
+                        R. UNIVERSITÀ DEGLI STUDI DI <placeName ref="#Bologna">BOLOGNA</placeName><lb/>
+                        Si certifica che il Sig. <persName ref="#AM">Madorski dott. Anna</persName><lb/>
+                        di <persName ref="#SM">Schender</persName> nato a <placeName ref="#Harbin">Harbin (Manciuria)</placeName><lb/>
+                        compì presso questa<lb/>
+                        R. Università gli studi per la <orgName type="faculty">Laurea in Farmacia</orgName>, riportando negli esami i seguenti voti:<lb/>
+                        <table>
+                            <row role="header">
+                                <cell>MATERIE D'ESAME</cell>
+                                <cell>VOTAZIONE espressa in trentesimi</cell>
+                            </row>
+                            <row>
+                                <cell>Laureata in Chimica</cell>
+                                <cell>(×)</cell>
+                            </row>
+                            <row>
+                                <cell>Esami computati</cell>
+                                <cell>(×)</cell>
+                            </row>
+                            <row>
+                                <cell>Chimica generale ed inorganica</cell>
+                                <cell>(×)</cell>
+                            </row>
+                            <row>
+                                <cell>Fisica</cell>
+                                <cell><gap reason="illegible"/>(×)</cell>
+                            </row>
+                            <row>
+                                <cell>Botanica</cell>
+                                <cell>(×)</cell>
+                            </row>
+                            <row>
+                                <cell>Chimica organica</cell>
+                                <cell>(×)</cell>
+                            </row>
+                            <row>
+                                <cell>Elementi di Fisiologia</cell>
+                                <cell>(×)</cell>
+                            </row>
+                            <row>
+                                <cell>Mineralogia</cell>
+                                <cell>(×)</cell>
+                            </row>
+                            <row>
+                                <cell>Chimica farmaceutica organica</cell>
+                                <cell>(×)</cell>
+                            </row>
+                            <row>
+                                <cell>Chimica farmaceutica inorganica</cell>
+                                <cell>(×)</cell>
+                            </row>
+                            <row>
+                                <cell>Materia medica (farmacognosia) e Farmacologia</cell>
+                                <cell>30 e lode</cell>
+                            </row>
+                            <row>
+                                <cell>Chimica bromatologica con Esercizi</cell>
+                                <cell>28</cell>
+                            </row>
+                            <row>
+                                <cell>Igiene</cell>
+                                <cell>30</cell>
+                            </row>
+                            <row>
+                                <cell>Chimica fisiologica</cell>
+                                <cell>(×)</cell>
+                            </row>
+                            <row>
+                                <cell>Tecnica farmaceutica e legislazione farmaceutica con Eserc.</cell>
+                                <cell>28</cell>
+                            </row>
+                            <row>
+                                <cell>Chimica analitica (con particolare riguardo alla Farmacia)</cell>
+                                <cell>(×)</cell>
+                            </row>
+                            <row>
+                                <cell>Esame pratico di preparazioni Chimiche</cell>
+                                <cell>(×)</cell>
+                            </row>
+                            <row>
+                                <cell>Esame pratico di analisi qualitativa</cell>
+                                <cell>(×)</cell>
+                            </row>
+                            <row>
+                                <cell>Esame pratico di preparazioni farmaceutiche</cell>
+                                <cell>—</cell>
+                            </row>
+                            <row>
+                                <cell>Esame pratico di analisi quantit. (appl. alla Farmacia)</cell>
+                                <cell>(×)</cell>
+                            </row>
+                            <row>
+                                <cell>Esame pratico di Chimica bromatologica</cell>
+                                <cell>—</cell>
+                            </row>
+                            <row>
+                                <cell>Esame pratica di Chimica farm. tossic e Zoochimica</cell>
+                                <cell>—</cell>
+                            </row>
+                            <row>
+                                <cell>Es.Chim.farm.Toss.(Trien)</cell>
+                                <cell><gap reason="illegible"/>[unreadable course title] 27</cell>
+                            </row>
+                            <row>
+                                <cell>Anatomia Umana</cell>
+                                <cell>27</cell>
+                            </row>
+                            <row>
+                                <cell></cell>
+                                <cell><hi rend="handwritten">/170</hi></cell>
+                            </row>
+                        </table>
+                        Il giorno <date when="1938-11-18">18/11/38 XVII</date> superò l'esame di <orgName type="faculty">Laurea in Farmacia</orgName>,<lb/>
+                        riportando voti 108/110<lb/>
+                        <placeName ref="#Bologna">Bologna</placeName><note>[stamp of University of Bologna]</note><lb/>
+                        IL SEGRETARIO<lb/>
+                        IL DIRETTORE AMMINISTRATIVO<lb/>
+                        IL RETTORE<lb/>
+                        Uip. già Compositori<lb/>
+                    </p>
+                </div>
+            </div>
+
+
+            <div type="document" xml:id="doc13">
+                <pb n="1" facs="#doc13_page1"/>
+                <div type="page">
+                    <head>Madorski's Birth Certificate with translation and notarization, for her second degree in Pharmacy</head>
+                    <p>
+                        7605/5<lb/>
+                        R. CONSOLATO D'ITALIA<lb/>
+                        IN <placeName ref="#Harbin">HARBIN</placeName><lb/>
+                        TRADUZIONE<lb/>
+                        PARTE Ⅰ.<lb/>
+                        ESTRATTO DEL REGISTRO<lb/>
+                        della Comunità Israelita di <placeName ref="#Harbin">Harbin</placeName><lb/>
+                        Ebrei nati nelle Comunità israelita<lb/>
+                        nell'anno 1913/5673<lb/>
+                        il <date when="1913-06-30">30 giugno 1913</date><lb/>
+                        No.100<lb/>
+                    </p>
+                </div>
+                
+                <pb n="2" facs="#doc13_page2"/>
+                <div type="page">
+                    <p>
+                        <note>[revenue stamp of 5 lire]</note><lb/>
+                        <note>[revenue stamp of 2 lire]</note><lb/>
+                        <note>[round stamps of Italian Consulate in Harbin]</note><lb/>
+                        <note>[consulate stamp of 3 lire]</note><lb/>
+                        <note>[consulate stamp of 1 lire]</note><lb/>
+                        <note>[consulate stamp of 20 lire]</note><lb/>
+                        Parte Ⅰ. Neonati<lb/>
+                        <table>
+                            <row role="header">
+                                <cell>N°</cell>
+                                <cell>f.</cell>
+                                <cell>21</cell>
+                                <cell>m</cell>
+                            </row>
+                            <row>
+                                <cell>Nome della persona che ha fatto la circoncisione</cell>
+                                <cell>Il nome venne imposto dal sig. <persName ref="#Kagan">Kagan</persName></cell>
+                            </row>
+                            <row>
+                                <cell>Data delle nascita e della circoncisione</cell>
+                                <cell>Era cristiana</cell>
+                                <cell><date when="1913-05-31">31 maggio 1913</date></cell>
+                                <cell>Era ebraica</cell>
+                                <cell><date type="hebrew_age">8 Sivon 5673</date></cell>
+                            </row>
+                            <row>
+                                <cell>Condizione e nome dei genitori</cell>
+                                <cell><persName  ref="SM">Shender Madorski</persName> di Salman, borghese della città di 
+                                    <placeName ref="#Rogacev">Rogacev</placeName>, prov. di Moghilev, padre, e <persName ref="#GM">Ghitel</persName> di Leiba, madre</cell>
+                            </row>
+                            <row>
+                                <cell>Sesso e nome del neonato</cell>
+                                <cell>femminile Anna</cell>
+                            </row>
+                        </table>
+                        L'originale è stato firmato dall'amministratore <persName ref="#Dobisov">E.Dobisov</persName>, dal tesoriere
+                        <persName ref="#Gurvic">S.Gurvic</persName> e dall'erudito <persName ref="#Rubin">A.I.Rubin</persName><lb/>
+                    </p>
+                </div>
+     
+                <pb n="3" facs="#doc13_page3"/>
+                <div type="page">
+                    <p>
+                        <hi rend="vertical">
+                            Visto per traduzione conforme all'originale legalizzata<lb/>
+                            in data odierna <placeName ref="#Harbin">Harbin</placeName>, il <date when="1933-09-27">27 settembre 1933 (XI)</date><lb/>
+                            Il R. Console d'Italia <gap reason="unreadable"/>
+                        </hi>
+                        Il presente estratto è conforme al testo originale del Registro ed è stato rilasciato a richiesta<lb/>
+                        del sig. Madorski.<lb/>
+                        In fede di che la Comunità Israelita di <placeName ref="#harbin">Harbin</placeName> ha apposto le sue firme e il suo timbro.<lb/>
+                        Il <date when="1913-06-30">30 giugno 1913</date>.<lb/>
+                        Bollo<lb/>
+                        Firme:<lb/>
+                        L'amministratore: <persName ref="#Dobisov">E.Dobisov</persName><lb/>
+                        Il tesoriere: <persName ref="#Gurvic">S.Gurvic</persName><lb/>
+                        L'Erudito: <persName ref="#Rubin">A.I.Rubin</persName><lb/>
+                        Il presente Estrato è stato paragonato col testo del Registro delle Comunità Israelita<lb/>
+                        di <placeName ref="#Harbin">Harbin</placeName> e fu trovato conforme all'originale.<lb/>
+                        Il Sotto-Direttore delle Amministrazione Civile<lb/>
+                        <gap reason="illegible"/><lb/>
+                        Il Capo di Dipartimento: Sokoloff<lb/>
+                        No°3919<lb/>
+                        il <date when="1913-07-09">9 luglio 1913</date><lb/>
+                        <placeName ref="#Harbin">Harbin</placeName><lb/>
+                        <note>[Two government concessions of 3 lire]</note><lb/>
+                        <note>[a stamp of Ministry of Foreign Affairs with two Signatures: Maffei, Morone]</note><lb/>
+                        Ro. Perc. No. 73<lb/>
+                        Art. 78 T O(?)<lb/>
+                        Diritti £. o. 24 (yens 21.60)<lb/>
+                    </p>
+                </div>
+            </div>
+
+            <div type="document" xml:id="doc14">
+                <pb n="1" facs="#doc14_page1"/>
+                <div type="page">
+                    <head>Madorski's second version of highschool grade report with 
+                        translation and notarization, for her second degree in Pharmacy</head>
+                    <p>
+                        7605/5<lb/>
+                        R. CONSOLATO D'ITALIA<lb/>
+                        IN <placeName ref="#Harbin">HARBIN</placeName><lb/>
+                        Traduzione<lb/>
+                        <note type="stamp">[revenue stamp of 3 lire]</note><lb/>
+                        ATTESTATO.<lb/>
+                        La titolare del presente Attestato, <persName ref="#AM">Anna MADORSKI</persName> di <persName ref="#SM">Shender</persName>, suddita sovietica, è<lb/>
+                        l'allieva del Primo <orgName ref="HSHarbin">Collegio Commerciale Russo</orgName> di<lb/>
+                        <placeName ref="#Harbin">Harbin</placeName> e ha terminato i corsi di questo istitu'<lb/>
+                        zione.<lb/>
+                        Al termine dei corsi, negli esami finali di licenza<lb/>
+                        <persName ref="#AM">Anna Madorski</persName> ha ottenuto la seguente votazione :<lb/>
+                        <gap reason="unrecognizable"/>]<lb/>
+                        <table>
+                            <row role="header">
+                                <cell>Russo</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                            <row>
+                                <cell>Aritmetica</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                            <row>
+                                <cell>Algebra</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                            <row>
+                                <cell>Geometria</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                            <row>
+                                <cell>Trigonometria</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                            <row>
+                                <cell>Fisica</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                            <row>
+                                <cell>Storia</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                            <row>
+                                <cell>Geografia</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                            <row>
+                                <cell>Nozioni Generali sull'Estremo Oriente</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                            <row>
+                                <cell>Cosmografia</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                            <row>
+                                <cell>Botanica</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                            <row>
+                                <cell>Zoologia</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                            <row>
+                                <cell>Mineralogia</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                            <row>
+                                <cell>Fisiologia</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                            <row>
+                                <cell>Anatomia</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                        </table>
+                    </p>
+                </div>
+    
+                <pb n="2" facs="#doc14_page2"/>
+                <div type="page">
+                    <p>
+                        <table>
+                            <row role="header">
+                                <cell>Chimica</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                            <row>
+                                <cell>Igiene</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                            <row>
+                                <cell>Inglese</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                            <row>
+                                <cell>Politica economica</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                            <row>
+                                <cell>Disegno</cell>
+                                <cell>non ha studiato</cell>
+                            </row>
+                            <row>
+                                <cell>Disegno lineare</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                            <row>
+                                <cell>Aritmetica commerciale</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                            <row>
+                                <cell>Corrispondenza russa</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                            <row>
+                                <cell>Corrispondenza inglese</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                            <row>
+                                <cell>Economia commerciale</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                            <row>
+                                <cell>Contabilità</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                            <row>
+                                <cell>Geografia commerciale</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                            <row>
+                                <cell>Storia ebraica</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                            <row>
+                                <cell>Tedesco</cell>
+                                <cell>benissimo</cell>
+                                <cell>5</cell>
+                            </row>
+                        </table>
+                        Ro. Perc. No. 71<lb/>
+                        Art. 78 T C.<lb/>
+                        Diritti £. o. 24<lb/>
+                        (yens 21.60)<lb/>
+                        Per attestare i risultati ottenuti durante i<lb/>
+                        corsi e negli esami finali si rilascia alla signorina<lb/>
+                        <persName ref="#AM">Madorski</persName> il presente Attestato che da la possibilità<lb/>
+                        d'ammissione in tutte le università.<lb/>
+                        E stato deciso inoltre di inscrivere il nome<lb/>
+                        di <persName ref="#AM">Anna Madorski</persName> nel Libro d'Oro.<lb/>
+                        Il Capo del Dipartimento della Istruzione Pubblica<lb/>
+                        nelle Provincie Orientali <gap reason="unreadable"/><lb/>
+                        Il direttore: <persName ref="#Barta">A.Bartashev</persName>.<lb/>
+                        <placeName ref="#Harbin">Harbin</placeName>, il <date when="1929-06-10">10 giugno 1929</date><lb/>
+                        Fotografia e bollo<lb/>
+                        Visto per traduzione conforme all'originale legalizzato<lb/>
+                        in data odierna<lb/>
+                        Il R.Console d'Italia<lb/>
+                        <placeName ref="#Harbin">Harbin</placeName>, il <date when="1933-09-27">(XI) 27 settembre 1933</date><lb/>
+                        <persName ref="#Maffei">A.Maffei</persName><gap reason="unreadable"/><lb/>
+                        <note type="stamp">[consulate stamp of 20 lire]</note><lb/>
+                        <note type="stamp">[consulate stamp of 3 lire]</note><lb/>
+                        <note type="stamp">[consulate stamp of 1 lire]</note><lb/>
+                    </p>
+                </div>
+
+                <pb n="3" facs="#doc14_page3"/>
+                <div type="page">
+                    <p>
+                        <note type="stamp">[revenue stamp of 2 lire]</note><lb/>
+                        <note type="stamp">[two government concession stamps of 5 lire]</note><lb/>
+                        <note type="stamp">[a blurred stamp of Ministry of Foreign Affairs with two Signatures of Maffei and Morone]</note><lb/>
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
