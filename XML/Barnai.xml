@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dbo="http://dbpedia.org/ontology/"
+     xmlns:ius="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#"
+     xmlns:gn="http://www.geonames.org/ontology#"
+     xmlns:dcterms="http://purl.org/dc/terms#">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Archival documents of Violetta</title>
+                <author>Archivio storico dell'Università di Bologna</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition</edition>
+                <respStmt>
+                    <resp>XML Developer</resp>
+                    <name>Marco</name>
+                </respStmt>
+                <respStmt>
+                    <resp>IIIF Developer</resp>
+                    <name>Olga</name>
+                </respStmt>
+                <respStmt>
+                    <resp>XSLT Developer</resp>
+                    <name>Nikolaj</name>
+                    <orgName>Università di Bologna</orgName>
+                </respStmt>             
+            </editionStmt>
+            <publicationStmt>
+                <authority>Unibo Digital Humanities and Digital Knowledge</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Bologna</settlement>
+                        <repository>
+                            <title>Archivio storico dell'Università di Bologna - Studenti Ebrei Stranieri 1920-1940</title>
+                            <ptr target="https://archiviostorico.unibo.it/it/patrimonio-documentario/fascicolo-studenti/studenti-ebrei-stranieri/?record=139637"/>
+                        </repository>
+                        <idno>file 10611</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>           
+        </fileDesc>
+
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="VB">
+                        <persName>Violetta Barnai</persName>
+                        <birth when="1915-01-12">
+                            <placeName ref="#Budapest">Budapest</placeName>
+                        </birth>
+                        <listEvent>
+                            <event type="highSchoolDegree">
+                                <p>A high school degree from <orgName ref="#HIlona">liceo femminile “Zrinyi Ilona”</orgName></p>
+                            </event>
+                            <event type="universityDegree">
+                                <p>A Medicine degree from <orgName ref="#Unimo">Università di Bologna</orgName></p>
+                            </event>
+                        </listEvent>
+                    </person>
+                    <person xml:id="Maurizio">
+                        <persName>Maurizio Barnai</persName>
+                    </person>
+                    <person xml:id="Weisz">
+                        <persName>Weisz Olga</persName>
+                    </person>
+                    <person xml:id="Palmieri">
+                        <persName>G. Palmieri</persName>
+                    </person>
+                    <person xml:id="Ignazio">
+                        <persName>Szabo’ Ignazio </persName>
+                    </person>
+                    <person xml:id="Carolo">
+                        <persName>JOkay Carolo</persName>
+                    </person>
+                    <person xml:id="GCarolo">
+                        <persName>Glatz Carolo </persName>
+                    </person>
+                    <person xml:id="Ernesto">
+                        <persName>Fto Horváth Ernesto</persName>
+                    </person>
+                    <person xml:id="Eugenio">
+                        <persName>Fto Pintér Eugenio</persName>
+                    </person>
+                    <person xml:id="Giulio">
+                        <persName>Fto Vaidinger Giulio</persName>
+                    </person>
+                    <person xml:id="Kampò">
+                        <persName>Giulio Kampó</persName>
+                    </person>
+                    <person xml:id="Re">
+                        <persName>Vittorio Emanuele III</persName>
+                    </person>
+                    <person xml:id="Ghigi">
+                        <persName>Alessandro Ghigi</persName>
+                    </person>               
+                </listPerson>
+            </particDesc>
+            
+            <settingDesc>
+                <listPlace>
+                    <place xml:id="Bologna">
+                        <placeName>Bologna</placeName>
+                        <location>
+                            <geo>44.4949,11.3426</geo>
+                        </location>
+                    </place>
+                    <place xml:id="Budapest">
+                        <placeName>Budapest</placeName>
+                        <location>
+                            <geo>47.4979,19.0402</geo>
+                        </location>
+                    </place>
+                </listPlace>
+            </settingDesc>
+        </profileDesc>
+
+        <xenoData>
+            <rdf:RDF>
+                <!-- persons:-->
+                <rdf:Description tei:ref="#VB" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#violetta_barnai">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Violetta Barnai</rdfs:label>
+
+                    <foaf:parent rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#maurizio_barnai"/>
+                    <foaf:parent rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#weisz_olga"/>
+                    <foaf:birthPlace rdf:resource="http://sws.geonames.org/2037013/"/>
+                    <foaf:birthDate>1915-01-12</foaf:birthDate>
+                    <dcterms:educationLevel>
+                        <rdf:Description>
+                            <rdf:value>High school diploma</rdf:value>
+                            <dcterms:spatial>
+                                <rdf:Description rdf:about="http://sws.geonames.org/3054643/">
+                                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                                    <foaf:name>liceo femminile “Zrinyi Ilona” of Budapest</foaf:name>
+                                </rdf:Description>
+                            </dcterms:spatial>
+                        </rdf:Description>
+                    </dcterms:educationLevel>
+                    
+                    <dcterms:educationLevel>
+                        <rdf:Description>
+                            <rdf:value>Bachelor's in Medicine and Surgery</rdf:value>
+                            <dcterms:hasPart>
+                                <rdf:Description>
+                                    <dcterms:type>Thesis</dcterms:type>
+                                    <dcterms:title>Le metastasi dei tumori ossei
+                                        (diagnosi e terapia)</dcterms:title>
+                                    <dcterms:contributor ref="#Palmieri">Prof. G. G. Palmieri</dcterms:contributor>
+                                    <dcterms:date>20/11/39</dcterms:date> <!-- Graduation date -->
+                                    <dcterms:spatial>
+                                        <rdf:Description>
+                                            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                                            <foaf:name>Università di Bologna</foaf:name>
+                                            <gn:countryCode>IT</gn:countryCode>
+                                            <gn:parentCountry rdf:resource="http://sws.geonames.org/3175395/"/>
+                                        </rdf:Description>
+                                    </dcterms:spatial>
+                                </rdf:Description>
+                            </dcterms:hasPart>
+                        </rdf:Description>
+                    </dcterms:educationLevel>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Maurizio" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#maurizio_barnai">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Maurizio Barnai</rdfs:label>
+                    <foaf:child rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#violetta_barnai"/>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Olga" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#weisz_olga">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Weisz Olga</rdfs:label>
+                    <foaf:child rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#violetta_barnai"/>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Palmieri" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#palmieri">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>G. Palmieri</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Ignazio" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#ignazio">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Szabo’ Ignazio</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Carolo" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#carolo">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>JOkay Carolo</rdfs:label>
+                    <foaf:child rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#boris_epstein"/>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Ernesto" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#ernesto">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Fto Horváth Ernesto</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Eugenio" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#eugenio">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Fto Pintér Eugenio</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Giulio" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#giulio">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Fto Vaidinger Giulio</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Kampo" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#kampo">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Giulio Kampó</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Re" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Vittorio_Emanuele_III">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Vittorio Emanuele III</rdfs:label>
+                    <foaf:child rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#boris_epstein"/>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Ghigi" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#alessandro_ghigi">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Alessandro Ghigi</rdfs:label>
+                </rdf:Description>
+
+                <!-- places:-->
+
+                <rdf:Description tei:ref="#Budapest" rdf:about="rdf:about=https://sws.geonames.org/3054643/">
+                    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+                    <rdfs:label>Budapest</rdfs:label>
+                </rdf:Description>
+                <rdf:Description tei:ref="#Bologna" rdf:about="https://sws.geonames.org/3181928/">
+                    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+                    <rdfs:label>Bologna</rdfs:label>
+                </rdf:Description>
+            </rdf:RDF>
+        </xenoData>
+        </teiHeader>
+
+
+    <facsimile>
+         <!-- Facsimile for Cover of documents for degree in Medicine and Surgery -->
+        <surface xml:id="doc1_page1">
+            <graphic url="http://example.com/facsimiles/doc1/page1.jpg" />
+        </surface>
+        
+        <!-- Facsimile for Cover of final thesis -->
+        <surface xml:id="doc2_page1">
+            <graphic url="http://example.com/facsimiles/doc2/page1.jpg" />
+        </surface>
+        
+        <!-- Facsimile for Certificate of graduation from high school -->
+        <surface xml:id="doc3_page1">
+            <graphic url="http://example.com/facsimiles/doc3/page1.jpg" />
+        </surface>
+        <surface xml:id="doc3_page2">
+            <graphic url="http://example.com/facsimiles/doc3/page2.jpg" />
+        </surface>
+
+        <!-- Facsimile for Birth certificate -->
+        <surface xml:id="doc4_page1">
+            <graphic url="http://example.com/facsimiles/doc4/page1.jpg" />
+        </surface>
+
+        <!-- Facsimile for Diploma of the University of Bologna -->
+        <surface xml:id="doc5_page1">
+            <graphic url="http://example.com/facsimiles/doc5/page1.jpg" />
+        </surface>
+
+        <!-- Facsimile for Grade report of Medicine and Surgery, her degree at the University of Bologna -->
+        <surface xml:id="doc6_page1">
+            <graphic url="http://example.com/facsimiles/doc6/page1.jpg" />
+        </surface>
+
+        <!-- Facsimile for Letter from Violetta Barnai to the Ministry of Education -->
+        <surface xml:id="doc7_page1">
+            <graphic url="http://example.com/facsimiles/doc7/page1.jpg" />
+        </surface>
+        
+        <!-- Facsimile for Letter from the Ministry of Education to the University of Bologna -->
+        <surface xml:id="doc8_page1">
+            <graphic url="http://example.com/facsimiles/doc8/page1.jpg" />
+        </surface>
+
+        <!-- Facsimile for Approval letter from the University of Bologna -->
+        <surface xml:id="doc9_page1">
+            <graphic url="http://example.com/facsimiles/doc9/page1.jpg" />
+        </surface>
+
+        <!-- Facsimile for Diploma of Imperial University of Moscow -->
+        <surface xml:id="doc10_page1">
+            <graphic url="http://example.com/facsimiles/doc10/page1.jpg" />
+        </surface>
+
+        <!-- Facsimile for Diploma of Imperial University of Moscow translated into Italian -->
+        <surface xml:id="doc11_page1">
+            <graphic url="http://example.com/facsimiles/doc11/page1.jpg" />
+        </surface>
+    </facsimile>
+
+
+    <text>
+        <body>
+            <div type="document" xml:id="doc1">
+                <pb n="1" facs="#doc1_page1"/>
+                <div type="page">
+                    <head>Cover of documents for degree in Medicine and Surgery</head>
+                    <p>
+                        Razza Ebraica<lb/>
+                        <orgName ref="#Unibo" type="faculty">Facoltà di Medicina e Chirurgia</orgName><lb/>
+                        <persName ref="#VB">Barnai Ibolya</persName><lb/>
+                        di <persName ref="#Maurizio">Maurizio</persName> e di <persName ref="#Olga">Weisz Olga</persName><lb/>
+                        nato il <date type="birthDate">12 gennaio 1915</date> a <placeName ref="#Budapest">Budapest</placeName>(Ungheria)<lb/>
+                        Laureata <date type="graduation">20 nov. 1939 XVIII</date><lb/>
+                        voti 88/110<lb/>
+                        Anno 1: 1933-34<lb/>
+                        Anno 2: 1934-35<lb/>
+                        Anno 3: 1935-36<lb/>
+                        Anno 4: 1936-37<lb/>
+                        Anno 5: 1937-38<lb/>
+                        Anno 6: 1938-39<lb/>
+                        Diploma <gap reason="unreadable"/> 5282<lb/>
+                        <date when="1939-12-18">18 - XII - 939 XVIII</date><lb/>
+                    </p>
+                </div>
+            </div>
+
+            <div type="thesis" xml:id="doc2">
+                <pb n="1" facs="#doc2_page1"/>
+                <div type="page">
+                    <head>Cover of final thesis</head>
+                    <p>
+                        <orgName ref="#Unibo" type="university">R. Università di Bologna</orgName><lb/>
+                        <orgName ref="#Unibo" type="faculty">Facoltà di Medicina e Chirurgia</orgName><lb/>
+                        Relatore: <persName ref="#Palmieri">Prof. G. G. Palmieri</persName><lb/>
+                        <title>Le metastasi dei tumori ossei (diagnosi e terapia)</title><lb/>
+                        Tesi di laurea di <persName ref="#VB">Barnai Ibolya</persName><lb/>
+                        Anno Accademico 1938-39 XVII<lb/>
+                    </p>
+                </div>
+            </div>
+
+            <div type="diploma" xml:id="doc3">
+                <pb n="1" facs="#doc3_page1"/>
+                <div type="page">
+                    <head>Certificate of graduation from high school</head>
+                    <p>
+                        Fordítás magyarból olaszra a 15.783/1933.B.M.F. számhoz.<lb/>
+                        Traduzione autentica del testo ungherese al No.15.783/1933.<lb/>
+                        No.3/1932/33<lb/>
+                        Attestato di maturita’ in liceo femminile.<lb/>
+                        <persName ref="#VB">Barnai Ibolya</persName>, nata addì <date type ="birth" when="1915-01-12">12 gennaio 1915</date> 
+                        in <placeName ref="#Budapest">Budapest</placeName>, di religione israelitica, dopo aver assolto gli studi di scuole medie 
+                        femminili e cioé dall’anno 1929 le classi I-V nel ginnasio femminile fondazionale della <orgName>comunità israelitica di Budapest</orgName>, 
+                        dall’anno 1929 all’anno 1930 il corso commerciale femminile della comunità israelitica di Budapest, dall’anno 1930 all’anno 
+                        1933 le classi VI-VIII nel <orgName ref="#HIlona">liceo femminile “Zrinyi Ilona”</orgName> in <placeName ref="#Budapest">Budapest</placeName> 
+                        VIII ed avendo meritato nella condotta morale la nota 
+                        “esemplare”; subì l’esame di maturita’ aventi l’infrascritta commissione col seguente risultato:<lb/>
+                        Lingua e letteratura ungherese: eminente<lb/>
+                        Lingua e letteratura latina: buono<lb/>
+                        Lingua e letteratura tedesca: sufficiente<lb/>
+                        Storia: buono<lb/>
+                        Matematica: buono<lb/>
+                        Fisica: eminente<lb/>
+                        Nelle altre materie del liceo femminile ha riportato le seguenti note:<lb/>
+                        Religione e morale: eminente<lb/>
+                        Lingua e letteratura francese: sufficiente<lb/>
+                        Filosofia: sufficiente<lb/>
+                        Geografia: eminente<lb/>
+                        Botanica: sufficiente<lb/>
+                        Zoologia: eminente<lb/>
+                        Mineralogia e geologia: _____<lb/>
+                        Chimica: sufficiente<lb/>
+                    </p>                   
+                </div>    
+
+                <pb n="2" facs="#doc3_page2"/>
+                <div type="page">  
+                    <p> 
+                        Igiene: eminente<lb/>
+                        Disegno: buono.<lb/>
+                        In base a cio’ avendo la candidata corrisposto “bene” alle prestabilite esigenze, la dichiariamo matura per gli studi concessi 
+                        alle donne sulla Universita’.<lb/>
+                        Per il che noi gli rilasciamo questo attestato munito delle nostre proprie firme e del sigillo del Liceo femminile “Zrinyi Ilona” 
+                        in Budapest VIII.<lb/>
+                        Dato in <placeName ref="#Budapest">Budapest</placeName> il <date when="1933-06-20">20 giugno 1933</date><lb/>
+                        <gap reason="unradable"/> m.p. rettore del ginnasio femminile, presidente della commissione esaminatrice. /L.S./ - 
+                        <persName ref="Ignazio">Fto Dr. Szabo’ Ignazio</persName> m.p. rettore. <gap reason="unreadable"/> m.p. professori delle
+                        lingue ungherese e latina. - Moglie di <persName ref="#Carolo">JOkay Carolo</persName> m.p. professore della 
+                        lingua tedesca. - Moglie di <persName ref="#GCarolo">Glatz Carolo</persName> m.p. professore della storia. - 
+                        <persName ref="#Ernesto">Fto Horváth Ernesto</persName> m.p. professore della matematica e fisica, 
+                        come membri della commissione esaminatrice.<lb/>
+                        Ispettorato superiore degli studi in <placeName ref="#Budapest">Budapest</placeName> I.Attila-uca 1.<lb/>
+                        Io sottoscritto ispettore superiore degli studi in <placeName ref="#Budapest">Budapest</placeName> ufficialmente 
+                        certifico, che il attestato di maturita’ steso di sopra 
+                        é un Attestato di maturita’ in fatti rilasciato, valido nello Stato ed autentico e che le firme apposte sono originali.<lb/>
+                        <placeName ref="#Budapest">Budapest</placeName>, il <date when="1933-09-13">13 settembre 1933</date>.<lb/>
+                        <persName ref="#Eugenio">Fto Pintér Eugenio</persName> m.p. ispettore superiore degli studi. /L.S./<lb/>
+                        Valido per la legalizzazione della firma del sig.Ispettore superiore degli studi.<lb/>
+                        <placeName ref="#Budapest">Budapest</placeName> il <date when="1933-09-15">15 settembre 1933</date>.<lb/>
+                        <persName ref="#Giulio">Fto Vaidinger Giulio</persName> m.p. consigliere ministeriale. /L.S./<lb/>
+                        <gap reason="unreadable"/><lb/>
+                        Tradotto da <gap reason="unreadable"/><lb/>
+                    </p>
+                </div>
+            </div>
+
+            <div type="certificate" xml:id="doc4">
+                <pb n="1" facs="#doc4_page1"/>
+                <div type="page">
+                    <head>Birth certificate</head>
+                    <p>
+                        Fordítás magyarból olaszra a 15.783/1933..B.M.F.számhoz.<lb/>
+                        Traduzione del testo ungherese al No.15.783/1933.B.M.F.<lb/>
+                        Capitale: <placeName ref="#Budapest">Budapest</placeName>.<lb/>
+                        Estratto dai Registri delle nascite.<lb/>
+                        Numero d’ordine: 141.<lb/>
+                        Data della registrazione/giorno, mese, anno/: <date when="1915-01-14">14 gennaio 1915</date>.<lb/>
+                        Data della nascita/giorno, mese anno/: <date when="1915-01-12" type="birth">12 dodici gennaio dell’1915 mille novecento quindici</date>. - La neonata: <persName ref="#BI">Ibolya</persName>, femmina, israelitica.<lb/>
+                        Cognome, nome, condizione/professione/, domicilio, religione, eta’ dei genitori: <persName ref="#BM">Barnai Maurizio</persName>, commerciante di vestiti da uomo, di religione israelitica, d’anni 31, - <persName ref="#WO">Weisz Olga</persName>, di religione israelitica, d’anni 24, abitanti a <placeName ref="#Budapest">Budapest</placeName> III.Tavasz ucca No.13.<lb/>
+                        Luogo della nascita, se la nascita non é avvenuta nella dimora della madre: <placeName ref="#Budapest">Budapest</placeName> VI.Bókay tér No.4.<lb/>
+                        Osservazioni eventuali prima della firma. Firme. Registrato a norma del §.78. del Regolamento sui Registri dello Stato civile in base di notificazione in/iscritto. Fto Adám Adalberto m.p.<lb/>
+                        Inserzioni posteriori.Rettificazioni.<lb/>
+                        Certifico che il presente estratto concorda letteralmente col registro delle nascite del distretto matricolare di <placeName ref="#Budapest">Budapest</placeName> VI.<lb/>
+                        Firma illeggibile m.p. sost.ufficiale dello Stato civile.<lb/>
+                        <placeName ref="#Budapest">Budapest</placeName>, il <date when="1924-07-03">3 luglio 1924</date>. /L.S./<lb/>
+                        <gap reason="unreadable"/><lb/>
+                        Tradotto da <gap reason="unreadable"/><persName ref="#Kampo">Giulio Kampó</persName><lb/>
+                    </p>
+                </div>
+            </div>
+   
+            <div type="diploma" xml:id="doc5">
+                <pb n="1" facs="#doc5_page1"/>
+                <div type="page">
+                    <head>Diploma of the University of Bologna</head>
+                    <p>
+                        N. 5282<lb/>
+                        <gap reason="unreadable"/><lb/>
+                        <orgName ref="#Unibo" type="university">R. UNIVERSITA’ DEGLI STUDI DI BOLOGNA</orgName><lb/>
+                        IN NOME DI <persName ref="#Re">S.M. VITTORIO EMANUELE III</persName><lb/>
+                        PER GRAZIA DI DIO E PER VOLONTA’ DELLA NAZIONE<lb/>
+                        RE D’ITALIA IMPERATORE D’ETIOPIA<lb/>
+                        RE D’ITALIA E D’ALBANIA - IMPERATORE D’ETIOPIA<lb/>
+                        Professore Gi. Uff. <persName ref="#Ghigi">Alessandro Ghigi</persName>, Consigliere Nazionale<lb/>
+                        RETTORE DELLA R. UNIVERSITA’ IN BOLOGNA<lb/>
+                        Veduti gli attestati degli studi compiuti dalla signorina<lb/>
+                        <persName ref="#VB">Barnai Ibolya</persName><lb/>
+                        figlia di <persName ref="#Maurizio">Maurizio</persName> nata a <placeName ref="#Budapest">Budapest (Ungheria)</placeName>
+                        di razza ebraica il <date when="1915-01-12" type="birth">12 gennaio 1915</date><lb/>
+                        Veduto il risultato dell’esame generale superato in questa <orgName ref="#Unibo" type="university">R. UNIVERSITA’</orgName><lb/>
+                        il <date when="1939-11-20" type="graduation">20 novembre 1939</date> Le conferiamo la laurea di Dottore in Medicina e Chirurgia<lb/>
+                        Il presente diploma viene rilasciato a tutti gli effetti di legge.<lb/>
+                        Dato a <placeName ref="#Bologna">Bologna</placeName>, il <date when="1939-12-18">18 dicembre 1939 anno XVIII</date>.<lb/>
+                        IL RETTORE<lb/>
+                        <gap reason="unreadable"/><lb/>
+                        IL DIRETTORE AMMINISTRATIVO IL PRESIDE<lb/>
+                        <gap reason="unreadable"/><lb/>
+                        IL PRESIDE<lb/>
+                        <gap reason="unreadable"/>
+                    </p>
+                </div>
+            </div>
+
+            <div type="grades" xml:id="doc6">
+                <pb n="1" facs="#doc6_page1"/>
+                <div type="page">
+                    <head>Grade report of Medicine and Surgery, her degree at the University of Bologna</head>
+                    <p>
+                        <orgName ref="#Unibo" type="university">R. UNIVERSITA’ DEGLI STUDI DI BOLOGNA</orgName><lb/>
+                        <orgName ref="#Unibo" type="faculty">FACOLTA’ DI MEDICINA E DI CHIRURGIA</orgName><lb/>
+                        Si attesta che la Sig.na <persName ref="#BI">Barnai Ibolya</persName><lb/>
+                        di <persName ref="#Maurizio">Maurizio</persName> nata a <placeName ref="#Budapest">Budapest (Ungheria)</placeName>.<lb/>
+                        ha compiuto il sessennio di studi prescritta per la laurea in Medicina e Chirurgia ed ha superato i relativi esami speciali con le seguenti votazioni:
+                    </p>
+                    <table>
+                        <row>
+                            <cell>MATERIE D’ESAME</cell>
+                            <cell>VOTAZIONI</cell>
+                            <cell>ANNOTAZIONI</cell>
+                        </row>
+                        <row>
+                            <cell>Chimica</cell>
+                            <cell>27</cell>
+                        </row>
+                        <row>
+                            <cell>Fisica</cell>
+                            <cell>24</cell>
+                        </row>
+                        <row>
+                            <cell>Biologia e zoologia generale</cell>
+                            <cell>20</cell>
+                        </row>
+                        <row>
+                            <cell>Anatomia umana normale</cell>
+                            <cell>20</cell>
+                        </row>
+                        <row>
+                            <cell>Fisiologia umana</cell>
+                            <cell>18</cell>
+                        </row>
+                        <row>
+                            <cell>Patologia generale</cell>
+                            <cell>24</cell>
+                        </row>
+                        <row>
+                            <cell>Farmacologia</cell>
+                            <cell>18</cell>
+                        </row>
+                        <row>
+                            <cell>Patologia spec. medica e metodologia clinica</cell>
+                            <cell>21</cell>
+                        </row>
+                        <row>
+                            <cell>Patologia spec. chirurgica e propedeutica clinica</cell>
+                            <cell>18</cell>
+                        </row>
+                        <row>
+                            <cell>Anatomia ed istologia patologica</cell>
+                            <cell>18</cell>
+                        </row>
+                        <row>
+                            <cell>Clinica otorinolaringoiatrica</cell>
+                            <cell>22</cell>
+                        </row>
+                        <row>
+                            <cell>Clinica medica generale e terapia medica</cell>
+                            <cell>18</cell>
+                        </row>
+                        <row>
+                            <cell>Clinica chirurgia generale e terapia chirurgica</cell>
+                            <cell>24</cell>
+                        </row>
+                        <row>
+                            <cell>Clinica pediatrica</cell>
+                            <cell>20</cell>
+                        </row>
+                        <row>
+                            <cell>Clinica ostetrica e ginecologia</cell>
+                            <cell>24</cell>
+                        </row>
+                        <row>
+                            <cell>Igiene</cell>
+                            <cell>24</cell>
+                        </row>
+                        <row>
+                            <cell>Medicina legale e delle assicurazioni</cell>
+                            <cell>27</cell>
+                        </row>
+                        <row>
+                            <cell>Clinica delle malattie nervose e mentali</cell>
+                            <cell>27</cell>
+                        </row>
+                        <row>
+                            <cell>Clinica dermosifilopatica</cell>
+                            <cell>21</cell>
+                        </row>
+                        <row>
+                            <cell>Clinica oculistica</cell>
+                            <cell>21</cell>
+                        </row>
+                        <row>
+                            <cell>Clinica odontoiatria</cell>
+                            <cell>23</cell>
+                        </row>
+                        <row>
+                            <cell>Clinica ortopedica</cell>
+                            <cell>18</cell>
+                        </row>
+                        <row>
+                            <cell>Radiologia</cell>
+                            <cell>24</cell>
+                        </row>
+                        <row>
+                            <cell>Anatomia chirurgica</cell>
+                            <cell>26</cell>
+                        </row>
+                    </table>
+                    <p>
+                        Il giorno <date when="1939-11-20" type="graduation">20 novembre 1939</date> superò l’esame di Laurea in Medicina e Chirurgia riportando voti Ottantotto su Centodieci (88/110)<lb/>
+                        <placeName ref="#Bologna">Bologna</placeName>, <date when="1939-11-20">20.XI.39 XVIII</date><lb/>
+                        IL SEGRETARIO<lb/>
+                        <gap reason="unreadable"/>
+                    </p>
+                </div>
+            </div>
+
+            <div type="letter" xml:id="doc7">
+                <pb n="1" facs="#doc7_page1"/>
+                <div type="page">
+                    <head>Letter to the Ministry of Education</head>
+                    <p>
+                        Bologna di competenza e con riferimento alle circolari del 6 ottobre <gap reason="unreadable"/><lb/>
+                        Al Ministero dell’Educazione Nazionale Roma<lb/>
+                        La sottoscritta, <persName ref="#VB">Barnai Violetta</persName>, laureanda in Medicina pressa la 
+                        <orgName ref="#Unibo" type="university">R. Università di Bologna</orgName>, di cittadinanza ungherese, di razza ebrea; 
+                        avendo chiesto alla Segreteria della  <orgName ref="#Unibo" type="faculty">facoltà di Medicina</orgName> l’iscrizione al 6° 
+                        anno accademico ed avendogliela la Direzione della predetta Segreteria, negata, richiamandosi ad istruzioni ricevute con 
+                        lettera di codesto Ministero in data <date when="1938-08-06">6 agosto</date>:<lb/>
+                        La domanda, a codesto Ministero che a lei sia concessa la regolare iscrizione al 6° anno della facoltà di Medicina in 
+                        conformità del disposto dell’art. 5 del Decreto-Legge, presentato da S.E. il Ministro dell’Educazione Nazionale al Consiglio 
+                        dei Ministri nella sua seduta del<lb/>
+                        <date when="1938-09-02">2-IX-1938-XVI</date>, che stabilisce: “in via transitoria essere ammessi a proseguire gli studi universitari 
+                        studenti di razza ebraica, già iscritti ad istituti di istruzione superiore nei passati anni accademici.”<lb/>
+                        Con osservanza<lb/>
+                        <persName ref="#VB">Barnai Violetta</persName><lb/>
+                        <placeName ref="#Bologna">Bologna</placeName> li <date when="1938-09-08">8-IX-1938-XVI</date><lb/>
+                        Si prega chi di ragione a voler dare una sollecita risposta al seguente indirizzo:<lb/>
+                        <persName ref="#VB">Violetta Barnai</persName><lb/>
+                        pr. Lalmi via S. Felice 73<lb/>
+                        <placeName ref="#Bologna">Bologna</placeName><lb/>
+                        con vivi ringraziamenti
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+        
