@@ -9,7 +9,7 @@ function splitCamelCase(string) {
 
 
 
-function parseXML(kind='render', xmlPath="XML/Madorski.xml", elementToStickToID='rec549083178', xmlRenderedOnPage=false){
+function parseXML(kind='render', xmlPath="XML/Madorski_2.0.xml", elementToStickToID='rec549083178', xmlRenderedOnPage=false){
     personXMLTree = null
     fetch(xmlPath)
     .then((response) => response.text())
