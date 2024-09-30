@@ -1,0 +1,2526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dbo="http://dbpedia.org/ontology/"
+     xmlns:ius="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#"
+     xmlns:gn="http://www.geonames.org/ontology#"
+     xmlns:dcterms="http://purl.org/dc/terms#">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Archival documents of Szlama Jósef Fromer</title>
+                <author>Archivio storico dell'Università di Bologna</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition</edition>
+                <respStmt>
+                    <resp>XML Developer</resp>
+                    <name>Marco</name>
+                </respStmt>
+                <respStmt>
+                    <resp>IIIF Developer</resp>
+                    <name>Olga</name>
+                </respStmt>
+                <respStmt>
+                    <resp>XSLT Developer</resp>
+                    <name>Nikolaj</name>
+                    <orgName>Università di Bologna</orgName>
+                </respStmt>             
+            </editionStmt>
+            <publicationStmt>
+                <authority>Unibo Digital Humanities and Digital Knowledge</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Bologna</settlement>
+                        <repository>
+                            <title>Archivio storico dell'Università di Bologna - Studenti Ebrei Srowanieri 1920-1940</title>
+                            <ptr target="https://archiviostorico.unibo.it/it/parowimonio-documentario/fascicolo-studenti/studenti-ebrei-srowanieri/?record=139637"/>
+                        </repository>
+                        <idno>file 10926</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>           
+        </fileDesc>
+
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="SJF">
+                        <persName>Szlama Jósef Fromer</persName>
+                        <birth when="1914-09-08">
+                            <placeName ref="#Czestochowa">Czestochowa</placeName>
+                        </birth>
+                        <listEvent>
+                            <event type="highSchoolDegree">
+                                <p>A high school degree from <orgName ref="#HCzestochowa">Ginnasio coeducativo della Società scuole
+                                    ebraiche medie a Czestochowa</orgName></p>
+                            </event>
+                            <event type="periodOfStudy">
+                                <p>A period of studying Medicine from <orgName ref="#Unige">Università di Genova</orgName></p>
+                            </event>
+                            <event type="universityDegree">
+                                <p>A Medicine degree from <orgName ref="#Unibo">Università di Bologna</orgName></p>
+                            </event>
+                        </listEvent>
+                    </person>
+                    <person xml:id="AF">
+                        <persName>Abramo Fromer</persName>
+                    </person>
+                    <person xml:id="SK">
+                        <persName>Klajman Suna</persName>
+                    </person>
+                    <person xml:id="Calabrese">
+                        <persName>Prof. Calabrese</persName>
+                    </person>
+                    <person xml:id="Galloni">
+                        <persName>Sig. Galloni</persName>
+                    </person>
+                    <person xml:id="EF">
+                        <persName>Emil Fromer</persName>
+                    </person>
+                    <person xml:id="JG">
+                        <persName>Jean Gafan</persName>
+                    </person>
+                    <person xml:id="Mailand">
+                        <persName>Abraham Schuchman Mailand </persName>
+                    </person>
+                    <person xml:id="AZ">
+                        <persName>ANTONI ZMIGRODZKI</persName>
+                    </person>
+                    <person xml:id="SFromer">
+                        <persName>Salek Fromer</persName>
+                    </person>
+                    <person xml:id="Zmidrodzki">
+                        <persName>A. Zmidrodzki</persName>
+                    </person>
+                    <person xml:id="Zemla">
+                        <persName>Zemla</persName>
+                    </person>
+                    <person xml:id="GCB">
+                        <persName>G. COLI BIZZARRINI</persName>
+                    </person>
+                    <person xml:id="Re">
+                        <persName>S. M. VITTORIO EMANUELE III</persName>
+                    </person>
+                    <person xml:id="Ghigi">
+                        <persName>Alessandro Ghigi</persName>
+                    </person>
+                    <person xml:id="Beretta ">
+                        <persName>Beretta</persName>
+                    </person>
+                    <person xml:id="Capone">
+                        <persName>Capone</persName>
+                    </person>
+                    <person xml:id="Guerreri ">
+                        <persName>Guerreri </persName>
+                    </person>
+                    <person xml:id="Costantini  ">
+                        <persName>Costantini</persName>
+                    </person>
+                    <person xml:id="Rauzi">
+                        <persName>Ivo Rauzi</persName>
+                    </person>
+                    <person xml:id="Pratesi">
+                        <persName>P. Pratesi</persName>
+                    </person>
+                    <person xml:id="Bruni">
+                        <persName>C. Bruni </persName>
+                    </person>
+                    <person xml:id="Olivo">
+                        <persName>O. Olivo </persName>
+                    </person>
+                    <person xml:id="Beccari">
+                        <persName>L. Beccari </persName>
+                    </person>
+                    <person xml:id="Parowizi">
+                        <persName>M.L. Parowizi</persName>
+                    </person>
+                    <person xml:id="Lombrosio">
+                        <persName>Lombrosio</persName>
+                    </person>
+                    <person xml:id="Barbaro">
+                        <persName>Barbaro</persName>
+                    </person>
+                    <person xml:id="Maragliano">
+                        <persName>D. Maragliano </persName>
+                    </person>
+                    <person xml:id="Jarozzi">
+                        <persName>Jarozzi</persName>
+                    </person>
+                    <person xml:id="Schiassi">
+                        <persName>Schiassi </persName>
+                    </person>
+                    <person xml:id="Tinozzi">
+                        <persName>Tinozzi </persName>
+                    </person>
+                    <person xml:id="Calicetti">
+                        <persName>Calicetti </persName>
+                    </person>
+                    <person xml:id="Guercini">
+                        <persName>Guercini</persName>
+                    </person>
+                    <person xml:id="Acqua">
+                        <persName>G. Dell’Acqua</persName>
+                    </person>
+                    <person xml:id="Forni">
+                        <persName>G.G. Forni</persName>
+                    </person>
+                    <person xml:id="Bacialli">
+                        <persName>L. Bacialli </persName>
+                    </person>
+                    <person xml:id="Salvioli">
+                        <persName>G. Salvioli</persName>
+                    </person>
+                    <person xml:id="Ayala">
+                        <persName>G. Ayala</persName>
+                    </person>
+                    <person xml:id="Pachioli">
+                        <persName>R. Pachioli </persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+            
+            <settingDesc>
+                <listPlace>
+                    <place xml:id="Bologna">
+                        <placeName>Bologna</placeName>
+                        <location>
+                            <geo>44.49381,11.33875</geo>
+                        </location>
+                    </place>
+                    <place xml:id="Czestochowa ">
+                        <placeName>Czestochowa </placeName>
+                        <location>
+                            <geo>50.79646,19.12409</geo>
+                        </location>
+                    </place>
+                    <place xml:id="Genova">
+                        <placeName>Genova</placeName>
+                        <location>
+                            <geo>44.40478,8.94439</geo>
+                        </location>
+                    </place>
+                    <place xml:id="Landsberg">
+                         <placeName>Landsberg</placeName>
+                        <location>
+                            <geo>48.050783,10.870351</geo>
+                        </location>
+                    </place>
+                    <place xml:id="Milano">
+                        <placeName>Milano</placeName>
+                        <location>
+                            <geo>45.46427,9.18951</geo>
+                        </location>
+                    </place>
+                    <place xml:id="Parigi">
+                        <placeName>Parigi </placeName>
+                        <location>
+                            <geo>48.8534,2.3486</geo>
+                        </location>
+                    </place>
+                    <place xml:id="Wellington">
+                        <placeName>Wellington </placeName>
+                        <location>
+                            <geo>-41.28664,174.77557</geo>
+                        </location>
+                    </place>
+                    <place xml:id="Buchenwal">
+                        <placeName>Buchenwal </placeName>
+                        <location>
+                            <geo>51.0200,11.2422</geo>
+                        </location>
+                    </place>
+                    <place xml:id="Katowice">
+                        <placeName>Katowice</placeName>
+                        <location>
+                            <geo>50.25841,19.02754</geo>
+                        </location>
+                    </place>
+                    <place xml:id="Varsavia">
+                        <placeName>Varsavia</placeName>
+                        <location>
+                            <geo>52.22977,21.01178</geo>
+                        </location>
+                    </place>
+                    <place xml:id="Sochacreno">
+                        <placeName>Sochacreno</placeName>
+                        <location>
+                            <geo>Unavailable</geo>
+                        </location>
+                    </place>
+                </listPlace>
+            </settingDesc>
+        </profileDesc>
+                    
+        <xenoData>
+            <rdf:RDF>
+                <!-- persons:-->
+                <rdf:Description tei:ref="#VB" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#szlama_ósef_fromer">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Szlama Jósef Fromer</rdfs:label>
+
+                    <foaf:parent rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#abramo_fromer"/>
+                    <foaf:parent rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#suna_klajman"/>
+                    <foaf:birthPlace rdf:resource="http://sws.geonames.org/3100946/"/>
+                    <foaf:birthDate>1914-09-08</foaf:birthDate>
+                    <dcterms:educationLevel>
+                        <rdf:Description>
+                            <rdf:value>High school diploma</rdf:value>
+                            <dcterms:spatial>
+                                <rdf:Description rdf:about="http://sws.geonames.org/3100946/">
+                                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                                    <foaf:name>Ginnasio coeducativo della Società scuole
+                                        ebraiche medie a Czestochowa</foaf:name>
+                                </rdf:Description>
+                            </dcterms:spatial>
+                        </rdf:Description>
+                    </dcterms:educationLevel>
+
+                    <dcterms:educationLevel>
+                        <rdf:Description>
+                            <rdf:value>Period of study</rdf:value>
+                            <dcterms:spatial>
+                                <rdf:Description rdf:about="https://sws.geonames.org/3172165/">
+                                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                                    <foaf:name>Università di Genova</foaf:name>
+                                </rdf:Description>
+                            </dcterms:spatial>
+                        </rdf:Description>
+                    </dcterms:educationLevel>
+                    
+                    <dcterms:educationLevel>
+                        <rdf:Description>
+                            <rdf:value>Bachelor's in Medicine and Surgery</rdf:value>
+                            <dcterms:hasPart>
+                                <rdf:Description>
+                                    <dcterms:type>Thesis</dcterms:type>
+                                    <dcterms:title>ANATOMIA CHIRURGICA DELLA TIROIDE E TECNICA PER LA CURA DEL MORBO DI FLAIANI-BASEDOW</dcterms:title>
+                                    <dcterms:conrowibutor ref="#Calabrese">Prof. Calabrese</dcterms:conrowibutor>
+                                    <dcterms:date>03/07/39</dcterms:date> <!-- Graduation date -->
+                                    <dcterms:spatial>
+                                        <rdf:Description>
+                                            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                                            <foaf:name>Università di Bologna</foaf:name>
+                                            <gn:counrowyCode>IT</gn:counrowyCode>
+                                            <gn:parentCounrowy rdf:resource="http://sws.geonames.org/3175395/"/>
+                                        </rdf:Description>
+                                    </dcterms:spatial>
+                                </rdf:Description>
+                            </dcterms:hasPart>
+                        </rdf:Description>
+                    </dcterms:educationLevel>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#AF" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#abramo_fromer">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Abramo Fromer</rdfs:label>
+                    <foaf:child rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#szlama_ósef_fromer"/>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#SK" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#suna_klajman">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Suna_Klajman</rdfs:label>
+                    <foaf:child rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#szlama_ósef_fromer"/>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Calabrese" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Calabrese">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Prof. Calabrese</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Galloni" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Galloni">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Sig. Galloni</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#EF" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#EF">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Emil Fromer</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#JG" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Gafan">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Jean Gafan</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Mailand" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Mailand">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Abraham Schuchman Mailand</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#ZMIGRODZKI" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#ZMIGRODZKI">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>ANTONI ZMIGRODZKI</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#SFromer" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#SFromer">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Salek Fromer</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Zmidrodzki" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Zmidrodzki">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>A. Zmidrodzki</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Zemla" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Zemla">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Zemla</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#GCB" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#GCB">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>G. COLI BIZZARRINI</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Re" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Vittorio_Emanuele_III">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>S. M. VITTORIO EMANUELE III</rdfs:label>
+                    <foaf:child rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#boris_epstein"/>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Ghigi" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Ghigi">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Alessandro Ghigi</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Beretta" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Beretta">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Beretta</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Capone" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Capone">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Capone</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Guerreri" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Guerreri">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Guerreri</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Costantini" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Costantini">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Costantini</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Rauzi" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Rauzi">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Ivo Rauzi</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Pratesi" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Pratesi">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>P. Pratesi</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Bruni" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Bruni">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>C. Bruni</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Olivo" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Olivo">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>O. Olivo</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Beccari" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Beccari">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>L. Beccari</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Parowizi" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Parowizi">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>M.L. Parowizi</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Lombrosio" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Lombrosio">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Lombrosio</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Barbaro" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Barbaro">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Barbaro</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Maragliano" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Maragliano">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>D. Maragliano</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Jarozzi" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Jarozzi">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Jarozzi</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Schiassi" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Schiassi">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Schiassi</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Tinozzi" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Tinozzi">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Tinozzi</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Calicetti" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Calicetti">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Calicetti</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Guercini" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Guercini">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Guercini</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Acqua" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Acqua">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>G. Dell’Acqua</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Forni" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Forni">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>G.G. Forni</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Bacialli" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Bacialli">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>L. Bacialli</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Salvioli" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Salvioli">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>G. Salvioli</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Ayala" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Ayala">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>G. Ayala</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Pachioli" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Pachioli">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>R. Pachioli</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Re" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#vittorio_emanuele_III">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Vittorio Emanuele III</rdfs:label>
+                </rdf:Description>
+
+                
+                <!--Places-->
+                <rdf:Description tei:ref="#Bologna" rdf:about="https://sws.geonames.org/3181928/">
+                    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+                    <rdfs:label>Bologna</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Czestochowa" rdf:about="https://sws.geonames.org/3100946/">
+                    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+                    <rdfs:label>Czestochowa</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Genova" rdf:about="https://sws.geonames.org/3172165/">
+                    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+                    <rdfs:label>Genova</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Landsberg" rdf:about="https://sws.geonames.org/2878980/">
+                    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+                    <rdfs:label>Landsberg</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Milano" rdf:about="https://sws.geonames.org/3173435/">
+                    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+                    <rdfs:label>Milano</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Parigi" rdf:about="https://sws.geonames.org/2988507/">
+                    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+                    <rdfs:label>Parigi</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Wellington" rdf:about="https://sws.geonames.org/2179537/">
+                    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+                    <rdfs:label>Wellington</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Buchenwal" rdf:about="https://sws.geonames.org/2946366/">
+                    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+                    <rdfs:label>Buchenwal</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Katowice" rdf:about="https://sws.geonames.org/3096472/">
+                    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+                    <rdfs:label>Katowice</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Varsavia" rdf:about="https://sws.geonames.org/756135/">
+                    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+                    <rdfs:label>Varsavia</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Sochacreno" rdf:about="Unavailable">
+                    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+                    <rdfs:label>Sochacreno</rdfs:label>
+                </rdf:Description>
+            </rdf:RDF>
+        </xenoData>
+    </teiHeader>
+
+
+    <facsimile>
+        <!-- Medicine diploma for Fromer Szlama Jósef -->
+       <surface xml:id="M10926-01">
+           <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-01.JPG" />
+       </surface>
+       
+       <!-- Thesis of Fromer Szlama Jósef in Medicine -->
+       <surface xml:id="M10926-02">
+           <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-02.JPG" />
+       </surface>
+       
+       <!-- Letters written by Fromer Szlama Jósef to the University of Bologna -->
+       <surface xml:id="M10926-03_0">
+           <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-03_0.JPG" />
+       </surface>
+       <surface xml:id="M10926-03_1">
+           <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-03_1.JPG" />
+       </surface>
+
+       <!-- Letters written by Fromer Szlama Jósef to the University of Bologna -->
+       <surface xml:id="M10926-04">
+           <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-04.JPG" />
+       </surface>
+
+       <!-- Application to the University of Bologna by Fromer Szlama Jósef -->
+       <surface xml:id="M10926-05">
+           <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-05.JPG" />
+       </surface>
+
+       <!-- Consulate Certification -->
+       <surface xml:id="M10926-06">
+           <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-06.JPG" />
+       </surface>
+
+       <!-- Final Study Plan for Fromer Szlama Jósef -->
+       <surface xml:id="M10926-07">
+           <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-07.JPG" />
+       </surface>
+       
+       <!-- Letters written by Fromer Szlama Jósef to the University of Bologna -->
+       <surface xml:id="M10926-15">
+           <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-15.JPG" />
+       </surface>
+
+       <surface xml:id="M10926-08">
+            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-09.JPG" />
+       </surface>
+
+       <surface xml:id="M10926-09">
+            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-09.JPG" />
+        </surface>
+
+       
+       <!-- Birth Certificate -->
+       <surface xml:id="M10926-10_0">
+           <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-10_0.JPG" />
+       </surface>
+
+       <surface xml:id="M10926-10_1">
+            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-10_1.JPG" />
+        </surface>
+
+       <!-- Previous Education (Diploma) -->
+       <surface xml:id="M10926-11_0">
+           <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-11_0.JPG" />
+       </surface>
+       <surface xml:id="M10926-11_1">
+            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-11_1.JPG" />
+        </surface>
+
+       <!-- Diploma of University of Bologna -->
+       <surface xml:id="M10926-12">
+           <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-12.JPG" />
+       </surface>
+
+       <!-- Student's Record Book -->
+       <surface xml:id="M10926-13_0">
+            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-13_0.JPG" />
+        </surface>
+        <surface xml:id="M10926-13_1">
+            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-13_1.JPG" />
+        </surface>
+        <surface xml:id="M10926-13_2">
+            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-13_2.JPG" />
+        </surface>
+        <surface xml:id="M10926-13_3">
+            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-13_3.JPG" />
+        </surface>
+        <surface xml:id="M10926-13_4">
+            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-13_4.JPG" />
+        </surface>
+        <surface xml:id="M10926-13_5">
+            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-13_5.JPG" />
+        </surface>
+        <surface xml:id="M10926-13_6">
+            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-13_6.JPG" />
+        </surface>
+        <surface xml:id="M10926-13_7">
+            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-13_7.JPG" />
+        </surface>
+        <surface xml:id="M10926-13_8">
+            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-13_8.JPG" />
+        </surface>
+        <surface xml:id="M10926-13_9">
+            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-13_9.JPG" />
+        </surface>
+
+        <!-- Documents from Fromer previous university (Genova) -->
+        <surface xml:id="M10926-14_0">
+            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-14_0.JPG" />
+        </surface>
+        <surface xml:id="M10926-14_1">
+            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-14_1.JPG" />
+        </surface>
+   </facsimile>
+
+    <text>
+        <body>
+            <div type="Diploma" xml:id="M10926">
+                <pb n="1" facs="#M10926-01"/>
+                <div type="page">
+                    <head>Medicine diploma for Fromer Szlama Jósef</head>
+                    <p>
+                        Posiz. N. 3284<lb/>
+                        Vol.<lb/>
+                        10926<lb/>
+                        <orgName ref="#Unibo" type="faculty">Facoltà di Medicina e Chirurgia</orgName><lb/>
+                        <persName ref="#SJF">Fromer Szlama Jósef</persName><lb/>
+                        Di <persName ref="#AF">Abramo</persName> e di <persName ref="#SK">Klajman Suna</persName><lb/>
+                        nato il <date when="1914-09-08" type="birth">8 settembre 1914</date><lb/>
+                        a <placeName ref="#Czestochowa" type="birthPlace">Czestochowa (Polonia)</placeName><lb/>
+                        Anno 1.° 1933-34<lb/>
+                        Anno 2.° 1934-35<lb/>
+                        Anno 3.° 1935-36<lb/>
+                        Anno 4.° 1936-37<lb/>
+                        Anno 5.° 1937-38<lb/>
+                        Anno 6.° 1938-39<lb/>
+                        Congelato dalla <orgName ref="#Unige" type="university">R. Università di Genova</orgName><lb/>
+                        <date when="1936-01-15">15 . 1 . 936 XIV</date><lb/>
+                        Ritornato da <placeName ref="#Genova">Genova</placeName><lb/>
+                        <date when="1933-11-17">17-XI 93</date><gap reason="unreadable"/><lb/>
+                        Laureato: <date when="1939-07-03" type="graduationDate">3 luglio 939 xvu</date><lb/>
+                        voti 100/110<lb/>
+                        Diploma <idno>Ho5140</idno><lb/>
+                        <date when="1939-07-31">31 . 7 . 39 xvu</date><lb/>
+                    </p>
+                </div>
+            </div>
+    
+            <div type="thesis" xml:id="M10926">
+                <pb n="1" facs="#M10926-02"/>
+                <div type="page">
+                    <head>Thesis of Fromer Szlama Jósef in Medicine</head>
+                    <p>
+                        <orgName ref="#Unibo">R. UNIVERSITA DEGLI STUDI DI BOLOGNA</orgName><lb/>
+                        Istituto di Medicina Operatoria<lb/>
+                        Dirett. Inc.: Prof. <persName ref="#Calabrese">CALABRESE</persName><lb/>
+                        <title>ANATOMIA CHIRURGICA DELLA TIROIDE E TECNICA PER LA<lb/>
+                        CURA DEL MORBO DI FLAIANI-BASEDOW</title><lb/>
+                        Tesi di Laurea di<lb/>
+                        <persName ref="#SJF">SELAMA JOZHP FROMER</persName><lb/>
+                        Anno Accademico 1934-39<lb/>
+                    </p>
+                </div>
+            </div>
+    
+            <div type="letter" xml:id="M10926">
+                <pb n="1" facs="#M10926-03_0"/>
+                <div type="page">
+                    <head>Letters written by Fromer Szlama Jósef to the University of Bologna</head>
+                    <opener>
+                        Alla Secretteria della Universita<lb/>
+                        <date when="1946-07-13">13. VII . 46</date>.<lb/>
+                        Di Bologna . Facoltà di Medicina!<lb/>
+                        <salute>Egr. Sig. <persName ref="#Galloni">Galloni</persName>!</salute><lb/>
+                    </opener>
+                    <p>
+                        Ho ricevuto le sue due lettere indirizzate a <placeName ref="#Laudsberg">Laudsberg</placeName><lb/>
+                        in Germania nelle quali mi scriveva di mandare 100 lire<lb/>
+                        per spese postali del diploma. Siccome era impossibile<lb/>
+                        dalla Germania di inviare del denaro al estero ho scritto al<lb/>
+                        mio conoscente a <placeName ref="#Milano">Milano</placeName> di pagare per me queste 100 lire.<lb/>
+                        Ho avuto da lui una risposta che ho mandato il denaro<lb/>
+                        alla <orgName ref="#Unibo">Università di Bologna</orgName>. Percio sono molto meravigliato<lb/>
+                        che non mi avete finora mandato il mio diploma<lb/>
+                        Ora mi rowovo a <placeName ref="#Parigi">Parigi</placeName> gia in viaggio per l'ausrowalia<lb/>
+                        Vi prego allora di spedire il diploma non piu<lb/>
+                        A <placeName ref="#Laudsberg">Laudsberg</placeName> ma al indirizzo dell mio fratello<lb/>
+                        a Nuova Zelanda: <persName ref="#EF">Mr. E. Fromer</persName> P. O. Box 532<lb/>
+                        <placeName ref="#Wellington">Wellington</placeName> New Zealand, il quale Vi manderà<lb/>
+                    </p>
+                </div>
+
+                <pb n="2" facs="#M10926-03_1"/>
+                <div type="page">
+                    <p>
+                        di la il denaro necessario per le spese postali.<lb/>
+                        Nella speranza che mi farete questo grande favore,<lb/>
+                        giache senza il diploma non posso esercitare<lb/>
+                        la mia professione
+                    </p> 
+                    <closer>
+                        <salute>Vi ringrazio a priori<lb/>
+                        con distinti saluti</salute>
+                    </closer><lb/>
+                    <signed>Dott. <persName ref="#SJF">S. Fromer</persName></signed><lb/>
+                </div>
+            </div>
+      
+    
+            <div type="letter" xml:id="M10926">
+                <pb n="1" facs="#M10926-04"/>
+                <div type="page">
+                    <head>Letters written by Fromer Szlama Jósef to the University of Bologna</head>
+                    <dateline><date when="1946-06-06">20 LUG 14 June 6, 1946</date></dateline><lb/>
+                    <opener>
+                        Alla Segreteria della <orgName ref="#Unibo">Università di Bologna</orgName>
+                        Italien/Italy<lb/>
+                        <salute>Dear Mr. <persName ref="#Galloni">Galloni</persName>,</salute>
+                    </opener><lb/>
+                    <p>
+                        I have your letter of May 10th addressed<lb/>
+                        to <persName ref="#JG">Miss Gafan</persName>. I am writing in English because it is for-<lb/>
+                        bidden from Germany to write in Italian.<lb/>
+                        With regard to my diploma as it is forbidden<lb/>
+                        to send any money abroad, I have written to my friend Mr.<lb/>
+                        <persName ref="Mailand">Abraham Schuchman Mailand</persName> and Via Aselli 26 and asked him to pay<lb/>
+                        the 100 Lire for me. Three weeks ago I received an answer,<lb/>
+                        informing me, that he has done so. I hope that you are in the<lb/>
+                        possession of this sum in the meantime and please let me have<lb/>
+                        as soon as possible my diploma at the following address:<lb/>
+                        Dr. <persName ref="#SJF">S. Fromer</persName>, <placeName ref="#Landsberg">Landsberg</placeName> Jewish Center,<lb/>
+                        Bavaria, Germany. c/o UNRRA Team 311<lb/>
+                    </p>
+                    <closer>
+                        Many thanks in advance for your kindness<lb/>
+                        <salute>Sincerely yours<lb/>
+                            Dr. <persName ref="#SJF">Salek Fromer</persName><lb/>
+                            Dott. <persName ref="#SJF">S.L. Fromer</persName><lb/>
+                        </salute>
+                        Diploma<lb/>
+                    </closer>   
+                </div>
+            </div>
+                 
+            <div type="letter" xml:id="M10926">
+                <pb n="1" facs="#M10926-05"/>
+                <div type="page">
+                    <head>Application to the University of Bologna by Fromer Szlama Jósef</head>
+                    <dateline><date when="1933">1933</date></dateline><lb/>
+                    <opener>
+                        [3 Lire stamp]<lb/>
+                        <salute>
+                            Al<lb/>
+                            Magnifico Rettore<lb/>
+                            Della <orgName ref="#Unibo">R. Università</orgName><lb/>
+                            Della <orgName ref="#Unibo" type="faculty">Facoltà di Medicina e Chirurgia</orgName><lb/>
+                            di <placeName ref="#Bologna">Bologna</placeName><lb/>
+                        </salute>
+                    </opener>
+                    <p>
+                        Il sottoscritto, figlio di <persName ref="#AF">Abramo</persName><lb/>
+                        e <persName ref="#SK">Sara Cleimann</persName> nato a <placeName ref="#Czestochowa">Czestochowa</placeName><lb/>
+                        (Polonia) <date when="1914-08-17">8|17 1914</date>, domiciliato a <placeName ref="#Czestochowa">Czestochowa</placeName><lb/>
+                        Fa domanda alla S.V. Illusrowe di essere<lb/>
+                        Ammesso al I-° anno di Medicina e Chirurgia<lb/>
+                        presso questa Università<lb/>
+                    </p>
+                    <closer>
+                        <salute>
+                            Con ossequi<lb/>
+                            <persName ref="#SJF">Szlama Josek Frommer</persName><lb/>
+                            <placeName ref="#Bologna">Bologna</placeName> <gap reason="unreadable"/> <date when="1933">1933</date> <gap reason="unreadable"/><lb/>
+                        </salute>
+                        <note>[UNIVERSITY OF BOLOGNA STAMP]</note><lb/>
+                        <note>[STUDENT’S PHOTO]</note><lb/>
+                    </closer>
+                </div>
+            </div>
+
+            <div type="document" xml:id="M10926">
+                <pb n="1" facs="#M10926-06"/>
+                <div type="page">
+                    <head>Consulate Certification</head>
+                    <p>
+                        KONSULAT GENERALNY MEDIOLAN il <date when="1938-10-13">13 ottobre 1938</date>.<lb/>
+                        RZECZYPOSPOLITEJ POLSKIEJ VIA S. PAOLO, 18.<lb/>
+                        <orgName>CONSOLATO GENERALE<lb/>
+                        DELLA REPUBBLICA DI POLONIA</orgName><lb/>
+                        <placeName ref="#Milano">MILANO</placeName><lb/>
+                        REVENUE STAMP<lb/>
+                        3284<lb/>
+                        Nr 944/29<lb/>
+                        W sprawIe<lb/>
+                        Oggetto<lb/>
+                        CERTIFICATO<lb/>
+                        Il <orgName>Consolato Generale della Repubblica di Polonia a Milano</orgName> certifica col presente certificato, rilasciato a richiesta dell’interessato/a/ per essere presentato allo RR. Autorità Italiana, che:<lb/>
+                        il/la/Signor/ina/ <persName ref="#SJF">FROMER Szlama Józef</persName><lb/>
+                        figlio/a/ di <persName ref="#AF">Abram</persName> e di <persName ref="#SK">Sura Klajman</persName><lb/>
+                        nato/a/ il <date when="1914-09-08" type="birth">8 settembre 1914</date><lb/>
+                        a <placeName ref="#Czestochowa">Czestochowa</placeName><lb/>
+                        disrowetto di <placeName ref="#Czestochowa">Czestochowa</placeName> in Polonia<lb/>
+                        di stato civile celibe, studente/ssa/, attualmente domiciliato/a/ a <placeName ref="#Bologna">Bologna</placeName>, e cittadino/a/ della Repubblica di Polonia.<lb/>
+                        Si certifica inolrowe che i genitori del/la/ sunnominato/a/ hanno la loro dimora stabile a <placeName ref="#Czestochowa">Czestochowa</placeName> in Polonia.<lb/>
+                        <note>[Polish REVENUE STAMP]</note> <persName ref="#AZ">ANTONI ZMIGRODZKI</persName><lb/>
+                        Konsul Generalny R.P.<lb/>
+                        Milano<lb/>
+                        VISTO si legalizza la firma del Sig. <persName ref="#AZ">A. Zmigrodzki</persName><lb/>
+                        Console Generale di Polonia a Milano<lb/>
+                        IL PREFETTO<lb/>
+                        (<persName ref="#MV">Magris Virgilio</persName>)<lb/>
+                        <note>[two prefecture of Milan stamps and two Italian government REVENUE STAMPS]</note><lb/>
+                    </p>
+                </div>
+            </div>
+            
+            <div type="study_plan" xml:id="M10926">
+                <pb n="1" facs="#M10926-07"/>
+                <div type="page">
+                    <head>Final Study Plan for Fromer Szlama Jósef</head>
+                    <p>
+                        <orgName ref="#Unibo">R. UNIVERSITÀ DEGLI STUDI DI BOLOGNA</orgName> 3384<lb/>
+                        FACOLTÀ DI MEDICINA E CHIRURGIA<lb/>
+                        Si attesta che il sig. <persName ref="#SJF">Fromer Szlama Jozef</persName><lb/>
+                        Di <persName ref="#Abramo">Abramo</persName> nato a <placeName ref="#Czestochowa">Czestochowa (Polonia)</placeName>.<lb/>
+                        Ha compiuto il sessennio di studi prescritto per la laurea in Medicina e Chirurgia ed ha superato i<lb/>
+                        Relativi esami speciali con le seguenti votazioni:<lb/>
+                        <table>
+                            <row>
+                                <cell>MATERIE D'ESAME</cell>
+                                <cell>VOTAZIONI (espressa in rowentesimi)</cell>
+                                <cell>ANNOTAZIONI</cell>
+                            </row>
+                            <row>
+                                <cell>Chimica</cell>
+                                <cell>24</cell>
+                                <cell>Con deliberazione della Facoltà l’esame di Zoologia è convalidato per Biologia e zoologia generale l’esame di Batteriologia per Microbiologia</cell>
+                            </row>
+                            <row>
+                                <cell>Fisica</cell>
+                                <cell>30</cell>
+                                
+                            </row>
+                            <row>
+                                <cell>Biologia e zoologia generale</cell>
+                                <cell>27</cell>
+                                
+                            </row>
+                            <row>
+                                <cell>Anatomia umana normale</cell>
+                                <cell>28</cell>
+                                
+                            </row>
+                            <row>
+                                <cell>Fisiologia umana</cell>
+                                <cell>18</cell>
+                                
+                            </row>
+                            <row>
+                                <cell>Patologia generale</cell>
+                                <cell>24</cell>
+                                
+                            </row>
+                            <row>
+                                <cell>Farmacologia</cell>
+                                <cell>18</cell>
+                                
+                            </row>
+                            <row>
+                                <cell>Patologia spec. medica e metodologia clinica</cell>
+                                <cell>20</cell>
+                                
+                            </row>
+                            <row>
+                                <cell>Patologia spec. chirurgica e propedeutica clinica</cell>
+                                <cell>30 lode</cell>
+                                
+                            </row>
+                            <row>
+                                <cell>Anatomia ed istologia patologica</cell>
+                                <cell>27</cell>
+                                
+                            </row>
+                            <row>
+                                <cell>Clinica otorinolaringoiarowica</cell>
+                                <cell>20</cell>
+                                
+                            </row>
+                            <row>
+                                <cell>Clinica medica generale e terapia medica</cell>
+                                <cell>27</cell>
+                                
+                            </row>
+                            <row>
+                                <cell>Clinica chirurgica generale e terapia chirurgica</cell>
+                                <cell>25</cell>
+                                
+                            </row>
+                            <row>
+                                <cell>Clinica pediarowica</cell>
+                                <cell>29</cell>
+                                
+                            </row>
+                            <row>
+                                <cell>Clinica osterowica ginecologica</cell>
+                                <cell>27</cell>
+                                
+                            </row>
+                            <row>
+                                <cell>Igiene</cell>
+                                <cell>29</cell>
+                                
+                            </row>
+                            <row>
+                                <cell>Medicina legale e delle assicurazioni</cell>
+                                <cell>27</cell>
+                                
+                            </row>
+                            <row>
+                                <cell>Clinica delle malattie nervose e mentali</cell>
+                                <cell>29</cell>
+                                
+                            </row>
+                            <row>
+                                <cell>Clinica dermosifiliopatica</cell>
+                                <cell>28</cell>
+                                
+                            </row>
+                            <row>
+                                <cell>Clinica oculistica</cell>
+                                <cell>30</cell>
+                                
+                            </row>
+                            <row>
+                                <cell>Clinica odontoiarowia</cell>
+                                <cell>26</cell>
+                                
+                            </row>
+                            <row>
+                                <cell>Clinica ortopedica</cell>
+                                <cell>24</cell>
+                                
+                            </row>
+                            <row>
+                                <cell>Istologia <gap reason="unreadable"/></cell>
+                                <cell>26</cell>
+                                
+                            </row>
+                            <row>
+                                <cell>Chimica fisiologica</cell>
+                                <cell>27</cell>
+                                
+                            </row>
+                            <row>
+                                <cell>Anatomia chirurgica</cell>
+                                <cell>28</cell>
+                                
+                            </row>
+                        </table>
+                        
+                        Il giorno <date when="1939-07-03" type="graduationDate">3 luglio 939</date> superò l’esame di Laurea in Medicina e Chirurgia riportando<lb/>
+                        Voti Cento su Centodieci (100/110)<lb/>
+                        <placeName ref="#Bologna">Bologna</placeName>, <date when="1939-07-03">3 . 7 . 39 xvu</date><lb/>
+                        IL SEGRETARIO <gap reason="unreadable"/><lb/>
+                    </p>
+                </div>
+            </div>
+            
+            <div type="letter" xml:id="M10926">
+                <pb n="1" facs="#M10926-08"/>
+                <div type="page">
+                    <head>Letters written by Fromer Szlama Jósef to the University of Bologna</head>
+                    <dateline>Landsberg il <date when="1945-11-09">9 Novembre 1945</date></dateline>
+                    <opener>
+                        <salute>
+                            Alla Secretteria della Università di Bologna. 10926<lb/>
+                        </salute>
+                    </opener>
+                    <p>
+                        Prego gentilmente di voler spedirmi il mio diploma di <title>dottore di medicina<lb/>
+                        e chirurgia</title>. Ho fatto l’esame di laurea al <date when="1939-07-03" type="graduationDate">3 di luglio 1939</date> alla codesta università,<lb/>
+                        con cento punti. Siccome alla secretteria mi hanno detto allora, che il diploma<lb/>
+                        non porowo ottenere prima del <date when="1939-09">settembre 1939</date>, sono partito a casa mia,<lb/>
+                        con l’intenzione di scrivere dopo due mesi alla universita di mandarmi<lb/>
+                        il diploma. A causa però della guerra non l’ho potuto fare. Del resto<lb/>
+                        ero imprigionato nel campo di concenrowamento a <placeName ref="#Buchenwald">Buchenwald</placeName> in Germania<lb/>
+                        come prigioniero politico dal principio della guerra fino alla fine di questa.<lb/>
+                        Ora siccome persone private non esiste posta fra Germania e l’Italia vi<lb/>
+                        prego gentilmente di mandare il diploma al indirizzo <persName ref="#JG">Signora Gafan</persName>,<lb/>
+                        che aggiungo sotto, che è cittadina americana e che è impiegata della<lb/>
+                        A.J.D.C americana. Come tale essa ha il diritto di proffittare della<lb/>
+                        posta militare. Le tassi di diploma sono state pagate ancora prima<lb/>
+                        della mia partenza a casa nel 1939. Aggiungo la carta d’identità scritta<lb/>
+                        in inglese e rilasciata dalla “Joint” americana in <placeName ref="#Landsberg">Landsberg</placeName>. Nella speranza<lb/>
+                        che mi manderete al più presto possibile il mio diploma ringrazio a priori<lb/>
+                        con ossequi<lb/>
+                        <persName ref="#SJF">Dott. Szlama Josef Fromer</persName><lb/>
+                        nato a <placeName ref="#Czestochowa">Czestochowa</placeName> – Polonia<lb/>
+                        nel <date when="1914-09-08" type="birth">8 Settembre 1914</date><lb/>
+                        R 8 . 4 . 46<lb/>
+                        <gap reason="unreadable"/> l’importo spese postali e per l’ <gap reason="unreadable"/><lb/>
+                        Indirizzo:<lb/>
+                        <persName ref="#JG">JEAN GAFAN</persName><lb/>
+                        <orgName ref="#AJDC">A.J.D.C.</orgName><lb/>
+                        <gap reason="unreadable"/> U.N.R.R.A. Team 311<lb/>
+                        APO 757 U.S. Army<lb/>
+                    </p>
+                </div>
+            </div>
+                    
+            <div type="letter" xml:id="M10926">  
+                <pb n="1" facs="#M10926-09"/>
+                <div type="page">
+                    <p>
+                        AMERICAN JOINT DISTRIBUTION COMMITTEE<lb/>
+                        <placeName ref="#Landsberg">LANDSBERG JEWISH CENTER LANDSBERG</placeName> GERMANY<lb/>
+                        TO: <orgName ref="#Unibo">UNIVERSITY in BOLOGNA</orgName><lb/>
+                        <date when="1945-11-06">6th. November 1945</date><lb/>
+                        To Whom It May Concern!<lb/>
+                        This is to state that <persName ref="#SJF">Dr. Josef Fromer</persName><lb/>
+                        born <date when="1914-09-08" type="birth">1914 September 8</date>, of <placeName ref="#Czestochowa">Czestochowa</placeName> /Poland/ is the person<lb/>
+                        whose photograph is attached to this letter. This letter is<lb/>
+                        issued for the purpose of identification in connection with<lb/>
+                        obtaining of his diplomas.<lb/>
+                        <gap reason="unreadable"/><lb/>
+                        <orgName ref="#AJDC">A.J.D.C.</orgName><lb/>
+                        Field Representative<lb/>
+                        [Fromer’s photograph]<lb/>
+                        [two LANDSBERG CASERNE OFFICE STAMPS]<lb/>
+                    </p>
+                </div>
+            </div>
+
+            <div type="letter" xml:id="M10926">
+                <pb n="1" facs="#M10926-15"/>
+                <div type="page">
+                    <dateline>il <date when="1946-02-15">15 Febbraio 1946</date></dateline>
+                    <opener>
+                        <salute>
+                            Alla<lb/>
+                            Secretteria della <orgName ref="#Unibo">Università di Bologna</orgName>!<lb/>
+                        </salute>
+                    </opener>
+                    <p>
+                        Ho già scritto due volte alla secretteria domandando<lb/>
+                        di mandarmi il mio diploma a <placeName ref="#Landsberg">Laudsberg</placeName> (Germania),<lb/>
+                        dove mi rowovo, al indirizzo di <persName ref="#JG">Miss Gafan</persName> impiegata<lb/>
+                        di U.N.R.R.A di qua. Sinora non ho ricevuto<lb/>
+                        nessuna risposta. Mio fratello a Nuova Zelanda<lb/>
+                        (suo indirizzo: <persName ref="#EF">Emil Fromer</persName> <placeName ref="#Wellington">Wellington</placeName> P.O. Box 532<lb/>
+                        New Zealand) ha pure scritto una lettera da Voi.<lb/>
+                        Vi prego ancora una volta di spedire a me il diploma<lb/>
+                        al indirizzo seguente: <persName ref="#JG">Miss Jean Gafan</persName> <orgName>A.J.D.C.</orgName><lb/>
+                        % U.N.R.R.A. TEAM 311 A.P.O 757 U.S. Army.<lb/>
+                        Nel caso ciò fosse impossibile prego di mandarlo<lb/>
+                        al mio fratello a Nuova Zelanda.<lb/>
+                        Ho fatto l’esame di laurea in medicina e chirurgia<lb/>
+                        al <date when="1939-07-03">3 di luglio 1939</date> con 100 punti. A causa della guerra<lb/>
+                        non ho potuto ritirare il diploma.<lb/>
+                        Nella speranza, che la mia preghiera sarà favorevolmente<lb/>
+                        ascoltata<lb/>
+                    </p>
+                    <closer>
+                        <salute>
+                            Con distinti ossequi<lb/>
+                        </salute>
+                        <persName ref="#SJF">Dott. Fromer Szlama Jozef</persName><lb/>
+                    nato a <placeName ref="#Czestochowa">Czestochowa</placeName> (Polonia)<lb/>
+                    al <date when="1914-09-08" type="birth">8.IX.1914</date>.<lb/>
+                    </closer>
+                </div>
+            </div>
+
+            <div type="certificate" xml:id="M10926">
+                <pb n="1" facs="#M10926-10_0"/>
+                <div type="page">
+                    <head>Birth Certificate</head>
+                    <p>
+                        Traduzione 4<lb/>
+                        <orgName>Ufficio di Stato Civile della Sezione Sinagoga</orgName><lb/>
+                        <placeName ref="#Czestochowa">Città Czestochowa</placeName>, circond. Czestochowa<lb/>
+                        Certificato maturità<lb/>
+                        fatto dal ufficio dello Stato Civile<lb/>
+                        della Sezione Sinagoga a Czestochowa.<lb/>
+                        Nr. 387/1914<lb/>
+                        <persName ref="#SJF">Szlama Józef (Giuseppe) Fromer</persName>,<lb/>
+                        di <placeName ref="#Sochareno">Sochacreno</placeName>, nato a <placeName ref="#Czestochowa">Czestochowa</placeName> 
+                        <date when="1914-09-08">l'8<lb/> settembre 1914</date> (anno millenovecentoquattordici) da <persName ref="#AF">Abramo</persName> e <persName ref="#SK">Suna di casa Klajman</persName>.<lb/>
+                        Città di <placeName ref="#Czestochowa">Czestochowa</placeName>, li <date when="1926-12-07">7 dicembre 1926</date>.<lb/>
+                        L.S.<lb/>
+                        L'ufficiale Stato Civile<lb/>
+                        il presidente<lb/>
+                        <gap reason="unreadable"/><lb/>
+                    </p>
+                    <p>
+                        Per la rowaduzione,<lb/>
+                        fatta dall'originale<lb/>
+                        polacco:<lb/>
+                        <placeName ref="#Katowice">Katowice</placeName>, <date when="1933-07-11">11.VII.33</date>.<lb/>
+                        <gap reason="unreadable"/><lb/>
+                        <note>[Czestochowa STAMP]</note><lb/>
+                        <note>[TWO POLISH REVENUE STAMP]</note><lb/>
+                        <note>[ONE ITALIAN REVENUE STAMP]</note><lb/>
+                        Prawdziwość nowyższego podelan<lb/>
+                        <gap reason="unreadable"/> zaprzysiężonaro tłumacza języka włoskiego<lb/>
+                        poświadcz<lb/>
+                        <placeName ref="#Katowice">Katowice</placeName>, dnia <gap reason="unreadable"/><lb/>
+                        Prezes Sade Okręgowego.<lb/>
+                        <gap reason="unreadable"/><lb/>
+                    </p>
+                </div>  
+                    
+                <pb n="2" facs="#M10926-10_1"/>
+                <div type="page">
+                    <p>
+                        REGIO CONSOLATO D’ITALIA IN <placeName ref="#Katowice">KATOWICE</placeName><lb/>
+                        Visto in questo R Consolato d'Italia,<lb/>
+                        Si legalizza la firma del <persName ref="#Zemla">Signor Zemla</persName>,<lb/>
+                        <gap reason="unreadable"/> del rowibunale <gap reason="unreadable"/> di <placeName ref="#Katowice">Katowice</placeName><lb/>
+                        <placeName ref="#Katowice">Katowice</placeName> li <date when="1933-07-21">21 luglio 1933</date> Anno XI<lb/>
+                        Il regio console<lb/>
+                        <persName ref="#GCB">G. COLI BIZZARRINI</persName><lb/>
+                        <note>[two Katowice stamps]</note><lb/>
+                        Art. 71<lb/>
+                        n.308 di Pere.<lb/>
+                        Esatto: <gap reason="unreadable"/><lb/>
+                        <note>[kingdom of Italy mark revenue]</note><lb/>
+                        MINISTERO DEGLI AFFARI ESTERI<lb/>
+                        SI ATTESTA L’AUTENTICITÀ DELLA FIRMA<lb/>
+                        <persName ref="#GCB">Coli Bizzarrini</persName><lb/>
+                        <placeName ref="#Rome">ROMA</placeName> <date when="1933-01-07">7 GEN 9.6 XIV</date><lb/>
+                        D’ORDINE DEL MINISTRO <gap reason="unreadable"/><lb/>
+                    </p>
+                </div>
+            </div>
+
+            <div type="diploma" xml:id="M10926-11_0">
+                <pb n="1" facs="#M10926-11_0"/>
+                <div type="page">
+                    <head>Previous Education (Diploma)</head>
+                    <p>
+                        Traduzione<lb/>
+                        Consiglio della Sezione Scolastica di <placeName ref="#Krakow">Cracovia</placeName><lb/>
+                        Commissione esaminarowice di stato.<lb/>
+                        Certificato di maturità.<lb/>
+                        <persName ref="#SJF">Fromer Szlama Jóseph (Giuseppe)</persName>, nato<lb/>
+                        <date when="1914-09-08" type="birthDate">l'8 settembre 1914</date> a <placeName ref="#Czestochowa">Czestochowa</placeName>, 
+                        <gap reason="unreadable"/> di <placeName ref="#Kielce">Kielce</placeName>, di confessione mosaica, finito il<lb/>
+                        <orgName ref="#HCzestochowa">Ginnasio coeducativo della Società scuole<lb/>
+                        ebraiche medie a <placeName ref="#Czestochowa">Czestochowa</placeName></orgName>, al quale era stato<lb/>
+                        ammesso nel settembre 1926, passò nel giugno 1933<lb/>
+                        all'esame ginnasiale ampliato di maturità<lb/>
+                        del tipo umanistico dinanzi alla Commissione<lb/>
+                        esaminarowice di Stato, nominato dal Consiglio<lb/>
+                        della Sezione Scolastica di <placeName ref="#Krakow">Cracovia</placeName> con lettera del<lb/>
+                        <date when="1933-02-16">16 febbraio 1933</date> nm. II 1454/33 ed ottenne le seguenti<lb/>
+                        note finali:<lb/>
+                        Religione: sufficiente<lb/>
+                        Lingua polacca: sufficiente<lb/>
+                        Lingua latina: sufficiente<lb/>
+                        Lingua tedesca: sufficiente<lb/>
+                        Storia con cognizione Polonia contemp.: suffic.<lb/>
+                        Fisica con chimica: sufficiente.<lb/>
+                        Matematica: sufficiente<lb/>
+                        Olrowe a ciò egli ottenne le note finali d’anno<lb/>
+                        nelle classi VI-VIII (<gap reason="unreadable"/> la relativa nota nell'esame<lb/>
+                        L'ammissione al suddetto ginnasio) come segue:<lb/>
+                        Propedeutica di filosofia: sufficiente,<lb/>
+                        Lingua ebraica: sufficiente,<lb/>
+                        Storia degli ebrei: sufficiente<lb/>
+                        La commissione Esaminarowice di Stato ha di-<lb/>
+                        chiarato <persName ref="#SJF">Fromer Szlama Giuseppe</persName> maturo agli<lb/>
+                        studi superiori, dandogli il presente certificato.<lb/>
+                        <placeName ref="#Czestochowa">Czestochowa</placeName>, lì <date when="1933-06-28">28 giugno 1933</date><lb/>
+                        Nr. 153/8 Il presidente della Commissione Esaminarowice di Stato<lb/>
+                        L.S. (-) sottoscrizione I membri della Commissione Esaminarowice di Stato<lb/>
+                        (seguono sei sottoscrizioni illeggibili)<lb/>
+                        <gap reason="unreadable"/><lb/>
+                    </p>
+                    <p>
+                        Per la rowaduzione fatta dall'originale polacco:<lb/>
+                        <placeName ref="#Katowice">Katowice</placeName>, <date when="1933-07-11">11.VII.33</date>.<lb/>
+                        <note>[TWO POLISH REVENUE STAMP]</note><lb/>
+                        <note>[TWO POLISH REVENUE STAMP]</note><lb/>
+                        <note>[ONE ITALIAN REVENUE STAMP]</note><lb/>
+                        Prawdziwość nowyższego podelan<lb/>
+                        <gap reason="unreadable"/> zaprzysiężonaro tłumacza języka włoskiego<lb/>
+                        <gap reason="unreadable"/> <placeName ref="#Katowice">Katowicach</placeName> poświadcz<lb/>
+                        <placeName ref="#Katowice">Katowice</placeName>, dnia <date when="1933-07-11">11 <gap reason="unreadable"/> 1933</date><lb/>
+                        Prezes Sadu Okręgowego.<lb/>
+                        <note>[Czestochowa STAMP]</note><lb/>
+                        <gap reason="unreadable"/><lb/>
+                    </p>
+                </div>
+
+                <pb n="2" facs="#M10926-11_1"/>
+                <div type="page">
+                    <p>
+                        REGIO CONSOLATO D’ITALIA IN <placeName ref="#Katowice">KATOWICE</placeName><lb/>
+                        Visto in questo R Consolato d'Italia,<lb/>
+                        Si legalizza la firma del Signor Zemla,<lb/>
+                        Presidente del rowibunale <gap reason="unreadable"/> di <placeName ref="#Katowice">Katowice</placeName><lb/>
+                        <placeName ref="#Katowice">Katowice</placeName> li <date when="1933-07-21">21 luglio 1933</date> Anno XI<lb/>
+                        Il regio console<lb/>
+                        <persName ref="#GCB">G. COLI BIZZARRINI</persName><lb/>
+                        <note>[two Katowice stamps]</note><lb/>
+                        Art. 71<lb/>
+                        n.307 di Pere.<lb/>
+                        Esatto: <gap reason="unreadable"/><lb/>
+                        <note>[THREE kingdom of Italy mark revenues]</note><lb/>
+                        <orgName>MINISTERO DEGLI AFFARI ESTERI</orgName><lb/>
+                        SI ATTESTA L’AUTENTICITÀ DELLA FIRMA<lb/>
+                        DEL SIG <persName ref="#GCB">Coli Bizzarrini</persName><lb/>
+                        <placeName ref="#Rome">ROMA</placeName> <date when="1933-01-06">7 GEN 6 XIV</date><lb/>
+                        D’ORDINE DEL MINISTRO <gap reason="unreadable"/><lb/>
+                        <note>[Italian minisrowy of foreign affairs stamp]</note><lb/>
+                        <note>[royal consulate of Italy in Katowice]</note><lb/>
+                        <orgName>R. AMBASCIATA D’ITALIA</orgName><lb/>
+                        <placeName ref="#Warsaw">VARSAVIA</placeName><lb/>
+                        Il presente document dà adito, nella Repubblica<lb/>
+                        Di Polonia, alle Università<lb/>
+                        <placeName ref="#Warsaw">Varsavia</placeName> li <date when="1933-09-30">30-Settembre 1933</date> – <gap reason="unreadable"/><lb/>
+                        IL PRIMO SEGRETARIO<lb/>
+                        DELL'AMASCIATA<lb/>
+                        (Cittadini)<lb/>
+                        <gap reason="unreadable"/><lb/>
+                        <note>[Royal Italian Embassy in Warsaw Consular chancellery STAMP]</note><lb/>
+                    </p>
+                </div>
+            </div>
+
+            <div type="diploma" xml:id="M10926-12">
+                <pb n="1" facs="#M10926-12"/>
+                <div type="page">
+                    <head>Diploma of University of Bologna</head>
+                    <p>
+                        650 / <date when="1939-06-09">9 . 6 . 39</date> N. 5140<lb/>
+                        Secondo esemplare originale, che<lb/>
+                        non può essere consegnato al<lb/>
+                        titolare del diploma, da conser-<lb/>
+                        varsi negli atti della Segreteria<lb/>
+                    </p>
+                    <p>
+                        <orgName ref="#Unibo">R. UNIVERSITÀ DEGLI STUDI DI BOLOGNA</orgName><lb/>
+                        IN NOME DI S. M. <persName ref="#Re">VITTORIO EMANUELE III</persName><lb/>
+                        PER GRAZIA DI DIO E PER VOLONTÀ DELLA NAZIONE<lb/>
+                        RE D’ITALIA IMPERATORE D’ETIOPIA<lb/>
+                        RE D’ITALIA E D’ALBANIA – IMPERATORE D’ETIOPIA<lb/>
+                        L.B.<lb/>
+                    </p>
+                    <p>
+                        Noi Professore <persName ref="#Ghigi">G. Uff. Alessandro Ghigi</persName>, Consigliere Nazionale<lb/>
+                        RETTORE DELLA R. UNIVERSITÀ IN BOLOGNA<lb/>
+                        Veduti gli attestati degli studi compiuti dal ……. Signor<lb/>
+                        <persName ref="#SJF">Fromer Szlama Józef</persName><lb/>
+                        Figlio di <persName ref="#AF">Abramo</persName> nato a <placeName ref="#Czestochowa">Czetochowa</placeName> 
+                        il <date when="1914-09-08" type="birthDate">8 settembre 1914</date><lb/>
+                        Il <date when="1939-07-03">3 luglio 1939</date> gli conferiamo la <title>laurea di Dottore in Medicina e Chirurgia</title><lb/>
+                        Dottore in Medicina e Chirurgia<lb/>
+                        Il presente diploma viene rilasciato a tutti gli effetti di legge.<lb/>
+                        Dato a <placeName ref="#Bologna">Bologna</placeName>, il <date when="1939-07-31">31 luglio 1939</date> anno XVII,<lb/>
+                        L.S.<lb/>
+                    </p>
+                    <p>
+                        IL RETTORE<lb/>
+                        <persName ref="#Ghigi">Alessandro Ghigi</persName><lb/>
+                        IL DIRETTORE AMMINISTRATIVO IL PRESIDE<lb/>
+                        <gap reason="unreadable"/><lb/>
+                    </p>
+                </div>
+            </div>
+
+            <div type="document" xml:id="M10926">
+                <pb n="1" facs="#M10926-13_0"/>
+                <div type="page">
+                    <head>Student's Record Book</head>
+                    <p>
+                        Marow. N 3284<lb/>
+                        <orgName ref="#Unibo">R. Università degli studi di Bologna</orgName><lb/>
+                        Corso di<lb/>
+
+                        LIBRETTO D’INSCRIZIONE<lb/>
+                        Dello studente <persName ref="#SJF">Fromer Szlama Jozef</persName><lb/>
+                    </p>
+                </div>
+
+                <pb n="2" facs="#M10926-13_1"/>
+                <div type="page">
+                    <p>
+                        <note>[Five lire Italian mark revenue]</note> Marow. N. 3284<lb/>
+                        <orgName ref="#Unibo">R. Università degli Studi di Bologna</orgName><lb/>
+                        Corso di <orgName ref="#Unibo" type="Faculty">FACOLTÀ DI MEDICINA e CHIRURGIA</orgName><lb/>
+                        LIBRETTO D’INSCRIZIONE<lb/>
+                        Dello studente sig. <persName ref="#SJF">Fromer Szlama Jozef</persName><lb/>
+                        di <persName ref="#AF">Abramo</persName> da <placeName ref="#Czestochowa">Czestochowa</placeName> (Polonia)<lb/>
+                        Addì <date when="1933-12-26">26 dicembre 1933 XII</date><lb/>
+                        IL DIRETTORE DELLA SEGRETERIA IL RETTORE<lb/>
+                        <gap reason="unreadable"/> <persName ref="#Ghigi">A Ghigi</persName><lb/>
+                        FIRMA DELL’INSCRITTO<lb/>
+                        <persName ref="#SJF">Szlama Jozef Fromer</persName><lb/>
+                    </p>
+                </div>
+
+                <pb n="3" facs="#M10926-13_2"/>
+                <div type="page">
+                <p>
+                    <orgName ref="#Unibo" type="university"></orgName>R. Università di Bologna<lb/>
+                    Facoltà di <orgName ref="#Unibo" type="faculty">Facoltà di Medicina e Chirurgia</orgName><lb/>
+                    N. di Marowicola <persName ref="#SJF">Fromer Szlama Jozef</persName><lb/>
+                    Anno scolastico 1937-1938<lb/>
+                    Anno di corso 5°<lb/>
+                </p>
+                <table>
+                    <row>
+                        <cell>INDICAZIONE DEI CORSI</cell>
+                        <cell>Numero delle ore settimanali</cell>
+                        <cell>NOME DEI PROFESSORI</cell>
+                        <cell>FIRMA DEI PROFESSORI</cell>
+                        <cell>ATTESTAZIONI DI FREQUENZA</cell>
+                        <cell>ATTESTAZIONI di pagamento o dispensa dalle tasse</cell>
+                    </row>
+                    <row>
+                        <cell>1. Anatomia e Istol. Patol.</cell>
+                        
+                        <cell><gap reason="unreadable"/></cell>
+                        <cell><gap reason="unreadable"/></cell>
+                    </row>
+                    <row>
+                        <cell>2. Igiene</cell>
+                    </row>
+                    <row>
+                        <cell>3. Clinica dermosifilopat.(Sem_)</cell>
+                    </row>
+                    <row>
+                        <cell>4. Clin. Mal. Ment. E nerv. (Sem_)</cell>
+                    </row>
+                    <row>
+                        <cell>5. Clinica medica generale</cell>
+                    </row>
+                    <row>
+                        <cell>6. Clinica chirurgica generale</cell>
+                    </row>
+                    <row>
+                        <cell>7. Medicina legale e Infort.</cell>
+                    </row>
+                    <row>
+                        <cell>8. Traumat. E Ortopedia</cell>
+                    </row>
+                    <row>
+                        <cell>9. Clinica oculistica (Sem….</cell>
+                    </row>
+                    <row>
+                        <cell>10. Clinica odontoiarowia</cell>
+                        
+                        <cell><persName ref="#Beretta">prof. Beretta</persName></cell>
+                        <cell><persName ref="#Beretta">Beretta</persName></cell>
+                        
+                    </row>
+                    <row>
+                        <cell>1. Neuro Patologia Gen,</cell>
+                        
+                        <cell><persName ref="#Capone">Capone</persName></cell>
+                        <cell><persName ref="#Capone">Capone</persName></cell>
+                    </row>
+                    <row>
+                        <cell>2. Semeiotica Chirurgica</cell>
+                        
+                        <cell><persName ref="#Guerreri">Guerreri</persName></cell>
+                        <cell><persName ref="#Guerreri">Guerreri</persName></cell>
+                    </row>
+                    <row>
+                        <cell>3. Microbiologia ed esercit</cell>
+                    </row>
+                    <row>
+                        <cell>4. Fisiologia</cell>
+                        
+                        <cell><persName ref="#Costantini">Prof Costantini</persName></cell>
+                        <cell><persName ref="#Costantini">Prof Costantini</persName></cell>
+                    </row>
+                    <row>
+                        <cell>5.</cell>
+                    </row>
+                    <row>
+                        <cell>6.</cell>
+                    </row>
+                </table>
+                <p>
+                    OBBLIGATORI<lb/>
+                    <note>[from 1 to 10, Written vertically on the left side]</note><lb/>
+                    LIBERI<lb/>
+                    <note>[from 1 to 6 written vertically on the left side]</note><lb/>
+                </p>
+                <p>
+                    Tassa di immarowicolazione:<lb/>
+                    (da pagarsi non più tardi del 5 novembre) . in L. - Boll N. del<lb/>
+                    Tassa d'inscrizione:<lb/>
+                    1 rata (deve pagarsi non più tardi del 5 novem.) in L. - Boll N. del<lb/>
+                    2 rata (deve pagarsi non olrowe la fine di gennaio) in L. - Boll N. del<lb/>
+                    3 rata (deve pagarsi non olrowe la fine di marzo) in L. - Boll N. del<lb/>
+                    4 rata (deve pagarsi non olrowe la fine di maggio) in L. - Boll N. del<lb/>
+                    Tassa Opere sportive assistenziali . . in L. 25- - Boll N. del<lb/>
+                    Sopratassa per gli esami di profitto:<lb/>
+                    1 rata (deve pagarsi non più tardi del 5 novem.) in L. 75.- - Boll N. del<lb/>
+                    2 rata (deve pagarsi non olrowe la fine di marzo) in L. 75.- - Boll N. del<lb/>
+                </p>      
+            </div>
+
+            <pb n="1" facs="#M10926-13_3"/>
+            <div type="page">
+                <p>
+                    <orgName ref="#Unibo" type="university">R. Università di Bologna</orgName> – Facoltà di <orgName ref="#Unibo" type="faculty">FACOLTÀ DI MEDICINA E CHIRURGIA</orgName><lb/>
+                    1933-34 N. di Marowicola<lb/>
+                    <persName ref="#SzlamaJozefFromer">Fromer Szlama Jozef</persName><lb/>
+                    Anno scolastico <date when="1933">19 ___-19___</date><lb/>
+                    Anno di corso I<lb/>
+                </p>
+                <table>
+                    <row>
+                        <cell>INDICAZIONE DEI CORSI</cell>
+                        <cell>Numero delle ore settimanali</cell>
+                        <cell>NOME DEI PROFESSORI</cell>
+                        <cell>FIRMA DEI PROFESSORI</cell>
+                        <cell>ATTESTAZIONI DI FREQUENZA</cell>
+                        <cell>ATTESTAZIONI di pagamento o dispensa dalle tasse</cell>
+                    </row>
+                    <row>
+                        <cell>1. Zoologia gen. E parasit.</cell>
+                        <cell>3</cell>
+                        <cell><persName ref="#Ghigi">A. Ghigi</persName></cell>
+                        <cell><persName ref="#Ghigi">A. Ghigi</persName></cell>
+                        <cell><persName ref="#Ghigi">Ghigi</persName></cell>
+                        
+                    </row>
+                    <row>
+                        <cell>2. Fisica medica</cell>
+                        <cell>3</cell>
+                        <cell><persName ref="#Rauzi">Ivo Rauzi</persName></cell>
+                        <cell><persName ref="#Rauzi">Ivo Rauzi</persName></cell>
+                        <cell><persName ref="#Rauzi">Ivo Rauzi</persName></cell>
+                        
+                    </row>
+                    <row>
+                        <cell>3. Chimica gen., inorg., organ</cell>
+                        <cell>3</cell>
+                        <cell><persName ref="#Pratesi">P. Pratesi</persName></cell>
+                        <cell><persName ref="#Pratesi">P. Pratesi</persName></cell>
+                        <cell><persName ref="#Pratesi">P. Pratesi</persName></cell>
+                        
+                    </row>
+                    <row>
+                        <cell>4. Anatomia descrittiva</cell>
+                        <cell>3</cell>
+                        <cell><persName ref="#Bruni">C. Bruni</persName></cell>
+                        <cell><persName ref="#Bruni">C. Bruni</persName></cell>
+                        <cell><persName ref="#Bruni">C. Bruni</persName></cell>
+                        
+                    </row>
+                    <row>
+                        <cell>5. Esercitazioni di biologia</cell>
+                        
+                        <cell><persName ref="#Ghigi">A. Ghigi</persName></cell>
+                        <cell><persName ref="#Ghigi">A. Ghigi</persName></cell>
+                        <cell><persName ref="#Ghigi">Ghigi</persName></cell>
+                        
+                    </row>
+                    <row>
+                        <cell>6. Esercitazioni di Fisica</cell>
+                        
+                        <cell><persName ref="#Rauzi">Ivo Rauzi</persName></cell>
+                        <cell><persName ref="#Rauzi">Ivo Rauzi</persName></cell>
+                        <cell><persName ref="#Rauzi">Ivo Rauzi</persName></cell>
+                        
+                    </row>
+                    <row>
+                        <cell>7. Esercitazioni di Anatomia</cell>
+                        
+                        <cell><persName ref="#Bruni">C. Bruni</persName></cell>
+                        <cell><persName ref="#Bruni">C. Bruni</persName></cell>
+                        <cell><persName ref="#Rauzi">Ivo Rauzi</persName></cell>
+                    </row>
+                    <row>
+                        <cell>8.</cell>
+                    </row>
+                    <row>
+                        <cell>9.</cell>
+                    </row>
+                    <row>
+                        <cell>10.</cell>
+                    </row>
+                    <row>
+                        <cell>1.</cell>
+                    </row>
+                    <row>
+                        <cell>2.</cell>
+                    </row>
+                    <row>
+                        <cell>3.</cell>
+                    </row>
+                    <row>
+                        <cell>4.</cell>
+                    </row>
+                    <row>
+                        <cell>5.</cell>
+ 
+                    </row>
+                    <row>
+                        <cell>6.</cell>
+
+                    </row>
+                </table>
+                <p>
+                    OBBLIGATORI<lb/>
+                    [from 1 to 10, Written vertically on the left side]<lb/>
+                    LIBERI<lb/>
+                    [from 1 to 6 written vertically on the left side]<lb/>
+                </p>
+            </div>
+
+
+
+            <pb n="5" facs="#M10926-13_4"/>
+                <div type="page">
+                    <head>Student's Record Book - Academic Year 1933-34</head>
+                    <p>
+                        <orgName ref="#Unibo" type="university">R. Università di Bologna</orgName> – Facoltà di <orgName ref="#Unibo" type="faculty">FACOLTÀ DI MEDICINA E CHIRURGIA</orgName><lb/>
+                        1933-34 N. di Marowicola<lb/>
+                        <persName ref="#SJF">Fromer Szlama Jozef</persName><lb/>
+                        Anno scolastico 19 ___-19___<lb/>
+                        Anno di corso I<lb/>
+                    </p>
+                    <table>
+                        <row>
+                            <cell>INDICAZIONE DEI CORSI</cell>
+                            <cell>Numero delle ore settimanali</cell>
+                            <cell>NOME DEI PROFESSORI</cell>
+                            <cell>FIRMA DEI PROFESSORI</cell>
+                            <cell>ATTESTAZIONI DI FREQUENZA</cell>
+                            <cell>ATTESTAZIONI di pagamento o dispensa dalle tasse</cell>
+                        </row>
+                        <row>
+                            <cell>1. Zoologia gen. E parasit.</cell>
+                            <cell>3</cell>
+                            <cell><persName ref="#Ghigi">A. Ghigi</persName></cell>
+                            <cell><persName ref="#Ghigi">A. Ghigi</persName></cell>
+                            <cell><persName ref="#Ghigi">Ghigi</persName></cell>
+                            
+                        </row>
+                        <row>
+                            <cell>2. Fisica medica</cell>
+                            <cell>3</cell>
+                            <cell><persName ref="#Rauzi">Ivo Rauzi</persName></cell>
+                            <cell><persName ref="#Rauzi">Ivo Rauzi</persName></cell>
+                            <cell><persName ref="#Rauzi">Ivo Rauzi</persName></cell>
+                            
+                        </row>
+                        <row>
+                            <cell>3. Chimica gen., inorg., organ</cell>
+                            <cell>3</cell>
+                            <cell><persName ref="#Pratesi">P. Pratesi</persName></cell>
+                            <cell><persName ref="#Pratesi">P. Pratesi</persName></cell>
+                            <cell><persName ref="#Pratesi">P. Pratesi</persName></cell>
+                            
+                        </row>
+                        <row>
+                            <cell>4. Anatomia descrittiva</cell>
+                            <cell>3</cell>
+                            <cell><persName ref="#Bruni">C. Bruni</persName></cell>
+                            <cell><persName ref="#Bruni">C. Bruni</persName></cell>
+                            <cell><persName ref="#Bruni">C. Bruni</persName></cell>
+                            
+                        </row>
+                        <row>
+                            <cell>5. Esercitazioni di biologia</cell>
+                            
+                            <cell><persName ref="#Ghigi">A. Ghigi</persName></cell>
+                            <cell><persName ref="#Ghigi">A. Ghigi</persName></cell>
+                            <cell><persName ref="#Ghigi">Ghigi</persName></cell>
+                            
+                        </row>
+                        <row>
+                            <cell>6. Esercitazioni di Fisica</cell>
+                            
+                            <cell><persName ref="#Rauzi">Ivo Rauzi</persName></cell>
+                            <cell><persName ref="#Rauzi">Ivo Rauzi</persName></cell>
+                            <cell><persName ref="#Rauzi">Ivo Rauzi</persName></cell>
+                            
+                        </row>
+                        <row>
+                            <cell>7. Esercitazioni di Anatomia</cell>
+                            
+                            <cell><persName ref="#Bruni">C. Bruni</persName></cell>
+                            <cell><persName ref="#Bruni">C. Bruni</persName></cell>
+                            <cell><persName ref="#Rauzi">Ivo Rauzi</persName></cell>
+                            
+                        </row>
+                        <row>
+                            <cell>8.</cell>
+                        </row>
+                        <row>
+                            <cell>9.</cell>
+                        </row>
+                        <row>
+                            <cell>10.</cell>
+                        </row>
+                        <row>
+                            <cell>1.</cell>
+                        </row>
+                        <row>
+                            <cell>2.</cell>
+                        </row>
+                        <row>
+                            <cell>3.</cell>
+                        </row>
+                        <row>
+                            <cell>4.</cell>
+                        </row>
+                        <row>
+                            <cell>5.</cell>
+                        </row>
+                        <row>
+                            <cell>6.</cell>
+                        </row>
+                    </table>
+                    <p>
+                        OBBLIGATORI<lb/>
+                        <note>[from 1 to 10, Written vertically on the left side]</note><lb/>
+                        LIBERI<lb/>
+                        <note>[from 1 to 6 written vertically on the left side]</note><lb/>
+                    </p>
+                </div>
+                    
+                <pb n="6" facs="#M10926-13_5>"/>
+                <div type="page">
+                    <head>Student's Record Book - Academic Year 1934-35</head>
+                    <p>
+                        <orgName ref="#Unibo" type="university">R. Università di Bologna</orgName> – Facoltà di <orgName ref="#Unibo" type="university">FACOLTÀ DI MEDICINA E CHIRURGIA</orgName><lb/>
+                        1934-35 N. di Marowicola<lb/>
+                        <persName ref="#SJF">Fromer Szlama Jozef</persName><lb/>
+                        Anno scolastico 19 ___-19___<lb/>
+                        Anno di corso II<lb/>
+                    </p>
+                    <table>
+                        <row>
+                            <cell>INDICAZIONE DEI CORSI</cell>
+                            <cell>Numero delle ore settimanali</cell>
+                            <cell>NOME DEI PROFESSORI</cell>
+                            <cell>FIRMA DEI PROFESSORI</cell>
+                            <cell>ATTESTAZIONI DI FREQUENZA</cell>
+                            <cell>ATTESTAZIONI di pagamento o dispensa dalle tasse</cell>
+                        </row>
+                        <row>
+                            <cell>1. Istologia ed Embriologia</cell>
+                            
+                            <cell><persName ref="#Olivo">O. Olivo</persName></cell>
+                            <cell><persName ref="#Olivo">O. Olivo</persName></cell>
+                            <cell><persName ref="#Olivo">O. Olivo</persName></cell>
+                            
+                        </row>
+                        <row>
+                            <cell>2. Esercitaz. Istologica</cell>
+                            
+                            <cell><persName ref="#Olivo">O. Olivo</persName></cell>
+                            <cell><persName ref="#Olivo">O. Olivo</persName></cell>
+                            <cell><persName ref="#Olivo">O. Olivo</persName></cell>
+                            
+                        </row>
+                        <row>
+                            <cell>3. Anatomia umana descritt</cell>
+                            
+                            <cell><persName ref="#Bruni">A. C. Bruni</persName></cell>
+                            <cell><persName ref="#Bruni">A. C. Bruni</persName></cell>
+                            <cell><persName ref="#Bruni">A. C. Bruni</persName></cell>
+                            
+                        </row>
+                        <row>
+                            <cell>4. Esercitazioni di anatomia</cell>
+                            
+                            <cell><persName ref="#Bruni">A. C. Bruni</persName></cell>
+                            <cell><persName ref="#Bruni">B. Bruni</persName></cell>
+                            <cell><persName ref="#Bruni">B. Bruni</persName></cell>
+                            
+                        </row>
+                        <row>
+                            <cell>5. Chimica fisiologica</cell>
+                            
+                            <cell><persName ref="#Beccari">L. Beccari</persName></cell>
+                            <cell><persName ref="#Beccari">L. Beccari</persName></cell>
+                            <cell><persName ref="#Beccari">L. Beccari</persName></cell>
+                            
+                        </row>
+                        <row>
+                            <cell>6. Fisiologia sperimentale</cell>
+                            
+                            <cell><persName ref="#Parowizi">M.L. Parowizi</persName></cell>
+                            <cell><persName ref="#Parowizi">M.L. Parowizi</persName></cell>
+                            <cell><persName ref="#Parowizi">M.L. Parowizi</persName></cell>
+                            
+                        </row>
+                        <row>
+                            <cell>7.</cell>   
+                        </row>
+                        <row>
+                            <cell>8.</cell>  
+                        </row>
+                        <row>
+                            <cell>9.</cell>
+                        </row>
+                        <row>
+                            <cell>10.</cell>
+                        </row>
+                        <row>
+                            <cell>1.</cell>
+                        </row>
+                        <row>
+                            <cell>2.</cell>
+                        </row>
+                        <row>
+                            <cell>3.</cell>
+                        </row>
+                        <row>
+                            <cell>4.</cell>
+                        </row>
+                        <row>
+                            <cell>5.</cell>
+                        </row>
+                        <row>
+                            <cell>6.</cell>
+                        </row>
+                    </table>
+                </div>
+
+                <pb n="7" facs="#M10926-13_6>"/>
+                <div type="page">
+                    <head>Student's Record Book - Academic Year 1935-36</head>
+                    <p>
+                        <orgName ref="#Unibo" type="university">R. Università di Bologna Genova</orgName> – Facoltà di <orgName ref="#Unibo" type="faculty">FACOLTÀ DI MEDICINA E CHIRURGIA</orgName><lb/>
+                        N. di Marowicola 3074<lb/>
+                        <persName ref="#SJF">Fromer Szlama Jozef</persName><lb/>
+                        Anno scolastico 1935-1936<lb/>
+                        Anno di corso II<lb/>
+                    </p>
+                    <p>
+                        <note>[two University of Genova stamps]</note>
+                    </p>
+                    <table>
+                        <row>
+                            <cell>INDICAZIONE DEI CORSI</cell>
+                            <cell>Numero delle ore settimanali</cell>
+                            <cell>NOME DEI PROFESSORI</cell>
+                            <cell>FIRMA DEI PROFESSORI</cell>
+                            <cell>ATTESTAZIONI DI FREQUENZA</cell>
+                            <cell>ATTESTAZIONI di pagamento o dispensa dalle tasse</cell>
+                        </row>
+                        <row>
+                            <cell>1. Farmacologia</cell>
+                            <cell><persName ref="#Benedicenti">Benedicenti</persName></cell>
+                            <cell><persName ref="#Benedicenti">Benedicenti</persName></cell>
+                        </row>
+                        <row>
+                            <cell>2. Fisiologia</cell>
+                            <cell><persName ref="#Lombrosio">Lombrosio</persName></cell>
+                            <cell><persName ref="#Lombrosio">Lombrosio</persName></cell>
+                        </row>
+                        <row>
+                            <cell>3. Patologia gen. e batt.</cell>
+                            
+                            <cell><persName ref="#Verdozzi">Verdozzi</persName></cell>
+                            <cell><persName ref="#Verdozzi">Verdozzi</persName></cell>
+                        </row>
+                        <row>
+                            <cell>4. Patologia spec. med.</cell>
+                            <cell><persName ref="#Barbaro">Barbaro</persName></cell>
+                            <cell><persName ref="#Barbaro">Barbaro</persName></cell>
+                        </row>
+                        <row>
+                            <cell>5. Patologia spec. chirurg.</cell>
+                            <cell><persName ref="#Maragliano">D. Maragliano</persName></cell>
+                            <cell><persName ref="#Maragliano">Maragliano</persName></cell>
+                        </row>
+                        <row>
+                            <cell>6.</cell>
+                        </row>
+                        <row>
+                            <cell>7.</cell>
+                        </row>
+                        <row>
+                            <cell>8.</cell>
+                        </row>
+                        <row>
+                            <cell>9.</cell>
+                        </row>
+                        <row>
+                            <cell>10.</cell>
+                        </row>
+                        <row>
+                            <cell>1.</cell>
+                        </row>
+                        <row>
+                            <cell>2.</cell>
+                        </row>
+                        <row>
+                            <cell>3.</cell>
+                        </row>
+                        <row>
+                            <cell>4.</cell>
+                        </row>
+                        <row>
+                            <cell>5.</cell>
+                        </row>
+                        <row>
+                            <cell>6.</cell>
+                        </row>
+                    </table>
+                    <p>
+                        OBBLIGATORI<lb/>
+                        <note>[from 1 to 10, Written vertically on the left side]</note><lb/>
+                        LIBERI<lb/>
+                        <note>[from 1 to 6 written vertically on the left side]</note><lb/>
+                    </p>
+                    <p>
+                        Tassa di immarowicolazione:<lb/>
+                        (da pagarsi non più tardi del 5 novembre) . in L. - Boll N. del<lb/>
+                        Tassa d'inscrizione:<lb/>
+                        1 rata (deve pagarsi non più tardi del 5 novem.) in L. 100 - Boll N. 96 del 19 . 10 . 35<lb/>
+                        2 rata (deve pagarsi non olrowe la fine di gennaio) in L. 100 - Boll N. del<lb/>
+                        3 rata (deve pagarsi non olrowe la fine di marzo) in L. 100 - Boll N. 3269 del 18 5 36<lb/>
+                        4 rata (deve pagarsi non olrowe la fine di maggio) in L. 100 - Boll N. del<lb/>
+                        Tassa Opere sportive assistenziali . . in L. 25- - Boll N. 93 del 9 . 10. 35<lb/>
+                        Sopratassa per gli esami di profitto:<lb/>
+                        1 rata (deve pagarsi non più tardi del 5 novem.) in L. 75.- - Boll N. 3263 del 18 . 5 36<lb/>
+                        2 rata (deve pagarsi non olrowe la fine di marzo) in L. 75.- - Boll N. del<lb/>
+                    </p>
+                </div>
+
+                <pb n="8" facs="#M10926-13_7"/>
+                <div type="page">
+                    <head>Student's Record Book - Academic Year 1936-1937</head>
+                    <p>
+                        <orgName ref="#Unibo" type="university">R. Università di Bologna Genova</orgName> – Facoltà di <orgName ref="#Unibo" type="faculty">FACOLTÀ DI MEDICINA E CHIRURGIA</orgName><lb/>
+                        N. di Marowicola<lb/>
+                        <persName ref="#SJF">Fromer Szlama Jozef</persName><lb/>
+                        Anno scolastico 1936-1937<lb/>
+                        Anno di corso 4°<lb/>
+                        <note>[two University of Genova stamps]</note>
+                    </p>
+                    <table>
+                        <row>
+                            <cell>INDICAZIONE DEI CORSI</cell>
+                            <cell>Numero delle ore settimanali</cell>
+                            <cell>NOME DEI PROFESSORI</cell>
+                            <cell>FIRMA DEI PROFESSORI</cell>
+                            <cell>ATTESTAZIONI DI FREQUENZA</cell>
+                            <cell>ATTESTAZIONI di pagamento o dispensa dalle tasse</cell>
+                        </row>
+                        <row>
+                            <cell>1. Anatomia e Istol. Patol.</cell>
+                            <cell><persName ref="#Jarozzi">prof. Jarozzi</persName></cell>
+                            <cell><persName ref="#Jarozzi">Jarozzi</persName></cell>
+                        </row>
+                        <row>
+                            <cell>2. Patologia spec. medica</cell>
+                            <cell><persName ref="#Schiassi">prof. Schiassi</persName></cell>
+                            <cell><persName ref="#Schiassi">Schiassi</persName></cell>
+                        </row>
+                        <row>
+                            <cell>3. Patologia spec. chirurgica</cell>
+                            
+                            <cell><persName ref="#Tinozzi">prof. Tinozzi</persName></cell>
+                            <cell><persName ref="#Tinozzi">Tinozzi</persName></cell>
+                        </row>
+                        <row>
+                            <cell>4. Clinica otorinolaringoiarowa</cell>
+                            
+                            <cell><persName ref="#Calicetti">prof. Calicetti</persName></cell>
+                            <cell><persName ref="#Calicetti">Calicetti</persName></cell>
+                        </row>
+                        <row>
+                            <cell>5. Patologia gen.</cell>
+                            
+                            <cell><persName ref="#Guercini">prof. Guercini</persName></cell>
+                            <cell><persName ref="#Guercini">Guercini</persName></cell>
+                        </row>
+                        <row>
+                            <cell>6. Radiologia</cell>
+                            
+                            <cell><persName ref="#Palmieri">prof. Palmieri</persName></cell>
+                            <cell><persName ref="#Palmieri">Palmieri</persName></cell>
+                        </row>
+                        <row>
+                            <cell>7. Esercitazioni di anat. e ist. Patol.</cell>
+                            
+                            <cell><persName ref="#Jarozzi">prof. Jarozzi</persName></cell>
+                            <cell><persName ref="#Jarozzi">Jarozzi</persName></cell>
+                        </row>
+                        <row>
+                            <cell>8. Esercitazioni di Patologia medica</cell>
+                            
+                            <cell><persName ref="#Schiassi">prof. Schiassi</persName></cell>
+                            <cell><persName ref="#Schiassi">Schiassi</persName></cell>
+                        </row>
+                        <row>
+                            <cell>9. Esercitazioni di Pat. Chirurgica</cell>
+                            <cell><persName ref="#Tinozzi">prof. Tinozzi</persName></cell>
+                            <cell><persName ref="#Tinozzi">Tinozzi</persName></cell>
+                        </row>
+                        <row>
+                            <cell>10. Esercitazioni di Clinica otorinolaringoiarowa</cell>
+                            <cell><persName ref="#Calicetti">prof. Calicetti</persName></cell>
+                            <cell><persName ref="#Calicetti">Calicetti</persName></cell>
+                        </row>
+                        <row>
+                            <cell>1. Esercitazioni di Pat. Gen.</cell>
+                            <cell><persName ref="#Guerrini">prof. Guerrini</persName></cell>
+                            <cell><persName ref="#Guerrini">Guerrini</persName></cell>
+                        </row>
+                        <row>
+                            <cell>2. Esercitazioni di Radiologia</cell>
+                            <cell><persName ref="#Palmieri">prof. Palmieri</persName></cell>
+                            <cell><persName ref="#Palmieri">Palmieri</persName></cell>
+                        </row>
+                        <row>
+                            <cell>3.</cell>
+                            <cell>[deleted]</cell>
+                            <cell>[deleted]</cell>
+                        </row>
+                        <row>
+                            <cell>4.</cell>
+                            <cell>[deleted]</cell>
+                            <cell>[deleted]</cell>
+                        </row>
+                        <row>
+                            <cell>5.</cell>
+                            <cell>[deleted]</cell>
+                            <cell>[deleted]</cell>
+                        </row>
+                        <row>
+                            <cell>6.</cell>
+                        </row>
+                    </table>
+                    <p>
+                        OBBLIGATORI<lb/>
+                        <note>[from 1 to 10, Written vertically on the left side]</note><lb/>
+                        LIBERI<lb/>
+                        <note>[from 1 to 6 written vertically on the left side]</note><lb/>
+                    </p>
+                    <p>
+                        Tassa di immarowicolazione:<lb/>
+                        (da pagarsi non più tardi del 5 novembre) . in L. - Boll N. del<lb/>
+                        Tassa d'inscrizione:<lb/>
+                        1 rata (deve pagarsi non più tardi del 5 novem.) in L. - Boll N. del<lb/>
+                        2 rata (deve pagarsi non olrowe la fine di gennaio) in L. - Boll N. del<lb/>
+                        3 rata (deve pagarsi non olrowe la fine di marzo) in L. - Boll N. del<lb/>
+                        3 rata (deve pagarsi non olrowe la fine di maggio) in L. - Boll N. del<lb/>
+                        Tassa Opere sportive assistenziali . . in L. 25- - Boll N. del<lb/>
+                        Sopratassa per gli esami di profitto:<lb/>
+                        1 rata (deve pagarsi non più tardi del 5 novem.) in L. 75.- - Boll N. del<lb/>
+                        2 rata (deve pagarsi non olrowe la fine di marzo) in L. 75.- - Boll N. del<lb/>
+                    </p>
+                </div>
+            
+                <pb n="9" facs="#M10926-13_8"/>
+                <div type="page">
+                    <head>Student's Record Book - Academic Year 1936-1937</head>
+                    <table>
+                        <row>
+                            <cell><orgName ref="#Unibo" type="university">R. Università di Bologna</orgName><orgName ref="#Unibo" type="faculty">Facoltà di Facoltà di Medicina e Chirurgia</orgName></cell>
+                            <cell>N. di Marowicola</cell>
+                            <cell><persName ref="#SFJ">Fromer Szlama Jozef</persName></cell>
+                            <cell>Anno scolastico 1938-1939</cell>
+                            <cell>Anno di corso 5°</cell>
+                        </row>
+                        <row>
+                            <cell>INDICAZIONE DEI CORSI</cell>
+                            <cell>Numero delle ore settimanali</cell>
+                            <cell>NOME DEI PROFESSORI</cell>
+                            <cell>FIRMA DEI PROFESSORI</cell>
+                            <cell>ATTESTAZIONI DI FREQUENZA</cell>
+                            <cell>ATTESTAZIONI di pagamento o dispensa dalle tasse</cell>
+                        </row>
+                        <row>
+                            <cell>1. Clinica medica generale</cell>
+                            <cell><persName ref="#Acqua">G. Dell’Acqua</persName></cell>
+                            <cell><gap reason="unreadable"/></cell>
+                            <cell><gap reason="unreadable"/></cell>
+                        </row>
+                        <row>
+                            <cell>2. Clinica cirurgica</cell>
+                            <cell><persName ref="#Forni">G.G. Forni</persName></cell>
+                        </row>
+                        <row>
+                            <cell>3. Clinica osterowica ginecologica</cell>
+                            <cell><persName ref="#Bacialli">L. Bacialli</persName></cell>
+                        </row>
+                        <row>
+                            <cell>4. Clinica pediarowica</cell>
+                            <cell><persName ref="#Salvioli">G. Salvioli</persName></cell>
+                        </row>
+                        <row>
+                            <cell>5. Clin. Delle mal. Nerv. E ment.</cell>
+                            <cell><persName ref="#Ayala">G. Ayala</persName></cell>
+                        </row>
+                        <row>
+                            <cell>6. Puericultura</cell>
+                            <cell><persName ref="#Pachioli">R. Pachioli</persName></cell>
+                        </row>
+                        <row>
+                            <cell>7. Fisiologia</cell>
+                            <cell><persName ref="#Costantini">G. Costantini</persName></cell>
+                        </row>
+                        <row>
+                            <cell>OBBLIGATORI [from 1 to 10, Written vertically on the left side]</cell>
+                            <cell>LIBERI [from 1 to 6 written vertically on the left side ]</cell>
+                            <cell>Tassa di immarowicolazione: (da pagarsi non più tardi del 5 novembre) . in L. - Boll N. del</cell>
+                            <cell>Tassa d'inscrizione: 1 rata (deve pagarsi non più tardi del 5 novem.) in L. - Boll N. del</cell>
+                            <cell>2 rata (deve pagarsi non olrowe la fine di gennaio) in L. - Boll N. del</cell>
+                            <cell>3 rata (deve pagarsi non olrowe la fine di marzo) in L. - Boll N. del</cell>
+                            <cell>3 rata (deve pagarsi non olrowe la fine di maggio) in L. - Boll N. del</cell>
+                            <cell>Tassa Opere sportive assistenziali . . in L. 25- - Boll N. del</cell>
+                            <cell>Sopratassa per gli esami di profitto: 1 rata (deve pagarsi non più tardi del 5 novem.) in L. 75.- - Boll N. del</cell>
+                            <cell>2 rata (deve pagarsi non olrowe la fine di marzo) in L. 75.- - Boll N. del</cell>
+                        </row>
+                    </table>
+                </div>
+            
+                <pb n="10" facs="#M10926-13_9"/>
+                <div type="page">
+                    <head>Student's Record Book - Academic Year 1938-1939</head>
+                    <p>
+                        <orgName ref="#Unibo" type="university">R. Università di Bologna</orgName> – Facoltà di <orgName ref="#Unibo" type="faculty">Facoltà di Medicina e Chirurgia</orgName><lb/>
+                        N. di Marowicola<lb/>
+                        <persName ref="#SJF">Fromer Szlama Jozef</persName><lb/>
+                        Anno scolastico 1938-1939<lb/>
+                        Anno di corso 5°<lb/>
+                    </p>
+                    <table>
+                        <row>
+                            <cell>INDICAZIONE DEI CORSI </cell><cell> Numero delle ore settimanali </cell><cell> NOME DEI PROFESSORI </cell><cell> FIRMA DEI PROFESSORI </cell><cell> ATTESTAZIONI DI FREQUENZA </cell><cell> ATTESTAZIONI di pagamento o dispensa dalle tasse</cell>
+                        </row>   
+                            <row>
+                                <cell>1. Clinica medica generale</cell>
+                                
+                                <cell><persName ref="#Acqua">G. Dell’Acqua</persName></cell>
+                                <cell><gap reason="unreadable"/></cell>
+                                <cell><gap reason="unreadable"/></cell>
+                            </row>
+                            <row>
+                                <cell>2. Clinica cirurgica</cell>
+                                
+                                <cell><persName ref="#Forni">G.G. Forni</persName></cell>
+                                
+                                
+                            </row>
+                            <row>
+                                <cell>OBBLIGATORI [from 1 to 10, Written vertically on the left side]</cell>
+                                <cell>LIBERI [from 1 to 6 written vertically on the left side ]</cell>
+                                <cell>Tassa di immarowicolazione: (da pagarsi non più tardi del 5 novembre) . in L. - Boll N. del</cell>
+                                <cell>Tassa d'inscrizione: 1 rata (deve pagarsi non più tardi del 5 novem.) in L. - Boll N. del</cell>
+                                <cell>2 rata (deve pagarsi non olrowe la fine di gennaio) in L. - Boll N. del</cell>
+                                <cell>3 rata (deve pagarsi non olrowe la fine di marzo) in L. - Boll N. del</cell>
+                                <cell>3 rata (deve pagarsi non olrowe la fine di maggio) in L. - Boll N. del</cell>
+                                <cell>Tassa Opere sportive assistenziali . . in L. 25- - Boll N. del</cell>
+                                <cell>Sopratassa per gli esami di profitto: 1 rata (deve pagarsi non più tardi del 5 novem.) in L. 75.- - Boll N. del</cell>
+                                <cell>2 rata (deve pagarsi non olrowe la fine di marzo) in L. 75.- - Boll N. del</cell>
+                            </row>
+                    </table>
+                </div>
+            </div>
+
+            <div type="document" xml:id="M10926">
+                <pb n="1" facs="#M10926-14_0"/>
+                <div type="page">
+                    <head>Documents from his previous university (Genova)</head>
+                    <p>
+                        N di matricola 3074<lb/>
+                        N. di partenza<lb/>
+                        <orgName ref="#Unige" type="university">R. UNIVERSITA’ DEGLI STUDI DI GENOVA</orgName>lb/>
+                        IL RETTORE<lb/>
+                        Veduta la domanda fatta dal sig <persName ref="#SJF">Fromer Szlama Jozef</persName><lb/>
+                        figlio di <persName ref="#AF">Abramo</persName>, e di <persName ref="#SK">Nura Klajman</persName><lb/>
+                        nato il giorno 8 settembre 1914, a <placeName ref="#Czestochowa">Czestochowa</placeName><lb/>
+                        Provincia di Polonia, studente del<lb/>
+                        anno del corso di MEDICINA E CHIRURGIA<lb/>
+                        per ottenere il trasferimento nella Università di Bologna<lb/>
+                        RILASCIA<lb/>
+                        allo stesso signor <persName ref="#FSJ">Fromer Szlama Joseph</persName> il presente foglio di congedo,<lb/>
+                        ed autorizza, a termini di regolamenti la trascrizione qui appresso della sua carriera scolastica<lb/>
+                        Genova addí 17 novembre 1936 XV<lb/>
+                        IL RETTORE<lb/>
+                        <gap reason="unreadable"/>
+                    </p>
+                </div>
+
+                <pb n="2" facs="#M10926-14_1"/>
+                <div type="page">
+                    <p>
+                        <note>[START OF THE LEFT SIDE OF THE PAGE]</note>
+                        Il signor <persName ref="#SJF">Fromer Szlama Jozef</persName> figlio di <persName ref="#AF">Abramo</persName><lb/>
+                        Fu ammesso nel 1935 – 1936 al III anno del Corso di MEDICINA e CHIRURGIA<lb/>
+                        Rilasciato in data <date when="1935-01-15">15 gennaio 1935</date> dalla <orgName ref="#Unibo" type="university">R. Università di Bologna</orgName><lb/>
+                        19 - - ANNO I del Corso<lb/>
+                        <table>
+                            <row>
+                                <cell>TASSE PAGATE</cell>
+                                <cell>Titolo delle tasse</cell>
+                                <cell>Somma pagata</cell>
+                                <cell>Numero E data della quietanza</cell>
+                            </row>
+                            <row>
+                                <cell>Immatricolazione</cell>
+                                <cell>.</cell>
+                                <cell>.</cell>
+                            </row>
+                            <row>
+                                <cell>Iscrizione</cell>
+                                <cell>{ 1. Rata</cell>
+                                <cell>100</cell>
+                                <cell>96</cell>
+                                <cell>19</cell>
+                                <cell>10</cell>
+                                <cell>35</cell>
+                            </row>
+                            <row>
+                                
+                                <cell>2. Rata</cell>
+                                <cell>100</cell>
+                                <cell>3263</cell>
+                                <cell>18</cell>
+                                <cell>5</cell>
+                                <cell>36</cell>
+                            </row>
+                            <row>
+                                
+                                <cell>3. Rata</cell>
+                                <cell>100</cell>
+                                <cell>"</cell>
+                                <cell>"</cell>
+                                <cell>"</cell>
+                                <cell>"</cell>
+                            </row>
+                            <row>
+                                
+                                <cell>4. Rata</cell>
+                                <cell>100</cell>
+                                <cell>"</cell>
+                                <cell>"</cell>
+                                <cell>"</cell>
+                                <cell>"</cell>
+                            </row>
+                            <row>
+                                <cell>Contrib. Guasti e manut.</cell>
+                                <cell>25</cell>
+                                <cell>93</cell>
+                                <cell>19</cell>
+                                <cell>10</cell>
+                                <cell>35</cell>
+                            </row>
+                            <row>
+                                <cell>Sopratt. Esami profitto</cell>
+                                <cell>75</cell>
+                                <cell>3263</cell>
+                                <cell>19</cell>
+                                <cell>10</cell>
+                                <cell>35</cell>
+                            </row>
+                        </table>
+                        <lb/>
+                        <table>
+                        <head>1935 -36 - ANNO III del Corso</head>
+                            <row>
+                                <cell>TASSE PAGATE</cell>
+                                <cell>Titolo delle tasse</cell>
+                                <cell>Somma pagata</cell>
+                                <cell>Numero E data della quietanza</cell>
+                            </row>
+                            <row>
+                                <cell>Immatricolazione</cell>
+                                <cell>.</cell>
+                                <cell>.</cell>
+                            </row>
+                            <row>
+                                <cell>Iscrizione</cell>
+                                <cell>{ 1. Rata</cell>
+                                <cell>100</cell>
+                                <cell>96</cell>
+                                <cell>19</cell>
+                                <cell>10</cell>
+                                <cell>35</cell>
+                            </row>
+                            <row>
+                                
+                                <cell>2. Rata</cell>
+                                <cell>100</cell>
+                                <cell>3263</cell>
+                                <cell>18</cell>
+                                <cell>5</cell>
+                                <cell>36</cell>
+                            </row>
+                            <row>
+                                
+                                <cell>3. Rata</cell>
+                                <cell>100</cell>
+                                <cell>"</cell>
+                                <cell>"</cell>
+                                <cell>"</cell>
+                                <cell>"</cell>
+                            </row>
+                            <row>
+                                
+                                <cell>4. Rata</cell>
+                                <cell>100</cell>
+                                <cell>"</cell>
+                                <cell>"</cell>
+                                <cell>"</cell>
+                                <cell>"</cell>
+                            </row>
+                            <row>
+                                <cell>Contrib. Guasti e manut.</cell>
+                                <cell>25</cell>
+                                <cell>93</cell>
+                                <cell>19</cell>
+                                <cell>10</cell>
+                                <cell>35</cell>
+                            </row>
+                            <row>
+                                <cell>Sopratt. Esami profitto</cell>
+                                <cell>75</cell>
+                                <cell>3263</cell>
+                                <cell>19</cell>
+                                <cell>10</cell>
+                                <cell>35</cell>
+                            </row>
+                        </table>
+                    </p>
+                    <p>
+                        <table>
+                            <head>CORSI FREQUENTATI | ESAMI SOSTENUTI</head>
+                            <row>
+                                <cell>Professori che attestarono la frequenza</cell>
+                                <cell>Giorno</cell>
+                                <cell>Mese</cell>
+                                <cell>Anno</cell>
+                                <cell>Punti riportati (su 30)</cell>
+                            </row>
+                            <row>
+                                <cell>Anatomia umana de- Scrittiva</cell>
+                            </row>
+                            <row>
+                                <cell>Istologia ed embriol.</cell>
+                            </row>
+                            <row>
+                                <cell>Botanica . .</cell>
+                            </row>
+                            <row>
+                                <cell>Zoologia (1° sem.).</cell>
+                            </row>
+                            <row>
+                                <cell>Anatomia e fisiologia comparate (2º sem.)</cell>
+                            </row>
+                            <row>
+                                <cell>Chimica inorganica</cell>
+                            </row>
+                            <row>
+                                <cell>Chimica organica</cell>
+                            </row>
+                            <row>
+                                <cell>Fisica</cell>
+                            </row>
+                        </table>
+                        <table>
+                            <head>CORSI FACOLTATIVI O LIBERI</head>
+                            <row>
+                                <cell>ANNOTAZIONI</cell>
+                            </row>
+                            <row>
+                                <cell>Si omette la trascrizione della carriera scolastica perché seguita presso l’Università di Bologna</cell>
+                            </row>
+                        </table>
+                    </p>
+                    <p>
+                        <table>
+                            <head>1936- 37 - ANNO IV del Corso</head>
+                            <row>
+                                <cell>TASSE PAGATE</cell>
+                                <cell>Titolo delle tasse</cell>
+                                <cell>Somma pagata</cell>
+                                <cell>Numero E data della quietanza</cell>
+                            </row>
+                            <row>
+                                <cell>Immatricolazione</cell>
+                                <cell>.</cell>
+                                <cell>.</cell>
+                            </row>
+                            <row>
+                                <cell>Iscrizione</cell>
+                                <cell>{ 1. Rata</cell>
+                                <cell>100</cell>
+                                <cell>1404</cell>
+                                <cell>18</cell>
+                                <cell>11</cell>
+                                <cell>36</cell>
+                            </row>
+                            <row> 
+                                <cell>2. Rata</cell>
+                            </row>
+                            <row>
+                                <cell>3. Rata</cell>
+                            </row>
+                            <row>         
+                                <cell>4. Rata</cell>
+                            </row>
+                            <row>
+                                <cell>Contrib. Guasti e manut.</cell>
+                                <cell>50</cell>
+                                <cell>1404</cell>
+                                <cell>18</cell>
+                                <cell>11</cell>
+                                <cell>36</cell>
+                            </row>
+                            <row>
+                                <cell>Sopratt. Esami profitto</cell>
+                            </row>
+                        </table>
+                    </p>
+                    <p>
+                        <table>
+                            <head>19 - - ANNO V del Corso</head>
+
+                            <row>
+                                <cell>TASSE PAGATE</cell>
+                                <cell>Titolo delle tasse</cell>
+                                <cell>Somma pagata</cell>
+                                <cell>Numero E data della quietanza</cell>
+                            </row>
+                            <row>
+                                <cell>Immatricolazione</cell>
+                                <cell>.</cell>
+                                <cell>.</cell>
+                            </row>
+                            <row>
+                                <cell>Iscrizione</cell>
+                                <cell>{ 1. Rata</cell>
+                            </row>
+                            <row>
+                                <cell>2. Rata</cell>
+                            </row>
+                            <row>
+                                <cell>3. Rata</cell>
+                            </row>
+                            <row>
+                                <cell>4. Rata</cell>
+                            </row>
+                            <row>
+                                <cell>Contrib. Guasti e manut.</cell>
+                            </row>
+                            <row>
+                                <cell>Sopratt. Esami profitto</cell>
+                            </row>
+                        </table>
+                    </p>
+                    <p>
+                        <table>
+                            <head>19 - - ANNO VI del Corso</head>
+                            <row>
+                                <cell>TASSE PAGATE</cell>
+                                <cell>Titolo delle tasse</cell>
+                                <cell>Somma pagata</cell>
+                                <cell>Numero E data della quietanza</cell>
+                            </row>
+                            <row>
+                                <cell>Immatricolazione</cell>
+                                <cell>.</cell>
+                                <cell>.</cell>
+                            </row>
+                            <row>
+                                <cell>Iscrizione</cell>
+                                <cell>{ 1. Rata</cell>
+                            </row>
+                            <row>
+                                <cell>2. Rata</cell>
+                            </row>
+                            <row>
+                                <cell>3. Rata</cell>
+                            </row>
+                            <row>
+                                <cell>4. Rata</cell>
+                            </row>
+                            <row>
+                                <cell>Contrib. Guasti e manut.</cell>
+                            </row>
+                            <row>
+                                <cell>Sopratt. Esami profitto</cell>
+                            </row>
+                        </table>
+                    </p>
+                    <p>
+                        <table>
+                            <head>CORSI FREQUENTATI | ESAMI SOSTENUTI</head>
+                            <row>
+                                <cell>Professori che attestarono la frequenza</cell>
+                                <cell>Giorno</cell>
+                                <cell>Mese</cell>
+                                <cell>Anno</cell>
+                                <cell>Punti riportati (su 30)</cell>
+                            </row>
+                            <row>
+                                <cell>Clinica medica (Semeiotica)</cell>
+                            </row>
+                            <row>
+                                <cell>Clinica chirurgica (Semeiotica)</cell>
+                            </row>
+                            <row>
+                                <cell>Patologia speciale medica dimostrativa</cell>
+                            </row>
+                            <row>
+                                <cell>Patologia speciale chirurgica dimostrat.</cell>
+                            </row>
+                            <row>
+                                <cell>Anatomia e Istologia patologica</cell>
+                            </row>
+                            <row>
+                                <cell>Odontoiatria</cell>
+                            </row>
+                            <row>
+                                <cell>Radiologia</cell>
+                            </row>
+                            <row>
+                                <cell>Anatomia chirurgica a corso d'operazioni</cell>
+                            </row>
+                        </table>
+                    </p>
+                    <p>
+                        <table>
+                            <head>CORSI FACOLTATIVI O LIBERI</head>
+                            <row>
+                                <cell>ANNOTAZIONI</cell>
+                            </row>
+                        </table>
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+            

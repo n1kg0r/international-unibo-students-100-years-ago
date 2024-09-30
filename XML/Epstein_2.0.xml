@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dbo="http://dbpedia.org/ontology/"
+     xmlns:ius="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#"
+     xmlns:gn="http://www.geonames.org/ontology#"
+     xmlns:dcterms="http://purl.org/dc/terms#">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Archival documents of Boris Epstein</title>
+                <author>Archivio storico dell'Università di Bologna</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition</edition>
+                <respStmt>
+                    <resp>XML Developer</resp>
+                    <name>Marco</name>
+                </respStmt>
+                <respStmt>
+                    <resp>IIIF Developer</resp>
+                    <name>Olga</name>
+                </respStmt>
+                <respStmt>
+                    <resp>XSLT Developer</resp>
+                    <name>Nikolaj</name>
+                    <orgName>Università di Bologna</orgName>
+                </respStmt>             
+            </editionStmt>
+            <publicationStmt>
+                <authority>Unibo Digital Humanities and Digital Knowledge</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Bologna</settlement>
+                        <repository>
+                            <title>Archivio storico dell'Università di Bologna - Studenti Ebrei Stranieri 1920-1940</title>
+                            <ptr target="https://archiviostorico.unibo.it/it/patrimonio-documentario/fascicolo-studenti/studenti-ebrei-stranieri/?record=139637"/>
+                        </repository>
+                        <idno>file 4991</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>           
+        </fileDesc>
+
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="BE">
+                        <persName>Boris Epstein</persName>
+                        <birth when="1892-12-07">
+                            <placeName ref="#Moscow">Moscow</placeName>
+                        </birth>
+                        <listEvent>                     
+                            <event type="universityDegree">
+                                <p>A second Medicine degree from <orgName ref="#Unibo">Università di Bologna</orgName></p>
+                            </event>
+                            <event type="universityDegree">
+                                <p>A first Medicine degree from <orgName ref="#MSU">Università Imperiale di Mosca</orgName></p>
+                            </event>
+                        </listEvent>
+                    </person>
+                    <person xml:id="Massimo">
+                        <persName>Massimo</persName>
+                    </person>    
+                    <person xml:id="Teodosia">
+                        <persName>Teodosia</persName>
+                    </person>   
+                    <person xml:id="Aliusti">
+                        <persName>Domenico Aliusti</persName>
+                    </person>
+                    <person xml:id="Groppetti">
+                        <persName>S. Francesco Groppetti</persName>
+                    </person>
+                    <person xml:id="Bianchi">
+                        <persName>Cav. Antonio Bianchi</persName>
+                    </person>
+                    <person xml:id="Majocchi">
+                        <persName>Majocchi</persName>
+                    </person>
+                    <person xml:id="Francioni">
+                        <persName>Francioni</persName>
+                    </person>
+                    <person xml:id="Novi">
+                        <persName>Novi</persName>
+                    </person>
+                    <person xml:id="Viola">
+                        <persName>Viola</persName>
+                    </person>  
+                    <person xml:id="Re">
+                        <persName>Vittorio Emanuele III</persName>
+                    </person>
+                    <person xml:id="Puntoni">
+                        <persName>Vittorio Puntoni</persName>
+                    </person>
+                    <person xml:id="Castellotti">
+                        <persName>An. Castellotti</persName>
+                    </person>                
+                </listPerson>
+            </particDesc>
+            
+            <settingDesc>
+                <listPlace>              
+                    <place xml:id="Bologna">
+                        <placeName>Bologna</placeName>
+                        <location>
+                            <geo>44.4949,11.3426</geo>
+                        </location>
+                    </place>
+                    <place xml:id="Moscow">
+                        <placeName>Moscow</placeName>
+                        <location>
+                            <geo>55.7558,37.6173</geo>
+                        </location>
+                    </place>
+                    
+                    <place xml:id="Pietrogrado">
+                        <placeName>Pietrogrado</placeName>
+                        <location>
+                            <geo>59.9311,30.3609</geo>
+                        </location>
+                    </place>
+                </listPlace>
+            </settingDesc>
+        </profileDesc>
+    
+        <xenoData>
+            <rdf:RDF>
+
+            <!-- persons:-->
+
+                <rdf:Description tei:ref="#BE" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#boris_epstein">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Boris Epstein</rdfs:label>
+                    <foaf:parent rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#boris_epstein"/>
+                    <foaf:parent rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#boris_epstein"/>
+                    <foaf:birthPlace rdf:resource="http://sws.geonames.org/524901/"/>
+                    <foaf:birthDate>1892-12-07</foaf:birthDate>
+
+                    <dcterms:educationLevel>
+                        <rdf:Description>
+                            <rdf:value>Bachelor's in Medicine</rdf:value>
+                            <dcterms:hasPart>
+                                <rdf:Description>
+                                    <dcterms:date>05/04/1916</dcterms:date> <!-- Graduation date -->
+                                    <dcterms:spatial>
+                                        <rdf:Description>
+                                            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                                            <foaf:name>Università di Mosca</foaf:name>
+                                            <gn:countryCode>RS</gn:countryCode>
+                                            <gn:parentCountry rdf:resource="http://sws.geonames.org/2017370/"/>
+                                        </rdf:Description>
+                                    </dcterms:spatial>
+                                </rdf:Description>
+                            </dcterms:hasPart>
+                        </rdf:Description>
+                    </dcterms:educationLevel>
+
+                    <dcterms:educationLevel> 
+                        <rdf:Description>
+                            <rdf:value>Bachelor's in Medicine</rdf:value>
+                            <dcterms:hasPart>
+                                <rdf:Description>
+                                    <dcterms:type>Thesis</dcterms:type>
+                                    <dcterms:title>Patogenesi del diabete insipido</dcterms:title>
+                                    <dcterms:contributor ref="#Viola">Prof. Viola</dcterms:contributor>
+                                    <dcterms:date>28/04/1922</dcterms:date> <!-- Graduation date -->
+                                    <dcterms:spatial>
+                                        <rdf:Description>
+                                            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                                            <foaf:name>Università di Bologna</foaf:name>
+                                            <gn:countryCode>IT</gn:countryCode>
+                                            <gn:parentCountry rdf:resource="http://sws.geonames.org/3175395/"/>
+                                        </rdf:Description>
+                                    </dcterms:spatial>
+                                </rdf:Description>
+                            </dcterms:hasPart>
+                        </rdf:Description>
+                    </dcterms:educationLevel>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Massimo" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#massimo_epstein">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Massimo Epstein</rdfs:label>
+                    <foaf:child rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#boris_epstein"/>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#teodosia" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#massimo_epstein">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Teodosia</rdfs:label>
+                    <foaf:child rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#boris_epstein"/>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Aliusti" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#domenico_aliusti">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Domenico Aliusti</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Groppetti" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#francesco_groppetti">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Francesco Groppetti</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Bianchi" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#antonio_bianchi">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Antonio Bianchi</rdfs:label>
+                </rdf:Description>      
+
+                <rdf:Description tei:ref="#Majocchi" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#majocchi">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Majocchi</rdfs:label>
+                </rdf:Description>       
+
+                <rdf:Description tei:ref="#Francioni" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#francioni">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Francioni</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Viola" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#viola">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Viola</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Novi" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#novi">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Novi</rdfs:label>
+                </rdf:Description>            
+
+                <rdf:Description tei:ref="#re" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#vittotio_emanuele_III">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Vittorio Emanuele III</rdfs:label>
+                </rdf:Description>        
+
+                <rdf:Description tei:ref="#Puntoni" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#vittorio_puntoni">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Vittorio Puntoni</rdfs:label>
+                </rdf:Description>
+
+                <rdf:Description tei:ref="#Viola" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#castellotti">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdfs:label>Castellotti</rdfs:label>
+                </rdf:Description>
+
+                <!-- places:-->
+
+                <rdf:Description tei:ref="#Moscow" rdf:about="http://sws.geonames.org/524894/">
+                    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+                    <rdfs:label>Moscow</rdfs:label>
+                </rdf:Description>
+                <rdf:Description tei:ref="#Bologna" rdf:about="https://sws.geonames.org/3181928/">
+                    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+                    <rdfs:label>Bologna</rdfs:label>
+                </rdf:Description>
+                <rdf:Description tei:ref="#Pietrogrado" rdf:about="http://sws.geonames.org/498817/">
+                    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+                    <rdfs:label>Pietrogrado</rdfs:label>
+                </rdf:Description>
+                <rdf:Description tei:ref="#Milan" rdf:about="https://sws.geonames.org/3173435/">
+                    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+                <rdfs:label>Milano</rdfs:label>
+                </rdf:Description>
+                <rdf:Description tei:ref="#Lodi" rdf:about="https://sws.geonames.org/3174599/">
+                    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+                    <rdfs:label>Lodi</rdfs:label>
+                </rdf:Description>
+            </rdf:RDF>
+        </xenoData>
+    </teiHeader>
+ 
+    <facsimile>
+        <!-- Facsimile for Translator's oath -->
+        <surface xml:id="Epstein_001">
+            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Epstein/Boris%20Epstein_001.tif" />
+        </surface>
+
+        <!-- Facsimile for Translator declaration -->
+        <surface xml:id="Epstein_002">
+            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Epstein/Boris%20Epstein_002.tif" />
+        </surface>
+
+        <!-- Facsimile for Letter from Boris Epstein to the Rector of the University of Bologna -->
+        <surface xml:id="Epstein_003">
+            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Epstein/Boris%20Epstein_003.tif" />
+        </surface>
+        <surface xml:id="Epstein_004">
+            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Epstein/Boris%20Epstein_004.tif" />
+        </surface>
+
+        <!-- Facsimile for Letter from the Ministry of Education to the University of Bologna -->
+        <surface xml:id="Epstein_005">
+            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Epstein/Boris%20Epstein_005.tif" />
+        </surface>
+
+        <!-- Facsimile for Thesis letter -->
+        <surface xml:id="Epstein_006">
+            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Epstein/Boris%20Epstein_006.tif" />
+        </surface>
+
+        <!-- Facsimile for Cover of thesis -->
+        <surface xml:id="Epstein_007">
+            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Epstein/Boris%20Epstein_007.tif" />
+        </surface>
+
+        <!-- Facsimile for Additional document to the letter to Rector -->
+        <surface xml:id="Epstein_008">
+            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Epstein/Boris%20Epstein_008.tif" />
+        </surface>
+
+        <!-- Facsimile for Cover of documents for degree in Medicine and Surgery -->
+        <surface xml:id="Epstein_009">
+            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Epstein/Boris%20Epstein_009.tif" />
+        </surface>
+
+        <!-- Facsimile for Confirmation of the Degree -->
+        <surface xml:id="Epstein_010">
+            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Epstein/Boris%20Epstein_010.tif" />
+        </surface>
+
+        <!-- Facsimile for Grade report of Medicine and Surgery, his degree at the University of Bologna -->
+        <surface xml:id="Epstein_011">
+            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Epstein/Boris%20Epstein_011.tif" />
+        </surface>
+
+        <!-- Facsimile for Secretarial contribution receipt -->
+        <surface xml:id="Epstein_012">
+            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Epstein/Boris%20Epstein_012.tif" />
+        </surface>
+
+        <!-- Facsimile for Receipt of payment for Medical Degree -->
+        <surface xml:id="Epstein_013">
+            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Epstein/Boris%20Epstein_013.tif" />
+        </surface>
+
+        <!-- Facsimile for Approval letter of the University of Bologna -->
+        <surface xml:id="Epstein_014">
+            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Epstein/Boris%20Epstein_014.tif" />
+        </surface>
+
+        <!-- Facsimile for Diploma of Imperial University of Moscow -->
+        <surface xml:id="Epstein_015">
+            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Epstein/Boris%20Epstein_015.tif" />
+        </surface>
+
+        <!-- Facsimile for Diploma of Imperial University of Moscow translated in Italian -->
+        <surface xml:id="Epstein_016">
+            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Epstein/Boris%20Epstein_016.tif" />
+        </surface>
+    </facsimile>
+
+    <text>
+        <body>
+            <div type="document" xml:id="Epstein">
+                <pb n="1" facs="#Epstein_001"/>
+                <div type="page">
+                    <head>Translator's Oath</head>
+                    <p>
+                        Copia conforme<lb/>
+                        <orgName ref="#unibo" type="university">R. UNIVERSITÀ DI BOLOGNA</orgName><lb/>
+                        Verbale di osservazione di perizia con giuramento –<lb/>
+                        <placeName ref="#Milan">Milano</placeName> - nella R. Pretura del mandamento 2°<lb/>
+                        ass <date when="1921-09-12">12 settembre 1921</date>-<lb/>
+                        avanti il R. Pretore ass: <persName ref="Aliusti">Aliusti Domenico</persName> assistito dal<lb/>
+                        Cancelliere e <gap reason="unreadable"/> il prof. <persName ref="Groppetti">S. Francesco Groppetti</persName><lb/>
+                        il quale presentando la traduzione dell'atto appena<lb/>
+                        iudicato chiese di <gap reason="unreadable"/> giuramento<lb/>
+                        fattogli dal R. pretore una seria ammonizione<lb/>
+                        rammentandogli l’importanza finale del giuramento<lb/>
+                        ed il vincolo religioso che i credenti contraggono con esso<lb/>
+                        innanzi a Dio e l'obbligo dire la verità, Egli <gap reason="unreadable"/><lb/>
+                        la formula: Giuro di aver bene e fedelmente<lb/>
+                        <gap reason="unreadable"/> alle operazioni <gap reason="unreadable"/> e ciò al solo scopo<lb/>
+                        di far conoscere ai giudici la verità: la traduzione<lb/>
+                        stesa sul foglio di carta bollata da L 1, si riferisce al<lb/>
+                        seguente atto: Diploma di Dottore in Medicina<lb/>
+                        conferito <gap reason="unreadable"/> 4092 dalla <orgName>facoltà di Medicina</orgName><lb/>
+                        dell'<orgName ref="#MSU" type="university">università Imperiale di Moscow</orgName> il 31 gennaio<lb/>
+                        1917. <persName ref="#BE">Boris Epstein di <persName ref="#Massimo">Massimo</persName></persName><lb/>
+                        Letto, confermato, sottoscritto<lb/>
+                        <gap reason="unreadable"/> <persName ref="#Groppetti">Francesco Groppetti</persName><lb/>
+                        Il Pretore <gap reason="unreadable"/> Il Cancelliere<lb/>
+                        <orgName ref="#unibo" type="faculty">FACOLTÀ DI MEDICINA E CHIRURGIA</orgName> IL SEGRETARIO<lb/>
+                        <gap reason="unreadable"/><lb/>
+                        <orgName ref="#unibo" type="university">REGIA UNIVERSITÀ DI BOLOGNA</orgName> visto:<lb/>
+                        per copia conforme all'originale<lb/>
+                        il direttore della segreteria<lb/>
+                        <gap reason="unreadable"/>
+                    </p>
+                </div>
+            </div>
+    
+            <div type="document" xml:id="Epstein">
+                <pb n="1" facs="#Epstein_002"/>
+                <div type="page">
+                    <head>Translator Declaration</head>
+                    <p>
+                        Il sottoscritto Dott. <persName ref="#Groppetti">S. Francesco Groppetti</persName>. Perciò<lb/>
+                        Traduttore, inscritto dalla R. Corte d'Appello di<lb/>
+                        <placeName ref="#Milan">Milano</placeName> e dai R.R. Tribunale di<lb/>
+                        <placeName ref="#Milan">Milano</placeName> e<lb/>
+                        <placeName ref="#Lodi">Lodi</placeName>, domiciliato a <placeName ref="#Milan">Milano</placeName> via Large 3g.<lb/>
+                        dichiara con la presente che quanto sopra,<lb/>
+                        scritto la persona si dà fiducia è una tradu-<lb/>
+                        zione completa e fedele del testo originale<lb/>
+                        russo dell’atto qui allegato ed unito.<lb/>
+                        <placeName ref="#Milan">Milano</placeName> <date when="1921-09-16">16 Sett. 1921</date><lb/>
+                        <gap reason="unreadable"/> <persName ref="#Groppetti">Francesco Groppetti</persName><lb/>
+                        Il pretore<gap reason="unreadable"/> Il cancelliere <gap reason="unreadable"/><lb/>
+                        <orgName ref="#unibo" type="university">R. UNIVERSITÀ DI BOLOGNA</orgName><lb/>
+                        Visto: per copia conforme all’originale<lb/>
+                        IL DIRETTORE DELLA SEGRETERIA<lb/>
+                        <gap reason="unreadable"/>
+                    </p>
+                </div>
+            </div>
+            
+            <div type="letter" xml:id="Epstein">
+                <pb n="1" facs="#Epstein_003"/>
+                <div type="page">
+                    <head>Letter from Boris Epstein to the Rector of the University of Bologna</head>
+                    <opener>
+                        <dateline><placeName ref="#Bologna">Bologna</placeName></dateline><lb/>
+                        <signed><persName ref="#BE">Epstein Dr. Boris</persName></signed>
+                        <stamp><note>One lira stamp aumento per addizionale stamp</note></stamp><lb/>
+                        <orgName ref="#unibo" type="university">R. UNIVERSITÀ DI BOLOGNA</orgName><lb/>
+                        <orgName ref="#unibo" type="faculty">Facoltà di Medicina e Chirurgia</orgName><lb/>
+                        SEGRETERIA<lb/>
+                        <salute>Ill – mo Signor Rettore<lb/>
+                            della <orgName ref="#unibo" type="university">R. Università di Bologna</orgName><lb/>
+                        </salute>
+                    </opener>
+                    <p>
+                        Io sottoscritto Dott. In Med. <persName ref="#BE">Boris Epstein di <persName ref="#Massimo">Massimo</persName></persName> 
+                        da <placeName ref="#Moscow">Moscow</placeName> che<lb/>
+                        nel 1914 avendo compiuto i corsi di medicina presso l’<orgName ref="#MSU" type="university">Università Imperiale di Moscow</orgName>, 
+                        frequentai per due anni<lb/>
+                        le cliniche dell’Università medesima prestando in contempo servizio militare negli<lb/>
+                        Ospedali di <placeName ref="#Moscow">Moscow</placeName>. Nel 1916 superai gli esami per il Dottorato ricevendo<lb/>
+                        il titolo di Dottore in medicina. Durante detto anno e nel seguente 1917<lb/>
+                        continuai il servizio militare come medico all’Armata del Caucaso. Nello<lb/>
+                        stesso anno entrai come assistente all’<orgName>Instituto Imperiale di Medicina Sperimentale</orgName> a 
+                        <placeName ref="#Pietrogrado">Pietrogrado</placeName>, ove rimasi<lb/>
+                        sino al 1919.<lb/>
+                        A causa delle condizioni di vita in Russia e della conseguente malforme salute lasciai in quell’anno la 
+                        Russia e mi stabilii in Italia.<lb/>
+                    </p>
+                </div>
+
+                <pb n="2" facs="#Epstein_004"/>
+                <div type="page">
+                    <p>
+                        A prova di quanto sopra produco allegandoli i seguenti due documenti:
+                        I) Diploma di laurea in medicina dell’<orgName ref="#MSU" type="university">Università di Moscow</orgName><lb/>
+                        II) Certificato dell’<orgName>ospedale Militare</orgName> 12.<lb/>
+                        Altri documenti non posso presentare, essendo i medesimi rimasti in Russia senza possibilità di ottenere l’invio.<lb/>
+                        Chiedo alla S.V. <gap reason="illegible"/> di essere ammesso a sostenere presso questa 
+                        <orgName ref="#unibo" type="university">R. Università</orgName> l’esame di laurea in Medicina e chirurgia<lb/>
+                        e fiduciario di quanto chiedo esprimo alla S.V. <gap reason="illegible"/> i più distinti ossequi.<lb/>
+                        <persName ref="BE">Dott. Boris Epstein</persName><lb/>
+                        <placeName ref="#Bologna">Bologna</placeName> il <date>20 ottobre 1921</date><lb/>
+                        Ill.mo Sig. Preside della Facoltà di Med. E Chirurgia<lb/>
+                        l’autorevole firma della Facoltà<lb/>
+                        Bol. 24.10.1922/<lb/>
+                        Il Rettore     
+                    </p>
+                </div>
+            </div>
+
+            <div type="letter" xml:id="Epstein">
+                <pb n="1" facs="#Epstein_005"/>
+                <div type="page">
+                    <head>Letter from the Ministry of Education to the University of Bologna</head>
+                    <opener>
+                        <dateline><placeName ref="#roma">Roma</placeName>, Addì <date>21 NOV 1921</date></dateline>
+                    
+                        <orgName>MINISTERO DELL' ISTRUZIONE</orgName> RACCOMANDATA<lb/>
+                        Direzione Generale della Istruzione Superiore<lb/>
+                        <salute>
+                            Al Rettore della R.Università di<lb/>
+                            BOLOGNA<lb/>
+                        </salute>   
+                        DIVISIONE II^<lb/>
+                        21 NOV 1921<lb/>
+                        N.DI POS Med N. DI PROT 3833<lb/>
+                        N. di Posiz. 20 Prot. 23091 <lb/>
+                        Risposta a nota del 28.X.1921, n.3465.<lb/>
+                        OGGETTO <persName ref="#BE">Epstein Boris</persName>.= esame di laurea in medicina e chirurgia.<lb/>
+                        ./.<lb/>
+                    </opener>
+                    <p>
+                        Questo ministero si è rivolto al Ministero<lb/>
+                        degli Affari Esteri per sapere se allo stato attuale<lb/>
+                        delle condizioni interne della Russia, è possibile ot=<lb/>
+                        tenere senza grande ritardo le prescritte autentica=<lb/>
+                        zioni sui documenti scolastici colà conseguiti, e quale<lb/>
+                        via sarebbe opportuno seguire per raggiungere questo<lb/>
+                        intenti.<lb/>
+                        In attesa della risposta, il Ministero dà<lb/>
+                        Intanto alla S.V. la facoltà di ammettere il Sig.<lb/>
+                        <persName ref="#BE">Epstein Boris</persName> agli esami di laurea in medicina, rila=<lb/>
+                        sciandogli, se egli lo richiede, un certificato dell’esa=<lb/>
+                        me superato.<lb/>
+                        Il diploma di laurea gli verrà consegnato dopo<lb/>
+                        ./.<lb/>
+                        N.B. – Indicare sempre, nella risposta, la Direzione Generale<lb/>
+                        Scrivente, la data ed i numeri di archivio e di posizione.<lb/>
+                        <note>[vertically printed on the left side]</note>
+                    </p>
+                </div>
+            </div>
+    
+            <div type="letter" xml:id="Epstein">
+                <pb n="1" facs="#Epstein_006"/>
+                <div type="page">               
+                    <head>Thesis Letter</head>
+                    <opener>
+                        <persName ref="#BE">Dr. B. Epstein</persName><lb/>
+                        <date when="1922-04-13">13 April 1922</date>
+                        <placeName ref="#Milan">Milano</placeName><lb/>
+                        Viale Lodovice 267<lb/>
+                        <salute>Gentilissimo <persName ref="#Bianchi">Cav. Antonio Bianchi</persName><lb/>
+                        </salute>
+                        <placeName ref="#Bologna">Bologna</placeName><lb/>
+                    </opener>
+                    <p>
+                        Sono in possesso della Sua lettera del 6 corr. del=<lb/>
+                        la quale Le sono molto grato e attendo il momento di venir a <placeName ref="#Bologna">Bologna</placeName> 
+                        per gli esami, che spero non saranno rinviati oltre il 28 corr. <lb/>
+                        Riguardo alle tesine orali, durante il mio ultimo 
+                        soggiorno a Bologna mi misi daccordo coi <persName ref="Majocchi">Proff. Majocchi</persName> (clinica 
+                        cutanea), <persName ref="#Francioni">Francioni</persName> (clinica pediatrica) e 
+                        <persName ref="#Novi">Novi</persName>(materia medica). <lb/>
+                        Questi due ultimi nomi sono forse stati da me intesi e trascritti inettamente, 
+                        ma l'indicazione della materia servirà a identificarli.<lb/>
+                        Ecco i titoli delle tesine scelte:<lb/>
+                        <persName ref="#Majocchi">Prof. Majocchi</persName> : “Eruzioni <hi rend="crossed-out">cutanee</hi> diabetiche”.<lb/>
+                        <persName ref="#Francioni">Francioni</persName> : "Nel lattante al seno, esistono disturbi della nu-
+                        trizione dovuti a rapporto <hi rend="add">alterato</hi> qualitativo e quantita-
+                        tivo <hi rend="crossed-out">alterato</hi>dei componenti del latte."<lb/>
+                        <persName ref="#Novi">Novi</persName> : "Da quali stimoli viene eccitata, secondo Pawlow, 
+                        la secrezione del succo gastrico e quale è il mec-
+                        canismo di detta eccitazione?"<lb/>
+                        Ho preso nota che le tesine devono esser present-
+                        ate, come Ella mi comunica gentilmente; desidererei avere preci-
+                        sa indicazione del quando, dove e a chi devono esser presentate. <lb/>
+                        Ringraziando di nuovo per tutte le cortesie usa-
+                        temi, La prego di gradire, in attesa di un ns. incontro, i miei più 
+                        cordiali saluti.<lb/>
+                        <persName ref="#BE">Dotto Epstein</persName>
+                    </p>
+                </div>
+            </div>     
+
+            <div type="thesis" xml:id="Epstein">
+                <pb n="1" facs="#Epstein_006"/>
+                <div type="page">     
+                    <head>Cover of Thesis</head>
+                    <p>
+                        <orgName ref="#unibo" type="university">R. UNIVERSITÀ DI BOLOGNA</orgName><lb/>
+                        <orgName ref="#unibo" type="faculty">Facoltà di Medicina e Chirurgia</orgName><lb/>
+                        Candidato all’esame di Laurea Sig. Dott. <persName ref="#BE">Epstein Boris</persName><lb/>
+                        Titolo della dissertazione: <title>Patogenesi del diabete insipido</title><lb/>
+                        Relatore: <persName ref="#Viola">Prof. Viola.</persName><lb/>
+                        TESINE ORALI<lb/>
+                        1. Eruzioni diabetiche.<lb/>
+                        2. Nel lattante al seno esistono disturbi della nutri-
+                        zione dovuti a rapporto alterato qualitativo e 
+                        quantitativo dei componenti del latte.<lb/>
+                        3. Da quali stimoli viene eccitata, secondo Pawlow, 
+                        la secrezione del succo gastrico e qual è il meccani-
+                        smo di detta eccitazione.
+                    </p>
+                </div>
+            </div>
+            
+            <div type="letter" xml:id="Epstein">
+                <pb n="1" facs="#Epstein_007"/>
+                <div type="page">     
+                    <head>Additional Document to the Letter to Rector</head>
+                    <opener>
+                        <dateline><placeName ref="#Bologna">Bologna</placeName></dateline><lb/>
+                        <salute>
+                        Illmo<lb/>
+                        Signor Rettore della R. Univ. di<lb/>
+                        Bologna</salute>
+                    </opener>
+                    <p>
+                        Il Sottoscritto assicura alla I. V. Pers<lb/>
+                        un cert. di Laurea in Medici-<lb/>
+                        na e Chirurgia, ottenuta lì<lb/>
+                        28 Ap. e l’originale Diploma di Laurea<lb/>
+                        di Mosca<lb/>
+                        Con ossequi<lb/>
+                        <persName ref="#BE">B Epstein</persName>
+                    </p>
+                </div>
+            </div>
+            
+            <div type="document" xml:id="Epstein">
+                <pb n="1" facs="#Epstein_008"/>
+                <div type="page">     
+                    <head>Cover of Documents for Degree in Medicine and Surgery</head>
+                    <p>
+                        Posiz. N. 97 Vol. XIV<lb/>
+                        4991<lb/>
+                        <orgName ref="#unibo" type="faculty">Facoltà di Medicina e Chirurgia</orgName><lb/>
+                        <persName ref="#BE">Epstein Dott. Boris</persName><lb/>
+                        Di <persName ref="#Massimo">Massimo</persName> e di <persName ref="Teodosia">Teodosia</persName><lb/>
+                        Nato il <date type="birthDate">7 Dicembre 1892</date> a <placeName ref="#Moscow">Mosca</placeName><lb/>
+                        Anno 1:<lb/>
+                        “ 2:<lb/>
+                        “ 3:<lb/>
+                        “ 4:<lb/>
+                        “ 5:<lb/>
+                        “ 6:<lb/>
+                        Laureato lì <date type="graduation">28.4.1922</date><lb/>
+                        Voti <gap reason="unreadable"/><lb/>
+                        Laureato presso <orgName ref="#MSU" type="university">l’università di Mosca</orgName><lb/>
+                        Diploma LA01S96<lb/>
+                        <date>29.4.22</date><gap reason="unreadable"/>
+                    </p>
+                </div>
+            </div>
+            
+            <div type="document" xml:id="Epstein">
+                <pb n="1" facs="#Epstein_009"/>
+                <div type="page">
+                    <head>Confirmation of the Degree</head>
+                    <p>
+                        <orgName ref="#unibo" type="university">R. UNIVERSITÀ DEGLI STUDI DI BOLOGNA</orgName><lb/>
+                        IN NOME DI <persName ref="#re">S. M. VITTORIO EMANUELE III</persName> PER GRAZIA DI DIO E VOLONTÀ DELLA NAZIONE<lb/>
+                        RE D’ITALIA<lb/>
+                        <orgName ref="#unibo" type="faculty">Facoltà di Medicina e Chirurgia</orgName><lb/>
+                        <stamp> 1896 L.B.</stamp><lb/>
+                        Noi Professore Gr. Uff. <persName ref="#Puntoni">Vittorio Puntoni</persName> 
+                        (Rettore della <orgName ref="#unibo" type="university">R. Università di Bologna</orgName>)<lb/>
+                        Visto il protocollo dell’esame di Laurea <orgName ref="#unibo" type="faculty">Facoltà di Medicina e Chirurgia</orgName><lb/>
+                        sostenuto il dì 28 Aprile 1922 dal<lb/>
+                        Sig. <persName ref="#BE">Epstein Boris</persName><lb/>
+                        Figlio di <persName ref="#Massimo">Massimo</persName> nato a <placeName ref="#Moscow">Mosca</placeName> (Russia)<lb/>
+                        gli conferiamo il Diploma di Laurea <orgName ref="#unibo" type="faculty">Facoltà di Medicina e Chirurgia</orgName><lb/>
+                        Dato in questa Università di Bologna, addì <date when="1922-04-29">29 del mese di Aprile 1922</date><lb/>
+                        L.S. Il Preside firmato: A. Poggi<lb/>
+                        Il Rettore firmato: <persName ref="#Puntoni">V. Puntoni</persName><lb/> 
+                        Il Direttore della Segreteria firmato: <persName ref="#Castellotti">An. Castellotti</persName><lb/>
+                        Visto per copia conforme all’originale<lb/>
+                        <placeName ref="#Bologna">Bologna</placeName> addì <date when="1922-04-29">29 . 4 . 1922</date><lb/>
+                        Il Segretario IL DIRETTORE DELLA SEGRETERIA<lb/>
+                        <stamp><note>UNIVERSITY OF BOLOGNA STAMP</note></stamp>
+                    </p>
+                </div>
+            </div>
+            
+            <div type="grades" xml:id="Epstein">
+                <pb n="1" facs="#Epstein_010"/>
+                <div type="page">
+                    <head>Grade Report of Medicine and Surgery Degree</head>
+                    <p>
+                        <orgName ref="#unibo" type="university">R. UNIVERSITÀ DI BOLOGNA</orgName><lb/>
+                        Si certifica che il sig. <persName ref="#BE">Epstein Dott. Boris</persName> di <persName ref="#Massimo">Massimo</persName><lb/>
+                        nato a <placeName ref="#Moscow">Mosca</placeName> compì presso questa R. Università gli 
+                        studi della <orgName ref="#unibo" type="faculty">Facoltà di Medicina e Chirurgia</orgName>, riportando negli esami relativi 
+                        le sottoindicate votazioni:<lb/>
+                        MATERIE D’ESAME VOTAZIONE espressa in trentesimi<lb/>
+                        Fisica sperimentale<lb/>
+                        Botanica<lb/>
+                        Chimica organica<lb/>
+                        Zoologia<lb/>
+                        Anatomia e fisiologia comparata<lb/>
+                        Anatomia umana descrittiva<lb/>
+                        Anatomia umana topografica<lb/>
+                        Fisiologia<lb/>
+                        Patologia generale<lb/>
+                        Farmacologia e tossicologia<lb/>
+                        Patologia speciale medica dimostrativa<lb/>
+                        Patologia speciale chirurgica dimostrativa<lb/>
+                        Medicina operatoria<lb/>
+                        Igiene<lb/>
+                        Medicina legale<lb/>
+                        Anatomia patologica (pratica e teorica)<lb/>
+                        Clinica delle malattie mentali e nervose<lb/>
+                        Clinica dermosifilopatica<lb/>
+                        Clinica pediatrica<lb/>
+                        Clinica medica generale<lb/>
+                        Clinica chirurgica generale<lb/>
+                        Clinica oculistica<lb/>
+                        Clinica ostetrico-ginecologica<lb/>
+                        Laureato in Med. E Chir. Sostenuti nella Università di <placeName ref="#Moscow">Mosca</placeName><lb/>
+                        Il giorno <date>28 Aprile 1922</date> sostenne e superò l’esame di Laurea in Medicina<lb/>
+                        e Chirurgia riportando voti 110/110 (Centodieci su Centodieci)<lb/>
+                        <placeName ref="#Bologna">Bologna</placeName>, <date when="1922-04-29">29 Aprile 1922</date><lb/>
+                        IL SEGRETARIO <gap reason="unreadable"/> <lb/>
+                        IL DIRETTORE DELLA SEGRETERIA <gap reason="unreadable"/> <lb/>
+                        <stamp><note>University of Bologna stamp</note></stamp>
+                    </p>
+                </div>
+            </div>
+
+            <div type="receipt" xml:id="Epstein">
+                <pb n="1" facs="#Epstein_011"/>
+                <div type="page">
+                    <head>Secretarial Contribution Receipt</head>
+                    <p>
+                        N. 475 29 . 4 – 1922<lb/>
+                        Ricevute dal Signor <persName ref="#BE">Epstein Boris</persName><lb/>
+                        L.2 a titolo di contribuzione di segreteria per Quattro <gap reason="unreadable"/> 
+                        <hi rend="signature">L’Economo</hi> <lb/><stamp><note>UNIVERSITY STAMP</note></stamp>
+                    </p>
+                </div>
+            </div>
+            
+            <div type="receipt" xml:id="Epstein">
+                <pb n="1" facs="#Epstein_012"/>
+                <div type="page">
+                    <head>Receipt of Payment for Medical Degree</head>
+                    <p>
+                        <hi rend="header">TERO DELLA P (MINISTERO DELLA PUBBLICA ISTRUZIONE)</hi><lb/>
+                        N. 143 25-4-1922<lb/>
+                        Ricevute dal Signor <persName ref="#BE">Epstein Boris</persName><lb/>
+                        L.150 a titolo per indennità di certificate.<lb/>
+                        L’Economo<lb/>
+                        <stamp><note>UNIVERSITY STAMP</note></stamp><lb/>
+                        N°7699 AMMINISTRAZIONE DELLE TASSE SUGLI AFFARI<lb/>
+                        Della matrice UFFIZIO Articolo N°<lb/>
+                        Mod. 72 – A del UFF. ATTI GIUDIZIARI DI <placeName ref="#Bologna">BOLOGNA</placeName><lb/>
+                        REGISTRATO<lb/>
+                        Il Sig. Dr. <persName ref="#BE">Epstein Boris</persName><lb/>
+                        Ha pagato Lire centocinquanta<lb/>
+                        Per Tassa di Laurea in Medicina<lb/>
+                        Per l’azienda dello Stato . . . . . . L. 150 Addì <date when="1922-05-02">2 MAG 1922</date><lb/>
+                        Per le aziende speciali . . . . . . . .<lb/>
+                        N° ………. Totale L. Il Ricevitore <gap reason="unreadable"/>
+                    </p>
+                </div>
+            </div>
+
+            <div type="letter" xml:id="Epstein">
+                <pb n="1" facs="#Epstein_013"/>
+                <div type="page">
+                    <head>Letter from the Ministry of Education to the University of Bologna</head>
+                    <opener>
+                        <dateline>Roma, 18 GEN ADDì 1922 <hi rend="stamp">[stamp] 192 ……</hi></dateline>
+                        <orgName>MINISTERO DELL' ISTRUZIONE</orgName><lb/>
+                        Direzione Generale della Istruzione Superiore <lb/>
+                        Al Rettore della R.Università di<lb/>
+                        <placeName ref="#Bologna">BOLOGNA</placeName><lb/>
+                        DIVISIONE I<lb/>
+                        N. di Posiz. 20 Prot. 341 <hi rend="stamp">[stamped numbers]</hi><lb/>
+                        Risposta a Seguito a nota del 21/11/1921, n.23091.<lb/>
+                        OGGETTO <persName ref="#BE">Epstein Boris</persName>.=<lb/>
+                        <placeName ref="#Bologna">R.UNIVERSITÀ DI BOLOGNA</placeName><lb/>
+                        23 GEN 1922<lb/>
+                        N.DI POS <hi rend="handwritten">Medicina</hi> <hi rend="handwritten">[handwritten]</hi><lb/>
+                        N. DI PROT <hi rend="handwritten">426</hi> <hi rend="handwritten">[handwritten]</hi><lb/>
+                        ALLEGATI N.<lb/>
+                    </opener>
+                    <p>
+                        Il Ministero degli Affari esteri comunica che, non<lb/>
+                        non avendo attualmente l’Italia rappresentanza in Russia<lb/>
+                        non è possibile ottenere le richieste autenticazioni<lb/>
+                        sul documento universitario del Sig. <persName ref="#BE">Boris Epstein</persName>.<lb/>
+                        Sembra però a quel Ministero che si possa ugualmente<lb/>
+                        raggiungere lo scopo nel modo seguente:<lb/>
+                        Il Consolato Russo a <placeName ref="#Rome">Roma</placeName> potrebbe vidimare il diploma<lb/>
+                        Di laurea conseguito in regime zarista. L’ufficio legaliz-<lb/>
+                        zazione del Ministero degli Esteri autenticherebbe poi<lb/>
+                        la firma del Console russo. Del documento così legalizza-<lb/>
+                        to si potrebbe fare la traduzione legale, ove questa non<lb/>
+                        sia stata già fatta, da presentare poi a codesta Univer-<lb/>
+                        sità.=<lb/>
+                        V.S. si uniformerà, tanto nei riguardi del Sig. <persName ref="#BE">Boris</persName><lb/>
+                        – Indicare sempre, nella risposta, la Direzione Generale Scrivente, la data ed i numeri di archivio e di posizione. <note> [vertically printed on the left side]</note>
+                    </p>
+                </div>
+            </div>
+            
+            <div type="letter" xml:id="Epstein">
+                <pb n="1" facs="#Epstein_014"/>
+                <div type="page">
+                    <head>Approval letter of the University of Bologna</head>
+                    <opener>
+                        <orgName ref="#Bologna" type="university">R. UNIVERSITÀ DEGLI STUDI DI BOLOGNA</orgName><lb/>
+                        <orgName ref="#Bologna" type="faculty">Facoltà di Medicina e Chirurgia</orgName><lb/>
+                        <placeName ref="#Bologna">Bologna</placeName>, <date when="1922-12-01">I Dicembre 1922</date>
+                    </opener>
+                    <p>
+                        La Commissione incaricata dalla Facoltà di Medicina e Chirurgia<lb/>
+                        di esaminare le dimande d’inscrizione degli studenti, riferisce quanto<lb/>
+                        appresso:<lb/>
+                        Il signor <persName ref="#BE">Epstein Boris</persName>, nativo di 
+                        <placeName ref="#Moscow">Mosca</placeName> (<date>7 dic. 1892</date>) e laureato in<lb/>
+                        Medicina nell’<orgName ref="#Moscow" type="university">Università di Mosca</orgName> nel 1916, 
+                        dimanda di essere ammesso<lb/>
+                        Agli esami di laurea in questa Università. Non essendo il suo diploma<lb/>
+                        Di laurea legalizzato dall’Autorità Consolare italiana, ne fu chiesta<lb/>
+                        la autentificazione al <orgName>Ministero degli Esteri</orgName>, ed in attesa di questa<lb/>
+                        fu data dal <orgName>Ministero dell’Istruzione</orgName>, la Facoltà di ammettere il signor<lb/>
+                        <persName ref="#BE">Epstein Boris</persName> agli esami di laurea in Medicina.<lb/>
+                        La commissione dà parere favorevole per l’ammissione del Sig. <persName ref="#BE">Epstein Boris</persName><lb/>
+                        agli esami di laurea in Medicina in questa Università, purchè<lb/>
+                        La consegna del relativo diploma venga a lui fatta dopo che sarà risolta la<lb/>
+                        questione relativa sull’autenticazione del suo diploma di laurea con-<lb/>
+                        seguito in <placeName ref="#Moscow">Mosca</placeName>, conformemente a quanto già dal ministero 
+                        è stato stabi-<lb/>
+                        lito.<lb/>
+                        Firmato <persName ref="#Valenti">G. Valenti</persName><lb/>
+                        Firmato <persName ref="Majocchi">D. Majocchi</persName><lb/>
+                        Firmato <persName ref="#Novi">I. Novi</persName><lb/>
+                        Approvato nella adunanza della <orgName ref="#unibo" type="faculty">Facoltà di Medicina e Chirurgia</orgName><lb/>
+                        In data 2 Dicembre 1921.<lb/>
+                        IL PRESIDE: <persName ref="#Poggi">F. to A. Poggi</persName><lb/>
+                        IL SEGRETARIO: <persName ref="#Francioni">F. to Francioni</persName><lb/>
+                        <placeName ref="#Bologna">Bologna</placeName>, 25 Aprile 1922 – per copia conforme<lb/>
+                        IL DIRETTORE DELLA SEGRETERIA<lb/>
+                        <gap reason="unreadable"/><lb/>
+                        Visto: il Rettore <persName ref="#Puntoni">V Puntoni</persName>
+                    </p>
+                </div>
+            </div>
+    
+            <div type="diploma" xml:id="Epstein">
+                <pb n="1" facs="#Epstein_015"/>
+                <div type="page">
+                    <head>Diploma of Imperial University of Moscow</head>
+                    <p rend="Russian">
+                        <orgName ref="#Bologna" type="university">R. UNIVERSITA DI BOLOGNA</orgName>
+                        Дипломъ<lb/>
+                        Медицинская Испытательная комиссия при Императорском Московском университете симъ свидетельствуетъ, что Борис Мееровичъ Эпштейнъ, вероисповеданiя иудейскаго, сынъ мещанина, родившийся 1892 года, прослушавъ полный курсъ медицинского факультета и удовлетворительно выдержавъ установленные испытания, 5-го Апреля 1916го года, на основанiи ст. 481 Уст. Врач., Т. XI ч. I Св. Зак., изд. 1893 г. и ст. 595 Уст. Врач., Т. XIII, изд. 1905 г., утвержденъ въ степени лъкаря со всъми правами и преимуществами, законами Россiйской Имперiи съй страны присвоенными.<lb/>
+                        В удостовъренiе сего всего выданъ лъкарю Эпштейну настоящiй дипломъ съ приложенiемъ печати<lb/>
+                        город Москва января 31 дня 1917 г.<lb/>
+                        Попечитель Московского Учебного Округа<lb/>
+                        Подпись: Тихомировъ<lb/>
+                        Председателъ Медицинской Испытательной Комиссiи<lb/>
+                        Подпись: Н. Митропольскiй<lb/>
+                        Правитель Канцелярiи: В. Стефановичъ
+                    </p>
+                    <p>
+                        REGIA UNIVERSITA DI BOLOGNA<lb/>
+                        Visto: per copia conforme all’originale<lb/>
+                        IL DIRETTORE DELLA SEGRETERIA<lb/>
+                        <gap reason="unreadable"/><lb/>
+                        <stamp><note>[University of Bologna Stamp]</note></stamp><lb/>
+                        <gap reason="unreadable"/><lb/>
+                        Ho41 – Il <orgName>Consolato di Russia in <placeName ref="#Rome">Roma</placeName></orgName> riconosce 
+                        l’autenticità del presente diploma<lb/>
+                        <placeName ref="#Rome">Roma</placeName> li <date when="1922-04-17">4/17 Sett. 1922</date> – Il Console Generale di Russia – 
+                        F. O. <gap reason="unreadable"/><lb/>
+                        Ministero affari Esteri<lb/>
+                        Si attesta la autenticità della<lb/>
+                        Firma del Sg Zabiello . <placeName ref="#Rome">Roma</placeName> 18/2/922<lb/>
+                        D’ordine del Ministro – <gap reason="unreadable"/><lb/>
+                        N° 4092<lb/>
+                    </p>
+                </div>
+            </div>
+            
+            <div type="diploma" xml:id="Epstein">
+                <pb n="1" facs="#Epstein_016"/>
+                <div type="page">
+                    <head>Diploma of Imperial University of Moscow translated in Italian</head>
+                    <p>
+                        Copia conforme<lb/>       
+                        <orgName ref="#Bologna">R. UNIVERSITÀ DI BOLOGNA</orgName><lb/>
+                        N°39118 <hi rend="stamp">TRADUZIONE UFFICIALE</hi><lb/>
+                        “Diploma”<lb/>
+                        la commissione Esaminatrice di Medicina della<lb/>
+                        <orgName ref="#Moscow">Università Imperiale di Mosca</orgName>, col presente certifica<lb/>
+                        che <persName ref="#BE">Boris Epstein</persName> di <persName ref="#Massimo">Massimo</persName> di religione isra-<lb/>
+                        elita, della classe borghese, nato nel 1892. Ha se-<lb/>
+                        guito i corsi della <orgName ref="#MSU" type="faculty">facoltà di Medicina</orgName> ed ha su-<lb/>
+                        perato in modo soddisfacente l'esame di laurea<lb/>
+                        il <date>5 aprile 1916</date>, cosicché, in base all'artio 481 del<lb/>
+                        Regolamento per l'istruzione Superiore Edizione<lb/>
+                        1893 Vol. II parte Ia, ed all’ art 595 del regolamento<lb/>
+                        per l'Esercizio della Professione medica, Vol XIII. Ed-<lb/>
+                        izione 1905. Gli è stato proclamato <title>Dottore in<lb/>
+                        medicina</title> con tutti i diritti e privilegi, per questo<lb/>
+                        grado, riconosciuti dall'impero Russo.<lb/>
+                        Si deve di quanto sopra è rilasciato il presente<lb/>
+                        Diploma, munito del <gap reason="unreadable"/> sigillo<lb/>
+                        <placeName ref="#Moscow">Mosca</placeName> <date when="1917-01-31">31 gennaio 1917</date><lb/>
+                        Il Provveditore degli Studi del circondario di <placeName ref="#Moscow">Mosca</placeName><lb/>
+                        firmato <gap reason="unreadable"/><lb/>
+                        Il presidente della commissione esaminatrice di medicina<lb/>
+                        firmato <gap reason="unreadable"/><lb/>
+                        <gap reason="unreadable"/> della Cancelleria (L.S.) Cancelleria del Provved.<lb/>
+                        firmato <gap reason="unreadable"/> agli <gap reason="unreadable"/> 34092
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
