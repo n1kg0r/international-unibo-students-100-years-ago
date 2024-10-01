@@ -10,7 +10,7 @@ function splitCamelCase(string) {
 }
 
 
-function parseXML(kind='render', xmlPath="XML/Madorski_2.0.xml", elementToStickToID='rec549083178'){
+function parseXML(kind='render', xmlPath="XML/Madorski_2.0.xml", elementToStickToID='bio-header'){
     personXMLTree = null
     fetch(xmlPath)
     .then((response) => response.text())
@@ -31,7 +31,7 @@ function parseXML(kind='render', xmlPath="XML/Madorski_2.0.xml", elementToStickT
         for (n of personXMLTree.childNodes) {
             console.log(n)
             if (n.nodeName === 'persName') {
-                innerHTMLToAdd += '<div style="display: flex; flex-direction: row; justify-content: center; gap: 2rem">'+'<div>Person name: </div>'+'<div>'+n.innerHTML+'</div>'+'</div>'
+                innerHTMLToAdd += '<div style="display: flex; flex-direction: row; justify-content: space-between; width: 100%">'+'<div>Person name: </div>'+'<div>'+n.innerHTML+'</div>'+'</div>'
             }
 
             if (n.nodeName === 'birth') {
@@ -54,34 +54,30 @@ function parseXML(kind='render', xmlPath="XML/Madorski_2.0.xml", elementToStickT
         }
 
 
-        node.insertAdjacentHTML('beforebegin', '<div style="display: flex; text-align: left; align-items: center; justify-content: center; width: 100vw;  flex-direction: row; "">'+'<div style="display: flex; text-align: center; align-items: center; justify-content: center;  flex-direction: column; width: 30rem;">'+innerHTMLToAdd+'</div></div>');
+
+        node.insertAdjacentHTML('beforeend', '<div style="display: flex; text-align: left; align-items: center; justify-content: center; width: 100%;  flex-direction: row; ">'+'<div style="display: flex; justify-content: center;  flex-direction: column; gap:0.2rem; margin-top: 1rem; width: 100%; font-family: Arial, sans-serif; font-size: 1.2rem">'+innerHTMLToAdd+'</div></div>');
 
 
     } else if (kind === 'download') {
 
         node = document.getElementById(elementToStickToID);
 
-        let csv_data = [];
+        let csv_text = ''
                 
 
         for (n of personXMLTree.childNodes) {
-            csv_row = []
             console.log(n)
             if (n.nodeName === 'persName') {
-                csv_row.push('Person name')
-                csv_row.push(n.innerHTML)
-                csv_data.push(csv_row)
+
+                csv_text += 'Person name' + ',' + n.innerHTML + ',' + '\n'
                 // csv_data.push('\n')
             }
 
             else if (n.nodeName === 'birth') {
-                csv_row.push('Birth date')
-                csv_row.push(n.getAttribute("when"))
-                csv_data.push(csv_row)
 
-                csv_row.push('Birth place')
-                csv_row.push(n.querySelector('placeName').innerHTML)
-                csv_data.push(csv_row)
+                csv_text += 'Birth date' + ',' + n.getAttribute("when") + ',' + '\n'
+
+                csv_text += 'Birth place' + ',' + n.querySelector('placeName').innerHTML + ',' + '\n'
                 // csv_data.push('\n')
             }
 
@@ -91,14 +87,10 @@ function parseXML(kind='render', xmlPath="XML/Madorski_2.0.xml", elementToStickT
                     //if (typeof ev === 'string')
                     //console.log(ev);
                     if ( (ev.nodeName === '#text') === false) {
-                        //console.log(ev.getAttribute("type"))
-                        csv_row = []
-                        csv_row.push(splitCamelCase(ev.getAttribute("type")))
-                        csv_row.push(ev.querySelector('p').innerHTML)
-                        csv_data.push(csv_row)
-                        csv_data.push('\n')
                         
-                
+                        string = (ev.querySelector('p').innerText || ev.querySelector('p').textContent)
+                        csv_text += splitCamelCase(ev.getAttribute("type")) + ',' + string + ',' + '\n'
+                        
                     }
                 }
             }
@@ -107,7 +99,7 @@ function parseXML(kind='render', xmlPath="XML/Madorski_2.0.xml", elementToStickT
             
         }
 
-        downloadCSVFile(csv_data);
+        downloadCSVFile(csv_text);
 
     }
 
