@@ -6,7 +6,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dbo="http://dbpedia.org/ontology/"
-     xmlns:ius="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#"
+     xmlns:ius="https://github.com/n1kg0r//students#"
      xmlns:gn="http://www.geonames.org/ontology#"
      xmlns:dcterms="http://purl.org/dc/terms#">
 
@@ -129,12 +129,12 @@
         <xenoData>
             <rdf:RDF>
                 <!-- persons:-->
-                <rdf:Description tei:ref="#VB" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#violetta_barnai">
+                <rdf:Description tei:ref="#VB" rdf:about="https://github.com/n1kg0r//students#violetta_barnai">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Violetta Barnai</rdfs:label>
 
-                    <foaf:parent rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#maurizio_barnai"/>
-                    <foaf:parent rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#weisz_olga"/>
+                    <foaf:parent rdf:resource="https://github.com/n1kg0r//students#maurizio_barnai"/>
+                    <foaf:parent rdf:resource="https://github.com/n1kg0r//students#weisz_olga"/>
                     <foaf:birthPlace rdf:resource="http://sws.geonames.org/2037013/"/>
                     <foaf:birthDate>1915-01-12</foaf:birthDate>
                     <dcterms:educationLevel>
@@ -173,61 +173,61 @@
                     </dcterms:educationLevel>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Maurizio" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#maurizio_barnai">
+                <rdf:Description tei:ref="#Maurizio" rdf:about="https://github.com/n1kg0r//students#maurizio_barnai">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Maurizio Barnai</rdfs:label>
-                    <foaf:child rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#violetta_barnai"/>
+                    <foaf:child rdf:resource="https://github.com/n1kg0r//students#violetta_barnai"/>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Olga" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#weisz_olga">
+                <rdf:Description tei:ref="#Olga" rdf:about="https://github.com/n1kg0r//students#weisz_olga">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Weisz Olga</rdfs:label>
-                    <foaf:child rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#violetta_barnai"/>
+                    <foaf:child rdf:resource="https://github.com/n1kg0r//students#violetta_barnai"/>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Palmieri" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#palmieri">
+                <rdf:Description tei:ref="#Palmieri" rdf:about="https://github.com/n1kg0r//students#palmieri">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>G. Palmieri</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Ignazio" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#ignazio">
+                <rdf:Description tei:ref="#Ignazio" rdf:about="https://github.com/n1kg0r//students#ignazio">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Szabo’ Ignazio</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Carolo" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#carolo">
+                <rdf:Description tei:ref="#Carolo" rdf:about="https://github.com/n1kg0r//students#carolo">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>JOkay Carolo</rdfs:label>
-                    <foaf:child rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#boris_epstein"/>
+                    <foaf:child rdf:resource="https://github.com/n1kg0r//students#boris_epstein"/>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Ernesto" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#ernesto">
+                <rdf:Description tei:ref="#Ernesto" rdf:about="https://github.com/n1kg0r//students#ernesto">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Fto Horváth Ernesto</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Eugenio" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#eugenio">
+                <rdf:Description tei:ref="#Eugenio" rdf:about="https://github.com/n1kg0r//students#eugenio">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Fto Pintér Eugenio</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Giulio" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#giulio">
+                <rdf:Description tei:ref="#Giulio" rdf:about="https://github.com/n1kg0r//students#giulio">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Fto Vaidinger Giulio</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Kampo" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#kampo">
+                <rdf:Description tei:ref="#Kampo" rdf:about="https://github.com/n1kg0r//students#kampo">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Giulio Kampó</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Re" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Vittorio_Emanuele_III">
+                <rdf:Description tei:ref="#Re" rdf:about="https://github.com/n1kg0r//students#Vittorio_Emanuele_III">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Vittorio Emanuele III</rdfs:label>
-                    <foaf:child rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#boris_epstein"/>
+                    <foaf:child rdf:resource="https://github.com/n1kg0r//students#boris_epstein"/>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Ghigi" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#alessandro_ghigi">
+                <rdf:Description tei:ref="#Ghigi" rdf:about="https://github.com/n1kg0r//students#alessandro_ghigi">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Alessandro Ghigi</rdfs:label>
                 </rdf:Description>
@@ -252,41 +252,41 @@
     <facsimile>
         <!-- Facsimile for Birth certificate -->
         <surface xml:id="M10611-05">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Barnai/BIRTH%20CERTIFICATE%20M10611-05.jpg" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Barnai/BIRTH%20CERTIFICATE%20M10611-05.jpg" />
         </surface>
 
          <!-- Facsimile for Cover of documents for degree in Medicine and Surgery -->
         <surface xml:id="M10611-01">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Barnai/STUDENT%20BADGE%20M10611-01.jpg" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Barnai/STUDENT%20BADGE%20M10611-01.jpg" />
         </surface>
         
         <!-- Facsimile for Cover of final thesis -->
         <surface xml:id="M10611-02">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Barnai/THESIS%20M10611-02.jpg" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Barnai/THESIS%20M10611-02.jpg" />
         </surface>
         
         <!-- Facsimile for Certificate of graduation from high school -->
         <surface xml:id="M10611-04_0">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Barnai/PREVIOUS%20EDUCATION%20SIDE1%20M10611-04_0.jpg" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Barnai/PREVIOUS%20EDUCATION%20SIDE1%20M10611-04_0.jpg" />
         </surface>
         <surface xml:id="M10611-04_1">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Barnai/PREVIOUS%20EDUCATION%20SIDE1%20M10611-04_1.jpg" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Barnai/PREVIOUS%20EDUCATION%20SIDE1%20M10611-04_1.jpg" />
         </surface>
 
 
         <!-- Facsimile for Diploma of the University of Bologna -->
         <surface xml:id="doc5_page1">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Barnai/BOLO%20DIPLOMA%20M10611-06.jpg" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Barnai/BOLO%20DIPLOMA%20M10611-06.jpg" />
         </surface>
 
         <!-- Facsimile for Grade report of Medicine and Surgery, her degree at the University of Bologna -->
         <surface xml:id="M10611-07">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Barnai/EXAMS%20BOLO%20M10611-07.jpg" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Barnai/EXAMS%20BOLO%20M10611-07.jpg" />
         </surface>
 
         <!-- Facsimile for Letter from Violetta Barnai to the Ministry of Education -->
         <surface xml:id="M10611-08_0">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Barnai/LETTER%20SIDE1%20M10611-08_0.jpg" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Barnai/LETTER%20SIDE1%20M10611-08_0.jpg" />
         </surface>
         
         <!-- Facsimile for Letter from the Ministry of Education to the University of Bologna -->

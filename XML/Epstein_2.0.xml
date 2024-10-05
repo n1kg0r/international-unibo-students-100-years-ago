@@ -6,7 +6,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dbo="http://dbpedia.org/ontology/"
-     xmlns:ius="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#"
+     xmlns:ius="https://github.com/n1kg0r//students#"
      xmlns:gn="http://www.geonames.org/ontology#"
      xmlns:dcterms="http://purl.org/dc/terms#">
 
@@ -138,11 +138,11 @@
 
             <!-- persons:-->
 
-                <rdf:Description tei:ref="#BE" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#boris_epstein">
+                <rdf:Description tei:ref="#BE" rdf:about="https://github.com/n1kg0r//students#boris_epstein">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Boris Epstein</rdfs:label>
-                    <foaf:parent rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#boris_epstein"/>
-                    <foaf:parent rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#boris_epstein"/>
+                    <foaf:parent rdf:resource="https://github.com/n1kg0r//students#boris_epstein"/>
+                    <foaf:parent rdf:resource="https://github.com/n1kg0r//students#boris_epstein"/>
                     <foaf:birthPlace rdf:resource="http://sws.geonames.org/524901/"/>
                     <foaf:birthDate>1892-12-07</foaf:birthDate>
 
@@ -188,64 +188,64 @@
                     </dcterms:educationLevel>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Massimo" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#massimo_epstein">
+                <rdf:Description tei:ref="#Massimo" rdf:about="https://github.com/n1kg0r//students#massimo_epstein">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Massimo Epstein</rdfs:label>
-                    <foaf:child rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#boris_epstein"/>
+                    <foaf:child rdf:resource="https://github.com/n1kg0r//students#boris_epstein"/>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#teodosia" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#massimo_epstein">
+                <rdf:Description tei:ref="#teodosia" rdf:about="https://github.com/n1kg0r//students#massimo_epstein">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Teodosia</rdfs:label>
-                    <foaf:child rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#boris_epstein"/>
+                    <foaf:child rdf:resource="https://github.com/n1kg0r//students#boris_epstein"/>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Aliusti" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#domenico_aliusti">
+                <rdf:Description tei:ref="#Aliusti" rdf:about="https://github.com/n1kg0r//students#domenico_aliusti">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Domenico Aliusti</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Groppetti" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#francesco_groppetti">
+                <rdf:Description tei:ref="#Groppetti" rdf:about="https://github.com/n1kg0r//students#francesco_groppetti">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Francesco Groppetti</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Bianchi" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#antonio_bianchi">
+                <rdf:Description tei:ref="#Bianchi" rdf:about="https://github.com/n1kg0r//students#antonio_bianchi">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Antonio Bianchi</rdfs:label>
                 </rdf:Description>      
 
-                <rdf:Description tei:ref="#Majocchi" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#majocchi">
+                <rdf:Description tei:ref="#Majocchi" rdf:about="https://github.com/n1kg0r//students#majocchi">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Majocchi</rdfs:label>
                 </rdf:Description>       
 
-                <rdf:Description tei:ref="#Francioni" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#francioni">
+                <rdf:Description tei:ref="#Francioni" rdf:about="https://github.com/n1kg0r//students#francioni">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Francioni</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Viola" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#viola">
+                <rdf:Description tei:ref="#Viola" rdf:about="https://github.com/n1kg0r//students#viola">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Viola</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Novi" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#novi">
+                <rdf:Description tei:ref="#Novi" rdf:about="https://github.com/n1kg0r//students#novi">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Novi</rdfs:label>
                 </rdf:Description>            
 
-                <rdf:Description tei:ref="#re" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#vittotio_emanuele_III">
+                <rdf:Description tei:ref="#re" rdf:about="https://github.com/n1kg0r//students#vittotio_emanuele_III">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Vittorio Emanuele III</rdfs:label>
                 </rdf:Description>        
 
-                <rdf:Description tei:ref="#Puntoni" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#vittorio_puntoni">
+                <rdf:Description tei:ref="#Puntoni" rdf:about="https://github.com/n1kg0r//students#vittorio_puntoni">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Vittorio Puntoni</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Viola" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#castellotti">
+                <rdf:Description tei:ref="#Viola" rdf:about="https://github.com/n1kg0r//students#castellotti">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Castellotti</rdfs:label>
                 </rdf:Description>
@@ -279,80 +279,80 @@
     <facsimile>
         <!-- Facsimile for Translator's oath -->
         <surface xml:id="Epstein_001">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Epstein/Boris%20Epstein_001.tif" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Epstein/Boris%20Epstein_001.tif" />
         </surface>
 
         <!-- Facsimile for Translator declaration -->
         <surface xml:id="Epstein_002">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Epstein/Boris%20Epstein_002.tif" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Epstein/Boris%20Epstein_002.tif" />
         </surface>
 
         <!-- Facsimile for Letter from Boris Epstein to the Rector of the University of Bologna -->
         <surface xml:id="Epstein_003">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Epstein/Boris%20Epstein_003.tif" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Epstein/Boris%20Epstein_003.tif" />
         </surface>
         <surface xml:id="Epstein_004">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Epstein/Boris%20Epstein_004.tif" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Epstein/Boris%20Epstein_004.tif" />
         </surface>
 
         <!-- Facsimile for Letter from the Ministry of Education to the University of Bologna -->
         <surface xml:id="Epstein_005">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Epstein/Boris%20Epstein_005.tif" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Epstein/Boris%20Epstein_005.tif" />
         </surface>
 
         <!-- Facsimile for Thesis letter -->
         <surface xml:id="Epstein_006">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Epstein/Boris%20Epstein_006.tif" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Epstein/Boris%20Epstein_006.tif" />
         </surface>
 
         <!-- Facsimile for Cover of thesis -->
         <surface xml:id="Epstein_007">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Epstein/Boris%20Epstein_007.tif" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Epstein/Boris%20Epstein_007.tif" />
         </surface>
 
         <!-- Facsimile for Additional document to the letter to Rector -->
         <surface xml:id="Epstein_008">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Epstein/Boris%20Epstein_008.tif" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Epstein/Boris%20Epstein_008.tif" />
         </surface>
 
         <!-- Facsimile for Cover of documents for degree in Medicine and Surgery -->
         <surface xml:id="Epstein_009">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Epstein/Boris%20Epstein_009.tif" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Epstein/Boris%20Epstein_009.tif" />
         </surface>
 
         <!-- Facsimile for Confirmation of the Degree -->
         <surface xml:id="Epstein_010">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Epstein/Boris%20Epstein_010.tif" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Epstein/Boris%20Epstein_010.tif" />
         </surface>
 
         <!-- Facsimile for Grade report of Medicine and Surgery, his degree at the University of Bologna -->
         <surface xml:id="Epstein_011">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Epstein/Boris%20Epstein_011.tif" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Epstein/Boris%20Epstein_011.tif" />
         </surface>
 
         <!-- Facsimile for Secretarial contribution receipt -->
         <surface xml:id="Epstein_012">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Epstein/Boris%20Epstein_012.tif" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Epstein/Boris%20Epstein_012.tif" />
         </surface>
 
         <!-- Facsimile for Receipt of payment for Medical Degree -->
         <surface xml:id="Epstein_013">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Epstein/Boris%20Epstein_013.tif" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Epstein/Boris%20Epstein_013.tif" />
         </surface>
 
         <!-- Facsimile for Approval letter of the University of Bologna -->
         <surface xml:id="Epstein_014">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Epstein/Boris%20Epstein_014.tif" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Epstein/Boris%20Epstein_014.tif" />
         </surface>
 
         <!-- Facsimile for Diploma of Imperial University of Moscow -->
         <surface xml:id="Epstein_015">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Epstein/Boris%20Epstein_015.tif" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Epstein/Boris%20Epstein_015.tif" />
         </surface>
 
         <!-- Facsimile for Diploma of Imperial University of Moscow translated in Italian -->
         <surface xml:id="Epstein_016">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Epstein/Boris%20Epstein_016.tif" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Epstein/Boris%20Epstein_016.tif" />
         </surface>
     </facsimile>
 

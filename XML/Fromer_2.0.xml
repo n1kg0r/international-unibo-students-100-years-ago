@@ -6,7 +6,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dbo="http://dbpedia.org/ontology/"
-     xmlns:ius="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#"
+     xmlns:ius="https://github.com/n1kg0r//students#"
      xmlns:gn="http://www.geonames.org/ontology#"
      xmlns:dcterms="http://purl.org/dc/terms#">
 
@@ -265,12 +265,12 @@
         <xenoData>
             <rdf:RDF>
                 <!-- persons:-->
-                <rdf:Description tei:ref="#VB" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#szlama_ósef_fromer">
+                <rdf:Description tei:ref="#VB" rdf:about="https://github.com/n1kg0r//students#szlama_ósef_fromer">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Szlama Jósef Fromer</rdfs:label>
 
-                    <foaf:parent rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#abramo_fromer"/>
-                    <foaf:parent rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#suna_klajman"/>
+                    <foaf:parent rdf:resource="https://github.com/n1kg0r//students#abramo_fromer"/>
+                    <foaf:parent rdf:resource="https://github.com/n1kg0r//students#suna_klajman"/>
                     <foaf:birthPlace rdf:resource="http://sws.geonames.org/3100946/"/>
                     <foaf:birthDate>1914-09-08</foaf:birthDate>
                     <dcterms:educationLevel>
@@ -321,200 +321,200 @@
                     </dcterms:educationLevel>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#AF" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#abramo_fromer">
+                <rdf:Description tei:ref="#AF" rdf:about="https://github.com/n1kg0r//students#abramo_fromer">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Abramo Fromer</rdfs:label>
-                    <foaf:child rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#szlama_ósef_fromer"/>
+                    <foaf:child rdf:resource="https://github.com/n1kg0r//students#szlama_ósef_fromer"/>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#SK" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#suna_klajman">
+                <rdf:Description tei:ref="#SK" rdf:about="https://github.com/n1kg0r//students#suna_klajman">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Suna_Klajman</rdfs:label>
-                    <foaf:child rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#szlama_ósef_fromer"/>
+                    <foaf:child rdf:resource="https://github.com/n1kg0r//students#szlama_ósef_fromer"/>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Calabrese" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Calabrese">
+                <rdf:Description tei:ref="#Calabrese" rdf:about="https://github.com/n1kg0r//students#Calabrese">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Prof. Calabrese</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Galloni" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Galloni">
+                <rdf:Description tei:ref="#Galloni" rdf:about="https://github.com/n1kg0r//students#Galloni">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Sig. Galloni</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#EF" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#EF">
+                <rdf:Description tei:ref="#EF" rdf:about="https://github.com/n1kg0r//students#EF">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Emil Fromer</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#JG" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Gafan">
+                <rdf:Description tei:ref="#JG" rdf:about="https://github.com/n1kg0r//students#Gafan">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Jean Gafan</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Mailand" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Mailand">
+                <rdf:Description tei:ref="#Mailand" rdf:about="https://github.com/n1kg0r//students#Mailand">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Abraham Schuchman Mailand</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#ZMIGRODZKI" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#ZMIGRODZKI">
+                <rdf:Description tei:ref="#ZMIGRODZKI" rdf:about="https://github.com/n1kg0r//students#ZMIGRODZKI">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>ANTONI ZMIGRODZKI</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#SFromer" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#SFromer">
+                <rdf:Description tei:ref="#SFromer" rdf:about="https://github.com/n1kg0r//students#SFromer">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Salek Fromer</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Zmidrodzki" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Zmidrodzki">
+                <rdf:Description tei:ref="#Zmidrodzki" rdf:about="https://github.com/n1kg0r//students#Zmidrodzki">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>A. Zmidrodzki</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Zemla" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Zemla">
+                <rdf:Description tei:ref="#Zemla" rdf:about="https://github.com/n1kg0r//students#Zemla">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Zemla</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#GCB" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#GCB">
+                <rdf:Description tei:ref="#GCB" rdf:about="https://github.com/n1kg0r//students#GCB">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>G. COLI BIZZARRINI</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Re" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Vittorio_Emanuele_III">
+                <rdf:Description tei:ref="#Re" rdf:about="https://github.com/n1kg0r//students#Vittorio_Emanuele_III">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>S. M. VITTORIO EMANUELE III</rdfs:label>
-                    <foaf:child rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#boris_epstein"/>
+                    <foaf:child rdf:resource="https://github.com/n1kg0r//students#boris_epstein"/>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Ghigi" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Ghigi">
+                <rdf:Description tei:ref="#Ghigi" rdf:about="https://github.com/n1kg0r//students#Ghigi">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Alessandro Ghigi</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Beretta" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Beretta">
+                <rdf:Description tei:ref="#Beretta" rdf:about="https://github.com/n1kg0r//students#Beretta">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Beretta</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Capone" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Capone">
+                <rdf:Description tei:ref="#Capone" rdf:about="https://github.com/n1kg0r//students#Capone">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Capone</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Guerreri" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Guerreri">
+                <rdf:Description tei:ref="#Guerreri" rdf:about="https://github.com/n1kg0r//students#Guerreri">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Guerreri</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Costantini" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Costantini">
+                <rdf:Description tei:ref="#Costantini" rdf:about="https://github.com/n1kg0r//students#Costantini">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Costantini</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Rauzi" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Rauzi">
+                <rdf:Description tei:ref="#Rauzi" rdf:about="https://github.com/n1kg0r//students#Rauzi">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Ivo Rauzi</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Pratesi" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Pratesi">
+                <rdf:Description tei:ref="#Pratesi" rdf:about="https://github.com/n1kg0r//students#Pratesi">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>P. Pratesi</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Bruni" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Bruni">
+                <rdf:Description tei:ref="#Bruni" rdf:about="https://github.com/n1kg0r//students#Bruni">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>C. Bruni</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Olivo" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Olivo">
+                <rdf:Description tei:ref="#Olivo" rdf:about="https://github.com/n1kg0r//students#Olivo">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>O. Olivo</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Beccari" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Beccari">
+                <rdf:Description tei:ref="#Beccari" rdf:about="https://github.com/n1kg0r//students#Beccari">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>L. Beccari</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Parowizi" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Parowizi">
+                <rdf:Description tei:ref="#Parowizi" rdf:about="https://github.com/n1kg0r//students#Parowizi">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>M.L. Parowizi</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Lombrosio" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Lombrosio">
+                <rdf:Description tei:ref="#Lombrosio" rdf:about="https://github.com/n1kg0r//students#Lombrosio">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Lombrosio</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Barbaro" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Barbaro">
+                <rdf:Description tei:ref="#Barbaro" rdf:about="https://github.com/n1kg0r//students#Barbaro">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Barbaro</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Maragliano" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Maragliano">
+                <rdf:Description tei:ref="#Maragliano" rdf:about="https://github.com/n1kg0r//students#Maragliano">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>D. Maragliano</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Jarozzi" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Jarozzi">
+                <rdf:Description tei:ref="#Jarozzi" rdf:about="https://github.com/n1kg0r//students#Jarozzi">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Jarozzi</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Schiassi" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Schiassi">
+                <rdf:Description tei:ref="#Schiassi" rdf:about="https://github.com/n1kg0r//students#Schiassi">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Schiassi</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Tinozzi" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Tinozzi">
+                <rdf:Description tei:ref="#Tinozzi" rdf:about="https://github.com/n1kg0r//students#Tinozzi">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Tinozzi</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Calicetti" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Calicetti">
+                <rdf:Description tei:ref="#Calicetti" rdf:about="https://github.com/n1kg0r//students#Calicetti">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Calicetti</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Guercini" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Guercini">
+                <rdf:Description tei:ref="#Guercini" rdf:about="https://github.com/n1kg0r//students#Guercini">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Guercini</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Acqua" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Acqua">
+                <rdf:Description tei:ref="#Acqua" rdf:about="https://github.com/n1kg0r//students#Acqua">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>G. Dell’Acqua</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Forni" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Forni">
+                <rdf:Description tei:ref="#Forni" rdf:about="https://github.com/n1kg0r//students#Forni">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>G.G. Forni</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Bacialli" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Bacialli">
+                <rdf:Description tei:ref="#Bacialli" rdf:about="https://github.com/n1kg0r//students#Bacialli">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>L. Bacialli</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Salvioli" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Salvioli">
+                <rdf:Description tei:ref="#Salvioli" rdf:about="https://github.com/n1kg0r//students#Salvioli">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>G. Salvioli</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Ayala" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Ayala">
+                <rdf:Description tei:ref="#Ayala" rdf:about="https://github.com/n1kg0r//students#Ayala">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>G. Ayala</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Pachioli" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#Pachioli">
+                <rdf:Description tei:ref="#Pachioli" rdf:about="https://github.com/n1kg0r//students#Pachioli">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>R. Pachioli</rdfs:label>
                 </rdf:Description>
 
-                <rdf:Description tei:ref="#Re" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#vittorio_emanuele_III">
+                <rdf:Description tei:ref="#Re" rdf:about="https://github.com/n1kg0r//students#vittorio_emanuele_III">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Vittorio Emanuele III</rdfs:label>
                 </rdf:Description>
@@ -583,116 +583,116 @@
     <facsimile>
         <!-- Medicine diploma for Fromer Szlama Jósef -->
        <surface xml:id="M10926-01">
-           <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-01.JPG" />
+           <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Fromer/M10926-01.JPG" />
        </surface>
        
        <!-- Thesis of Fromer Szlama Jósef in Medicine -->
        <surface xml:id="M10926-02">
-           <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-02.JPG" />
+           <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Fromer/M10926-02.JPG" />
        </surface>
        
        <!-- Letters written by Fromer Szlama Jósef to the University of Bologna -->
        <surface xml:id="M10926-03_0">
-           <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-03_0.JPG" />
+           <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Fromer/M10926-03_0.JPG" />
        </surface>
        <surface xml:id="M10926-03_1">
-           <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-03_1.JPG" />
+           <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Fromer/M10926-03_1.JPG" />
        </surface>
 
        <!-- Letters written by Fromer Szlama Jósef to the University of Bologna -->
        <surface xml:id="M10926-04">
-           <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-04.JPG" />
+           <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Fromer/M10926-04.JPG" />
        </surface>
 
        <!-- Application to the University of Bologna by Fromer Szlama Jósef -->
        <surface xml:id="M10926-05">
-           <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-05.JPG" />
+           <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Fromer/M10926-05.JPG" />
        </surface>
 
        <!-- Consulate Certification -->
        <surface xml:id="M10926-06">
-           <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-06.JPG" />
+           <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Fromer/M10926-06.JPG" />
        </surface>
 
        <!-- Final Study Plan for Fromer Szlama Jósef -->
        <surface xml:id="M10926-07">
-           <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-07.JPG" />
+           <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Fromer/M10926-07.JPG" />
        </surface>
        
        <!-- Letters written by Fromer Szlama Jósef to the University of Bologna -->
        <surface xml:id="M10926-15">
-           <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-15.JPG" />
+           <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Fromer/M10926-15.JPG" />
        </surface>
 
        <surface xml:id="M10926-08">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-09.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Fromer/M10926-09.JPG" />
        </surface>
 
        <surface xml:id="M10926-09">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-09.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Fromer/M10926-09.JPG" />
         </surface>
 
        
        <!-- Birth Certificate -->
        <surface xml:id="M10926-10_0">
-           <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-10_0.JPG" />
+           <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Fromer/M10926-10_0.JPG" />
        </surface>
 
        <surface xml:id="M10926-10_1">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-10_1.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Fromer/M10926-10_1.JPG" />
         </surface>
 
        <!-- Previous Education (Diploma) -->
        <surface xml:id="M10926-11_0">
-           <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-11_0.JPG" />
+           <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Fromer/M10926-11_0.JPG" />
        </surface>
        <surface xml:id="M10926-11_1">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-11_1.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Fromer/M10926-11_1.JPG" />
         </surface>
 
        <!-- Diploma of University of Bologna -->
        <surface xml:id="M10926-12">
-           <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-12.JPG" />
+           <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Fromer/M10926-12.JPG" />
        </surface>
 
        <!-- Student's Record Book -->
        <surface xml:id="M10926-13_0">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-13_0.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Fromer/M10926-13_0.JPG" />
         </surface>
         <surface xml:id="M10926-13_1">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-13_1.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Fromer/M10926-13_1.JPG" />
         </surface>
         <surface xml:id="M10926-13_2">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-13_2.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Fromer/M10926-13_2.JPG" />
         </surface>
         <surface xml:id="M10926-13_3">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-13_3.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Fromer/M10926-13_3.JPG" />
         </surface>
         <surface xml:id="M10926-13_4">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-13_4.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Fromer/M10926-13_4.JPG" />
         </surface>
         <surface xml:id="M10926-13_5">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-13_5.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Fromer/M10926-13_5.JPG" />
         </surface>
         <surface xml:id="M10926-13_6">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-13_6.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Fromer/M10926-13_6.JPG" />
         </surface>
         <surface xml:id="M10926-13_7">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-13_7.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Fromer/M10926-13_7.JPG" />
         </surface>
         <surface xml:id="M10926-13_8">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-13_8.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Fromer/M10926-13_8.JPG" />
         </surface>
         <surface xml:id="M10926-13_9">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-13_9.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Fromer/M10926-13_9.JPG" />
         </surface>
 
         <!-- Documents from Fromer previous university (Genova) -->
         <surface xml:id="M10926-14_0">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-14_0.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Fromer/M10926-14_0.JPG" />
         </surface>
         <surface xml:id="M10926-14_1">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Fromer/M10926-14_1.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Fromer/M10926-14_1.JPG" />
         </surface>
    </facsimile>
 

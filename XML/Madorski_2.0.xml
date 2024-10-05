@@ -6,7 +6,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dbo="http://dbpedia.org/ontology/"
-     xmlns:ius="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#"
+     xmlns:ius="https://github.com/n1kg0r//students#"
      xmlns:gn="http://www.geonames.org/ontology#"
      xmlns:dcterms="http://purl.org/dc/terms#">
 
@@ -140,11 +140,11 @@
         <xenoData>
             <rdf:RDF>
                 <!-- persons:-->
-                <rdf:Description tei:ref="#AM" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#anna_madorski">
+                <rdf:Description tei:ref="#AM" rdf:about="https://github.com/n1kg0r//students#anna_madorski">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Anna Madorski</rdfs:label>
-                    <foaf:parent rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#schender_madorski"/>
-                    <foaf:parent rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#ghitel_madorski"/>
+                    <foaf:parent rdf:resource="https://github.com/n1kg0r//students#schender_madorski"/>
+                    <foaf:parent rdf:resource="https://github.com/n1kg0r//students#ghitel_madorski"/>
                     <foaf:birthPlace rdf:resource="http://sws.geonames.org/2037013/"/>
                     <foaf:birthDate>1913-05-31</foaf:birthDate>
                     <dcterms:educationLevel>
@@ -203,61 +203,61 @@
                     </dcterms:educationLevel>
                 </rdf:Description>
             
-                <rdf:Description tei:ref="#SM" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#schender_madorski">
+                <rdf:Description tei:ref="#SM" rdf:about="https://github.com/n1kg0r//students#schender_madorski">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Schender Madorski</rdfs:label>
-                    <foaf:child rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#anna_madorski"/>
+                    <foaf:child rdf:resource="https://github.com/n1kg0r//students#anna_madorski"/>
                 </rdf:Description>
                 
-                <rdf:Description tei:ref="#GM" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#ghitel_madorski">
+                <rdf:Description tei:ref="#GM" rdf:about="https://github.com/n1kg0r//students#ghitel_madorski">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Ghitel Madorski</rdfs:label>
-                    <foaf:child rdf:resource="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#anna_madorski"/>
+                    <foaf:child rdf:resource="https://github.com/n1kg0r//students#anna_madorski"/>
                 </rdf:Description>
             
-                <rdf:Description tei:ref="#Betti" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#m_betti">
+                <rdf:Description tei:ref="#Betti" rdf:about="https://github.com/n1kg0r//students#m_betti">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>M. Betti</rdfs:label>
                 </rdf:Description>
-                <rdf:Description tei:ref="#Re" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#vittorio_emanuele_III">
+                <rdf:Description tei:ref="#Re" rdf:about="https://github.com/n1kg0r//students#vittorio_emanuele_III">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Vittorio Emanuele III</rdfs:label>
                 </rdf:Description>
                 
-                <rdf:Description tei:ref="#Ghigi" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#alessandro_ghigi">
+                <rdf:Description tei:ref="#Ghigi" rdf:about="https://github.com/n1kg0r//students#alessandro_ghigi">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Alessandro Ghigi</rdfs:label>
 
                 </rdf:Description>
-                <rdf:Description tei:ref="#Gurvic" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#s_gurvic">
+                <rdf:Description tei:ref="#Gurvic" rdf:about="https://github.com/n1kg0r//students#s_gurvic">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>S. Gurvic</rdfs:label>
                 </rdf:Description>
-                <rdf:Description tei:ref="#Barta" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#h_bartashev">
+                <rdf:Description tei:ref="#Barta" rdf:about="https://github.com/n1kg0r//students#h_bartashev">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>H. Bartashev</rdfs:label>
                 </rdf:Description>
-                <rdf:Description tei:ref="#Maffei" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#a_maffei">
+                <rdf:Description tei:ref="#Maffei" rdf:about="https://github.com/n1kg0r//students#a_maffei">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>A.Maffei</rdfs:label>
                 </rdf:Description>
-                <rdf:Description tei:ref="#Kaga" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#kagan">
+                <rdf:Description tei:ref="#Kaga" rdf:about="https://github.com/n1kg0r//students#kagan">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Kagan</rdfs:label>
                 </rdf:Description>
-                <rdf:Description tei:ref="#Dobisov" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#dobisov">
+                <rdf:Description tei:ref="#Dobisov" rdf:about="https://github.com/n1kg0r//students#dobisov">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>E.Dobisov</rdfs:label>
                 </rdf:Description>
-                <rdf:Description tei:ref="#Rubin" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#a_i_rubin">
+                <rdf:Description tei:ref="#Rubin" rdf:about="https://github.com/n1kg0r//students#a_i_rubin">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>A. I. Rubin</rdfs:label>
                 </rdf:Description>
-                <rdf:Description tei:ref="#Sokoloff" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#sokoloff">
+                <rdf:Description tei:ref="#Sokoloff" rdf:about="https://github.com/n1kg0r//students#sokoloff">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>Sokoloff</rdfs:label>
                 </rdf:Description>
-                <rdf:Description tei:ref="#Tartarini" rdf:about="https://github.com/n1kg0r/international-unibo-students-100-years-ago/students#g_tartarini">
+                <rdf:Description tei:ref="#Tartarini" rdf:about="https://github.com/n1kg0r//students#g_tartarini">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                     <rdfs:label>G. Tartarini</rdfs:label>
                 </rdf:Description>
@@ -284,108 +284,108 @@
         
         <!-- Facsimile for Cover of Madorski's documents for her degree in Pharmacy-->
         <surface xml:id="F3156-01">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Madorski/F3156-01.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Madorski/F3156-01.JPG" />
         </surface>
     
         <!-- Facsimile for Madorski's graduation thesis for her second degree in Pharmacy-->
         <surface xml:id="F3156-02">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Madorski/F3156-02.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Madorski/F3156-02.JPG" />
         </surface>
     
         <!-- Facsimile for Madorski's letter of application for her degree in Pharmacy-->
         <surface xml:id="F3156-03">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Madorski/F3156-03.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Madorski/F3156-03.JPG" />
         </surface>
 
         <!-- Facsimile for Madorski's Diploma in Pharmacy, her second degree at the University of Bologna-->
         <surface xml:id="F3156-04">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Madorski/F3156-04.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Madorski/F3156-04.JPG" />
         </surface>
 
         <!-- Madorski's second version of Grade report of Chemistry -->
         <surface xml:id="F3156-05">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Madorski/F3156-06.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Madorski/F3156-06.JPG" />
         </surface>
 
         <!-- Madorski's second version of Grade report of Chemistry -->
         <surface xml:id="F3156-06">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Madorski/F3156-06.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Madorski/F3156-06.JPG" />
         </surface>
 
         <!-- Facsimile for Madorski's Birth Certificate with translation and notarization, for her second degree in Pharmacy -->
         <surface xml:id="F3156-07_0">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Madorski/F3156-07_0.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Madorski/F3156-07_0.JPG" />
         </surface>
         <surface xml:id="F3156-07_1">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Madorski/F3156-07_1.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Madorski/F3156-07_1.JPG" />
         </surface>
         <surface xml:id="F3156-07_2">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Madorski/F3156-07_2.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Madorski/F3156-07_2.JPG" />
         </surface>
 
         <!-- Facsimile for Madorski's second version of highschool grade report with translation and notarization, for her second degree in Pharmacy -->
         <surface xml:id="F3156-08_0">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Madorski/F3156-08.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Madorski/F3156-08.JPG" />
         </surface>
 
         <surface xml:id="F3156-08_1">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Madorski/F3156-08_1.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Madorski/F3156-08_1.JPG" />
         </surface>
 
         <surface xml:id="F3156-08_2">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Madorski/F3156-08_2.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Madorski/F3156-08_2.JPG" />
         </surface>
 
         <!-- Facsimile for Cover of Madorski's documents for her degree in Chemistry -->
         <surface xml:id="S8170-01">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Madorski/S8170-01.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Madorski/S8170-01.JPG" />
         </surface>
     
         <!-- Facsimile for Madorski's letter of application for her degree in Chemistry -->
         <surface xml:id="S8170-02">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Madorski/S8170-02.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Madorski/S8170-02.JPG" />
         </surface>
 
         <!-- Facsimile for Madorski's Grade Report of Chemistry, her university degree at the University of Bologna -->
         <surface xml:id="S8170-03">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Madorski/S8170-03.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Madorski/S8170-03.JPG" />
         </surface>
 
         <!-- Facsimile for Madorski's Diploma in Chemistry, her first degree at the University of Bologna-->
         <surface xml:id="S8170-04">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Madorski/S8170-04.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Madorski/S8170-04.JPG" />
         </surface>
 
         <!--Facsimile for Madorski's highschool grade report with translation and notarization, for her first degree in Chemistry-->
         <surface xml:id="S8170-05_0">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Madorski/S8170-05_0.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Madorski/S8170-05_0.JPG" />
         </surface>
 
         <surface xml:id="S8170-05_1">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Madorski/S8170-05_1.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Madorski/S8170-05_1.JPG" />
         </surface>      
         
         <surface xml:id="S8170-05_2">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Madorski/S8170-05_2.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Madorski/S8170-05_2.JPG" />
         </surface>      
         
         <!--Facsimile for Madorski's Birth Certificate with translation and notarization, for her first degree in Chemistry-->
         <surface xml:id="S8170-06_0">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Madorski/S8170-02.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Madorski/S8170-02.JPG" />
         </surface>      
         
         <surface xml:id="S8170-06_1">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Madorski/S8170-02.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Madorski/S8170-02.JPG" />
         </surface>      
         
         <surface xml:id="S8170-06_2">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Madorski/S8170-02.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Madorski/S8170-02.JPG" />
         </surface>
     
 
         <!-- Facsimile for Madorski's graduation thesis for her first degree in Chemistry-->
         <surface xml:id="S8170-07">
-            <graphic url="https://github.com/n1kg0r/international-unibo-students-100-years-ago/blob/main/IIIf/Madorski/S8170-07.JPG" />
+            <graphic url="https://github.com/n1kg0r//blob/main/IIIf/Madorski/S8170-07.JPG" />
         </surface>
     </facsimile>
 
