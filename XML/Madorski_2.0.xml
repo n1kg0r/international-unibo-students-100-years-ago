@@ -123,6 +123,7 @@
                         </location>
                     </place>
                     <place xml:id="Bologna">
+                        <placeName>Bologna</placeName>
                         <location>
                             <geo>44.4949,11.3426</geo>
                         </location>

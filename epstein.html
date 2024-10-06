@@ -1,6 +1,15 @@
 <!DOCTYPE html><html><head><meta charset="utf-8" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!--metatextblock--><title>Boris Epstein</title><meta property="og:url" content="epstein" /><meta property="og:title" content="Boris Epstein" /><meta property="og:description" content="" /><meta property="og:type" content="website" /><meta property="og:image" content="images/tild6463-3030-4663-b565-316439616364__profile_photo.jpg" /><link rel="canonical" href="epstein.html"><!--/metatextblock--><meta name="format-detection" content="telephone=no" /><meta http-equiv="x-dns-prefetch-control" content="on"><link rel="dns-prefetch" href="https://ws.tildacdn.com"><link rel="shortcut icon" href="images/tildafavicon.ico" type="image/x-icon" /><!-- Assets -->
     <script type="text/javascript" src="xmlParser.js"></script>   
-    <script src="https://neo.tildacdn.com/js/tilda-fallback-1.0.min.js" charset="utf-8" async></script><link rel="stylesheet" href="css/tilda-grid-3.0.min.css" type="text/css" media="all" onerror="this.loaderr='y';"/><link rel="stylesheet" href="css/tilda-blocks-page33974347.min.css?t=1677786930" type="text/css" media="all" onerror="this.loaderr='y';" /><link rel="stylesheet" href="css/tilda-zoom-2.0.min.css" type="text/css" media="print" onload="this.media='all';" onerror="this.loaderr='y';" /><noscript><link rel="stylesheet" href="css/tilda-zoom-2.0.min.css" type="text/css" media="all" /></noscript><link rel="stylesheet" href="css/fonts-tildasans.css" type="text/css" media="all" onerror="this.loaderr='y';" /><script type="text/javascript">(function (d) {
+    <script src="https://neo.tildacdn.com/js/tilda-fallback-1.0.min.js" charset="utf-8" async></script><link rel="stylesheet" href="css/tilda-grid-3.0.min.css" type="text/css" media="all" onerror="this.loaderr='y';"/><link rel="stylesheet" href="css/tilda-blocks-page33974347.min.css?t=1677786930" type="text/css" media="all" onerror="this.loaderr='y';" /><link rel="stylesheet" href="css/tilda-zoom-2.0.min.css" type="text/css" media="print" onload="this.media='all';" onerror="this.loaderr='y';" /><noscript><link rel="stylesheet" href="css/tilda-zoom-2.0.min.css" type="text/css" media="all" /></noscript><link rel="stylesheet" href="css/fonts-tildasans.css" type="text/css" media="all" onerror="this.loaderr='y';" />
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+
+    <script type="text/javascript">(function (d) {
 if (!d.visibilityState) {
 var s = d.createElement('script');
 s.src = 'js/tilda-polyfill-1.0.min.js';
@@ -228,7 +237,11 @@ text.style.display = 'none';
 }</script></div>
 
 <div class="r t-rec t-rec_pt_0 t-rec_pb_0" style="padding-left: 10rem; padding-right: 5rem">
-  <iframe src="https://www.google.com/maps/d/embed?mid=1nkcoOp9HDRc-lhIhsETe9jBNXOEiq0I&ehbc=2E312F&noprof=1" width="640" height="480"></iframe>
+  <div id="map" style="height: 25rem; width: 40rem;"></div>
+  <script>
+    parseXML(kind='map', xmlPath='XML/Epstein_2.0.xml', elementToStickToID='bio-header')
+  </script>
+  <!-- <iframe src="https://www.google.com/maps/d/embed?mid=1nkcoOp9HDRc-lhIhsETe9jBNXOEiq0I&ehbc=2E312F&noprof=1" width="640" height="480"></iframe> -->
 </div>
 
 
